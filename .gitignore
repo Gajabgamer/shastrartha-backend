@@ -31,7 +31,9 @@ htmlcov/
 
 *.log
 data/voice_cache/
-data/today/*.json
+data/today/wiki.jsonl
+data/today/news/
+data/today/generated.json
 data/chroma/
 
 .DS_Store

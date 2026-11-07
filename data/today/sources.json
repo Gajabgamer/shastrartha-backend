@@ -1,0 +1,209 @@
+{
+  "_about": "Present-day background per modern topic. 'wiki' = Wikipedia articles whose lead becomes citable TODAY passages (CC BY-SA 4.0, background, never the guru's words). 'data' = World Bank indicator codes for India (CC BY 4.0), each a citable figure. 'news' = Google News RSS query for recent headlines (links and titles only, shown in the UI, not sent to the LLM); a headline is kept only if it contains one of 'must' and none of 'not'. Built by: python -m scripts.build_today",
+  "chanakya-india-non-alignment": {
+    "wiki": [
+      "Strategic autonomy",
+      "Non-Aligned Movement",
+      "Quadrilateral Security Dialogue",
+      "BRICS"
+    ],
+    "news": "India \"strategic autonomy\" OR multialignment OR \"non-alignment\"",
+    "must": [
+      "strategic autonomy",
+      "multialign",
+      "multi-align",
+      "non-align",
+      "quad",
+      "brics"
+    ],
+    "data": [
+      "NE.TRD.GNFS.ZS",
+      "MS.MIL.MPRT.KD"
+    ]
+  },
+  "chanakya-lateral-entry": {
+    "wiki": [
+      "Civil Services of India",
+      "Indian Administrative Service",
+      "Union Public Service Commission"
+    ],
+    "news": "\"lateral entry\" bureaucracy OR \"civil services\" OR UPSC",
+    "must": [
+      "lateral entry",
+      "lateral recruit"
+    ],
+    "not": [
+      "admission",
+      "class 9",
+      "class 11",
+      "school",
+      "jnv",
+      "b.tech",
+      "engineering"
+    ]
+  },
+  "chanakya-freebies": {
+    "wiki": [
+      "Direct Benefit Transfer",
+      "Union budget of India"
+    ],
+    "news": "India freebies OR revdi OR \"cash transfer\" state finances",
+    "must": [
+      "freebie",
+      "revdi",
+      "cash transfer",
+      "welfare scheme",
+      "subsid",
+      "fiscal"
+    ],
+    "data": [
+      "GC.TAX.TOTL.GD.ZS",
+      "GC.XPN.TOTL.GD.ZS",
+      "SI.POV.DDAY"
+    ]
+  },
+  "sun_tzu-defence-self-reliance": {
+    "wiki": [
+      "Defence industry of India",
+      "Atmanirbhar Bharat",
+      "Defence Research and Development Organisation"
+    ],
+    "news": "India defence indigenisation OR \"self-reliance\" OR \"defence exports\"",
+    "must": [
+      "indigen",
+      "self-relian",
+      "atmanirbhar",
+      "make in india",
+      "defence export",
+      "domestic",
+      "import"
+    ],
+    "data": [
+      "MS.MIL.XPND.GD.ZS",
+      "MS.MIL.MPRT.KD",
+      "GB.XPD.RSDV.GD.ZS"
+    ]
+  },
+  "napoleon-theatre-commands": {
+    "wiki": [
+      "Integrated Theatre Command (India)",
+      "Chief of Defence Staff (India)",
+      "Indian Armed Forces"
+    ],
+    "news": "\"theatre commands\" OR \"theatre command\" OR jointness India",
+    "must": [
+      "theatre",
+      "theater",
+      "tri-service",
+      "jointness",
+      "joint "
+    ],
+    "data": [
+      "MS.MIL.XPND.GD.ZS"
+    ]
+  },
+  "marcus_aurelius-protest-repeal": {
+    "wiki": [
+      "2020 Indian agriculture acts",
+      "2020–2021 Indian farmers' protest"
+    ],
+    "news": "India government withdraws OR repeals OR rolls back law protests",
+    "must": [
+      "repeal",
+      "withdraw",
+      "rollback",
+      "roll back",
+      "scrap",
+      "u-turn"
+    ],
+    "data": [
+      "SL.AGR.EMPL.ZS"
+    ]
+  },
+  "chanakya-mandala-today": {
+    "wiki": [
+      "Middle East",
+      "Gulf Cooperation Council"
+    ],
+    "news": "Gulf states hedging OR balancing great powers",
+    "must": [
+      "gulf",
+      "middle east",
+      "west asia",
+      "saudi",
+      "uae",
+      "qatar",
+      "oman"
+    ]
+  },
+  "chanakya-ai-surveillance": {
+    "wiki": [
+      "Mass surveillance",
+      "Facial recognition system"
+    ],
+    "news": "facial recognition OR AI surveillance government",
+    "must": [
+      "surveillance",
+      "facial recognition"
+    ],
+    "data": [
+      "IT.NET.USER.ZS"
+    ]
+  },
+  "sun_tzu-trade-war": {
+    "wiki": [
+      "China–United States trade war",
+      "Trade war"
+    ],
+    "news": "tariffs \"trade war\"",
+    "must": [
+      "tariff",
+      "trade war",
+      "export control"
+    ]
+  },
+  "sun_tzu-cyber": {
+    "wiki": [
+      "Cyberwarfare",
+      "Cyber espionage"
+    ],
+    "news": "state-sponsored hackers OR cyber espionage",
+    "must": [
+      "cyber",
+      "hack"
+    ]
+  },
+  "napoleon-attrition": {
+    "wiki": [
+      "Attrition warfare"
+    ],
+    "news": "\"war of attrition\" Ukraine OR front OR offensive",
+    "must": [
+      "attrition"
+    ],
+    "not": [
+      "nfl",
+      "nba",
+      "injur",
+      "season",
+      "league",
+      "cup"
+    ]
+  },
+  "marcus_aurelius-social-media": {
+    "wiki": [
+      "Political communication",
+      "Social media"
+    ],
+    "news": "online trolling OR \"social media\" abuse public figures",
+    "must": [
+      "social media",
+      "troll",
+      "online abuse",
+      "online hate"
+    ],
+    "data": [
+      "IT.NET.USER.ZS"
+    ]
+  }
+}
