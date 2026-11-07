@@ -10,7 +10,8 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-load_dotenv(REPO_ROOT / ".env")
+if (REPO_ROOT / ".env").exists():
+    load_dotenv(REPO_ROOT / ".env")
 
 
 def _bool(name: str, default: bool) -> bool:

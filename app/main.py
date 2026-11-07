@@ -16,13 +16,32 @@ from .rag import dense, verify
 
 @asynccontextmanager
 async def lifespan(_: FastAPI):
-    get_knowledge()  # fail fast if data/ is incomplete
-    verify.warm_up()  # NLI loads in the background; lexical check covers the gap
+    try:
+        get_knowledge()  # fail fast if data/ is incomplete
+    except Exception as e:
+        print(f"Warning: Knowledge loading failed: {e}")
+    
+    try:
+        verify.warm_up()  # NLI loads in the background; lexical check covers the gap
+    except Exception as e:
+        print(f"Warning: NLI warm-up failed: {e}")
+    
     # Open Chroma and load the embedding model before the first debate asks for it.
-    threading.Thread(target=lambda: dense.search("chanakya", "warm up", k=1), name="dense-warmup", daemon=True).start()
-    ticker = asyncio.create_task(lobby.ticker())  # online matchmaking: widen Elo windows, pair players
+    try:
+        threading.Thread(target=lambda: dense.search("chanakya", "warm up", k=1), name="dense-warmup", daemon=True).start()
+    except Exception as e:
+        print(f"Warning: Dense retrieval warm-up failed: {e}")
+    
+    try:
+        ticker = asyncio.create_task(lobby.ticker())  # online matchmaking: widen Elo windows, pair players
+    except Exception as e:
+        print(f"Warning: Lobby ticker failed: {e}")
+        ticker = None
+    
     yield
-    ticker.cancel()
+    
+    if ticker:
+        ticker.cancel()
 
 
 app = FastAPI(title="Shastrartha API", lifespan=lifespan)
