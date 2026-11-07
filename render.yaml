@@ -1,0 +1,47 @@
+services:
+  - type: web
+    name: shastrartha-backend
+    env: python
+    region: oregon
+    plan: free
+    buildCommand: pip install --no-cache-dir -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
+      - key: NLI_ENABLED
+        sync: false
+      - key: DENSE_RETRIEVAL
+        sync: false
+      - key: LLM_PROVIDER
+        sync: false
+      - key: LLM_MODEL
+        sync: false
+      - key: GEMINI_API_KEYS
+        sync: false
+      - key: SUPABASE_URL
+        sync: false
+      - key: SUPABASE_SERVICE_ROLE_KEY
+        sync: false
+      - key: FRONTEND_URL
+        sync: false
+      - key: FISH_API_KEY
+        sync: false
+      - key: FISH_TTS_MODEL
+        sync: false
+      - key: TTS_PROVIDER
+        sync: false
+      - key: TTS_VOICE_CHANAKYA
+        sync: false
+      - key: TTS_VOICE_NAPOLEON
+        sync: false
+      - key: TTS_VOICE_SUN_TZU
+        sync: false
+      - key: TTS_VOICE_MARCUS_AURELIUS
+        sync: false
+      - key: LLM_MAX_TOKENS
+        value: 700
+      - key: MAX_VERIFY_RETRIES
+        value: 1
+      - key: DEMO_MODE
+        value: false

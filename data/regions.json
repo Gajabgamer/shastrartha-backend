@@ -1,0 +1,130 @@
+[
+  {
+    "id": "britannia",
+    "name": "Britannia",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "europa",
+    "name": "Europa",
+    "guardian_persona_id": "napoleon",
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": false
+  },
+  {
+    "id": "italia",
+    "name": "Italia",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "roma",
+    "name": "Roma",
+    "guardian_persona_id": "marcus_aurelius",
+    "owner_clan_id": "vedanta",
+    "top_score": 58,
+    "locked": false
+  },
+  {
+    "id": "hellas",
+    "name": "Hellas",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "aegyptos",
+    "name": "Aegyptos",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "persis",
+    "name": "Persis",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "steppe",
+    "name": "Steppe",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "madhyadesha",
+    "name": "Madhyadesha",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "magadha",
+    "name": "Magadha",
+    "guardian_persona_id": "chanakya",
+    "owner_clan_id": "nyaya",
+    "top_score": 62,
+    "locked": false
+  },
+  {
+    "id": "deccan",
+    "name": "Deccan",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "kalinga",
+    "name": "Kalinga",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "dakshinapatha",
+    "name": "Dakshinapatha",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "suvarnabhumi",
+    "name": "Suvarnabhumi",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  },
+  {
+    "id": "zhongguo",
+    "name": "Zhongguo",
+    "guardian_persona_id": "sun_tzu",
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": false
+  },
+  {
+    "id": "nippon",
+    "name": "Nippon",
+    "guardian_persona_id": null,
+    "owner_clan_id": null,
+    "top_score": 0,
+    "locked": true
+  }
+]

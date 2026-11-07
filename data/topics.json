@@ -1,0 +1,581 @@
+[
+  {
+    "id": "chanakya-spies",
+    "persona_id": "chanakya",
+    "question": "Should a ruler use spies?",
+    "concept_id": "arthashastra.espionage",
+    "stance": {
+      "statement": "A king should create spies, with the help of a council of ministers whose loyalty has been tested.",
+      "source_id": "arth_1_11_01"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_1_13_04",
+        "angle": "Spies also know the rumours prevalent in the state, and ascertain whether there prevails content or discontent among the people."
+      },
+      {
+        "chunk_id": "arth_1_12_13",
+        "angle": "Spies set up by foreign kings are found out by the king's own local spies."
+      },
+      {
+        "chunk_id": "arth_1_7_03",
+        "angle": "Sovereignty is possible only with assistance; a single wheel can never move."
+      },
+      {
+        "chunk_id": "arth_1_4_03",
+        "angle": "Whoever imposes severe punishment becomes repulsive to the people, while punishment as deserved makes a ruler respectable."
+      }
+    ]
+  },
+  {
+    "id": "chanakya-ahimsa",
+    "persona_id": "chanakya",
+    "question": "Should a ruler hold to non-violence when enemy forces gather on the border?",
+    "concept_id": "arthashastra.danda",
+    "handbook_ref": "Persona primers: Chanakya debate topic; nodes AS-1.4.8, AS-6.2.13",
+    "stance": {
+      "statement": "When the law of punishment is kept in abeyance, the strong will swallow the weak; under the king's protection, the weak resist the strong.",
+      "source_id": "arth_1_4_04"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_6_2_04",
+        "angle": "The king situated anywhere immediately on the circumference of the conqueror's territory is termed the enemy."
+      },
+      {
+        "chunk_id": "arth_1_4_03",
+        "angle": "Whoever imposes severe punishment becomes repulsive to the people, while punishment as deserved makes a ruler respectable."
+      },
+      {
+        "chunk_id": "arth_6_2_13",
+        "angle": "A conqueror watches for the enemy who will hurt the elements of his own sovereignty by severe punishments and by squandering his wealth."
+      }
+    ]
+  },
+  {
+    "id": "chanakya-welfare",
+    "persona_id": "chanakya",
+    "question": "Is a ruler's happiness bound to the happiness of the people?",
+    "concept_id": "arthashastra.duties_of_king",
+    "stance": {
+      "statement": "In the happiness of his subjects lies the king's happiness, and in their welfare his welfare.",
+      "source_id": "arth_1_19_09"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_1_19_01",
+        "angle": "If a king is energetic, his subjects will be equally energetic; if he is reckless, they will be reckless likewise."
+      },
+      {
+        "chunk_id": "arth_1_5_05",
+        "angle": "The king who is disciplined in sciences and devoted to good government of his subjects will enjoy the earth unopposed."
+      },
+      {
+        "chunk_id": "arth_6_1_07",
+        "angle": "A wise king can make even poor elements of his sovereignty happy and prosperous, but a wicked king will destroy the most loyal."
+      },
+      {
+        "chunk_id": "arth_1_4_03",
+        "angle": "Whoever imposes severe punishment becomes repulsive to the people, while punishment as deserved makes a ruler respectable."
+      }
+    ]
+  },
+  {
+    "id": "sun_tzu-spies",
+    "persona_id": "sun_tzu",
+    "question": "Should a ruler use spies?",
+    "concept_id": "art_of_war.spies",
+    "stance": {
+      "statement": "Foreknowledge cannot be elicited from spirits or calculation; knowledge of the enemy can only be obtained from other men.",
+      "source_id": "aow_13_03"
+    },
+    "support": [
+      {
+        "chunk_id": "aow_13_01",
+        "angle": "To remain in ignorance of the enemy's condition because one grudges a hundred ounces of silver is the height of inhumanity."
+      },
+      {
+        "chunk_id": "aow_13_15",
+        "angle": "Spies cannot be properly managed without benevolence and straightforwardness, and their reports need subtle ingenuity of mind."
+      },
+      {
+        "chunk_id": "aow_13_21",
+        "angle": "The enemy's spies who come to spy on us, once sought out and tempted, become converted spies available for our service."
+      },
+      {
+        "chunk_id": "aow_13_26",
+        "angle": "Spies are a most important element in war, because on them depends an army's ability to move."
+      }
+    ]
+  },
+  {
+    "id": "sun_tzu-without-fighting",
+    "persona_id": "sun_tzu",
+    "question": "Is the best victory one won without fighting?",
+    "concept_id": "art_of_war.stratagem",
+    "stance": {
+      "statement": "To fight and conquer in all your battles is not supreme excellence; breaking the enemy's resistance without fighting is.",
+      "source_id": "aow_3_01"
+    },
+    "support": [
+      {
+        "chunk_id": "aow_3_04",
+        "angle": "The skilful leader subdues the enemy's troops without any fighting and captures their cities without laying siege to them."
+      },
+      {
+        "chunk_id": "aow_2_03",
+        "angle": "There is no instance of a country having benefited from prolonged warfare."
+      },
+      {
+        "chunk_id": "aow_4_01",
+        "angle": "The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy."
+      },
+      {
+        "chunk_id": "aow_3_01",
+        "angle": "The highest form of generalship is to baulk the enemy's plans; the worst is to besiege walled cities."
+      }
+    ]
+  },
+  {
+    "id": "sun_tzu-deception",
+    "persona_id": "sun_tzu",
+    "question": "Can a state achieve lasting security mainly through deception?",
+    "concept_id": "art_of_war.deception",
+    "handbook_ref": "Handbook section 4 sun_tzu debate topic; node SUN-AW-3.2",
+    "stance": {
+      "statement": "All warfare is based on deception: when able to attack, we must seem unable; when near, we must make the enemy believe we are far away.",
+      "source_id": "aow_1_15"
+    },
+    "support": [
+      {
+        "chunk_id": "aow_3_18",
+        "angle": "If you know the enemy and know yourself, you need not fear the result of a hundred battles."
+      },
+      {
+        "chunk_id": "aow_3_01",
+        "angle": "Supreme excellence consists in breaking the enemy's resistance without fighting."
+      },
+      {
+        "chunk_id": "aow_13_21",
+        "angle": "The enemy's spies who come to spy on us, once sought out and tempted, become converted spies available for our service."
+      }
+    ]
+  },
+  {
+    "id": "napoleon-spies",
+    "persona_id": "napoleon",
+    "question": "Should a ruler use spies?",
+    "concept_id": "napoleon.intelligence",
+    "stance": {
+      "statement": "A good general of advanced posts sends out spies and intercepts public and private letters, so he can answer every question of the general-in-chief.",
+      "source_id": "nap_max_076"
+    },
+    "support": [
+      {
+        "chunk_id": "nap_max_063",
+        "angle": "Information from prisoners must be received with caution, and trusted only when it agrees with the reports of the advanced guards."
+      },
+      {
+        "chunk_id": "nap_max_062",
+        "angle": "Tents are always objects of observation to the enemy's staff, and afford information about your numbers and ground."
+      },
+      {
+        "chunk_id": "nap_max_016",
+        "angle": "Never do what the enemy wishes you to do, and avoid a field of battle he has studied and reconnoitred."
+      }
+    ]
+  },
+  {
+    "id": "napoleon-offensive",
+    "persona_id": "napoleon",
+    "question": "Once war has begun, is attack the best strategy?",
+    "concept_id": "napoleon.offensive",
+    "stance": {
+      "statement": "Once the offensive has been assumed, it must be sustained to the last extremity, because a retreat always weakens the morale of an army.",
+      "source_id": "nap_max_006"
+    },
+    "support": [
+      {
+        "chunk_id": "nap_max_009",
+        "angle": "The strength of an army is mass multiplied by rapidity; a rapid march augments its morale and its means of victory."
+      },
+      {
+        "chunk_id": "nap_max_023",
+        "angle": "When the enemy threatens to surround your position, collect all your force immediately and menace him with an offensive movement."
+      },
+      {
+        "chunk_id": "nap_max_014",
+        "angle": "Even in offensive warfare in the open field, the great secret consists in defensive combats, and in obliging the enemy to attack."
+      },
+      {
+        "chunk_id": "nap_max_077",
+        "angle": "Great captains keep their forces united, leave no weak part unguarded, and seize with rapidity on important points."
+      }
+    ]
+  },
+  {
+    "id": "marcus_aurelius-harm",
+    "persona_id": "marcus_aurelius",
+    "question": "Can another person truly harm you?",
+    "concept_id": "meditations.opinion",
+    "stance": {
+      "statement": "Take away thy opinion, and the complaint 'I have been harmed' is taken away; take away the complaint, and the harm is taken away.",
+      "source_id": "med_4_07"
+    },
+    "support": [
+      {
+        "chunk_id": "med_9_42_b",
+        "angle": "No one you are irritated with has done anything by which your mind could be made worse; harm has its foundation only in the mind."
+      },
+      {
+        "chunk_id": "med_5_20",
+        "angle": "Men may impede my action, but not my disposition, for the mind converts every hindrance to its activity into an aid."
+      },
+      {
+        "chunk_id": "med_11_18_b",
+        "angle": "It is our own opinions which disturb us; take away these opinions and thy anger is gone."
+      }
+    ]
+  },
+  {
+    "id": "marcus_aurelius-power",
+    "persona_id": "marcus_aurelius",
+    "question": "Can a ruler hold supreme power without being corrupted by it?",
+    "concept_id": "meditations.power",
+    "handbook_ref": "Handbook section 4 marcus_aurelius debate topic; node MAR-MED-5.20 (Med. 6.30, 6.54)",
+    "stance": {
+      "statement": "Take care that thou art not made into a Caesar; keep thyself simple, good, pure, serious, free from affectation, a friend of justice.",
+      "source_id": "med_6_30"
+    },
+    "support": [
+      {
+        "chunk_id": "med_6_52",
+        "angle": "That which is not good for the swarm, neither is it good for the bee."
+      },
+      {
+        "chunk_id": "med_5_20",
+        "angle": "The mind converts every hindrance to its activity into an aid, so that which is an obstacle on the road helps us on this road."
+      },
+      {
+        "chunk_id": "med_11_18_d",
+        "angle": "Mildness and gentleness are more agreeable to human nature, and he who possesses them possesses strength, nerves, and courage."
+      }
+    ]
+  },
+  {
+    "id": "marcus_aurelius-anger",
+    "persona_id": "marcus_aurelius",
+    "question": "Is anger ever useful to a leader?",
+    "concept_id": "meditations.anger",
+    "stance": {
+      "statement": "To be moved by passion is not manly; mildness and gentleness are more manly, and he who possesses them possesses strength, nerves, and courage.",
+      "source_id": "med_11_18_d"
+    },
+    "support": [
+      {
+        "chunk_id": "med_11_18_c",
+        "angle": "Much more pain is brought on us by the anger caused by such acts than by the acts themselves."
+      },
+      {
+        "chunk_id": "med_11_18_e",
+        "angle": "As the sense of pain is a characteristic of weakness, so also is anger; he who yields to anger is wounded and submits."
+      },
+      {
+        "chunk_id": "med_9_42_b",
+        "angle": "It is always possible to correct by teaching the man who has gone astray, for every man who errs misses his object."
+      }
+    ]
+  },
+  {
+    "id": "chanakya-mandala-today",
+    "persona_id": "chanakya",
+    "era": "modern",
+    "question": "In today's Middle East, should a middle power side with its neighbour's rival?",
+    "context": "Several regional powers compete for influence across the Gulf and the Levant. Smaller states hedge between them, and between outside great powers, through bases, trade and arms deals. Treat states as roles in a system, not as sides to cheer for.",
+    "concept_id": "arthashastra.mandala",
+    "stance": {
+      "statement": "In front of the conqueror and close to his enemy are situated the conqueror's friend, next the enemy's friend, and next the conqueror's friend's friend.",
+      "source_id": "arth_6_2_06"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_6_2_07",
+        "angle": "A friend whose friendship is courted only for self-maintenance is an acquired friend, not a natural one."
+      },
+      {
+        "chunk_id": "arth_6_2_08",
+        "angle": "A Madhyama king, close to both rivals, can help or resist either; a powerful neutral king stands beyond them all."
+      },
+      {
+        "chunk_id": "arth_6_2_05",
+        "angle": "A powerful neighbouring foe becomes assailable when he is in calamity and has little help."
+      }
+    ],
+    "scope": "world"
+  },
+  {
+    "id": "chanakya-ai-surveillance",
+    "persona_id": "chanakya",
+    "era": "modern",
+    "question": "Should a state use AI to watch its own citizens?",
+    "context": "Governments now combine cameras, phone data and machine learning to monitor public places and online speech. Supporters cite security; critics cite privacy, error and abuse.",
+    "concept_id": "arthashastra.surveillance",
+    "stance": {
+      "statement": "Assisted by the council of his ministers tried under espionage, the king shall proceed to create spies.",
+      "source_id": "arth_1_11_01"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_1_13_04",
+        "angle": "Spies should learn whether there is content or discontent among the people."
+      },
+      {
+        "chunk_id": "arth_1_12_13",
+        "angle": "Spies set up by foreign kings are found out by the king's own spies."
+      }
+    ],
+    "scope": "world"
+  },
+  {
+    "id": "sun_tzu-trade-war",
+    "persona_id": "sun_tzu",
+    "era": "modern",
+    "question": "Can great powers win a trade war without firing a shot?",
+    "context": "Large economies use tariffs, export controls on chips and sanctions against each other while avoiding open war. Both sides absorb costs at home.",
+    "concept_id": "suntzu.cost_of_war",
+    "stance": {
+      "statement": "In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good.",
+      "source_id": "aow_3_01"
+    },
+    "support": [
+      {
+        "chunk_id": "aow_2_13",
+        "angle": "A long contest strips the homes of the people bare and drains the state's revenue."
+      },
+      {
+        "chunk_id": "aow_2_17",
+        "angle": "In war, let your great object be victory, not lengthy campaigns."
+      }
+    ],
+    "scope": "world"
+  },
+  {
+    "id": "sun_tzu-cyber",
+    "persona_id": "sun_tzu",
+    "era": "modern",
+    "question": "Is cyber-espionage today what Sun Tzu meant by spies?",
+    "context": "States and contractors break into networks to read plans, steal designs and plant hidden access, often without anyone firing a weapon.",
+    "concept_id": "suntzu.foreknowledge",
+    "stance": {
+      "statement": "What enables the wise sovereign and the good general to strike and conquer, and achieve things beyond the reach of ordinary men, is foreknowledge.",
+      "source_id": "aow_13_03"
+    },
+    "support": [
+      {
+        "chunk_id": "aow_13_01",
+        "angle": "Raising and marching a great host drains the people and the state; knowledge is far cheaper."
+      }
+    ],
+    "scope": "world"
+  },
+  {
+    "id": "napoleon-attrition",
+    "persona_id": "napoleon",
+    "era": "modern",
+    "question": "Can a modern war of attrition in Europe still be won by the offensive?",
+    "context": "Recent wars in Europe have settled into long front lines, drones, artillery duels and fortified defences, where big offensives have been costly and slow.",
+    "concept_id": "napoleon.offensive",
+    "stance": {
+      "statement": "When once the offensive has been assumed, it must be sustained to the last extremity.",
+      "source_id": "nap_max_006"
+    },
+    "support": [
+      {
+        "chunk_id": "nap_max_005",
+        "angle": "Every war should have a definite object, with forces proportioned to the obstacles."
+      },
+      {
+        "chunk_id": "nap_max_002",
+        "angle": "A plan of campaign must foresee everything the enemy may do."
+      }
+    ],
+    "scope": "world"
+  },
+  {
+    "id": "marcus_aurelius-social-media",
+    "persona_id": "marcus_aurelius",
+    "era": "modern",
+    "question": "Should a leader care what millions say about them online?",
+    "context": "Leaders, founders and creators are praised and attacked by millions of strangers every day on social platforms, and many measure themselves by it.",
+    "concept_id": "stoic.fame",
+    "stance": {
+      "statement": "He who has a vehement desire for posthumous fame does not consider that every one of those who remember him will himself also die very soon.",
+      "source_id": "med_4_19"
+    },
+    "support": [
+      {
+        "chunk_id": "med_7_34",
+        "angle": "Look at the minds of those who seek fame, and what they pursue and avoid."
+      },
+      {
+        "chunk_id": "med_6_30",
+        "angle": "Take care that thou art not made into a Caesar, that thou art not dyed with this dye."
+      }
+    ],
+    "scope": "world"
+  },
+  {
+    "id": "chanakya-india-non-alignment",
+    "persona_id": "chanakya",
+    "era": "modern",
+    "scope": "india",
+    "question": "Should India stay non-aligned between today's great powers, or choose a side?",
+    "context": "India buys energy and arms from several powers, trades heavily with others, and sits in groupings led by rival camps, such as the Quad and BRICS. Its governments call this strategic autonomy. Critics say hedging earns trust from no one; supporters say it keeps India's options open.",
+    "concept_id": "arthashastra.madhyama",
+    "stance": {
+      "statement": "A Madhyama king, close to both the conqueror and his enemy, is capable of helping both kings, united or disunited, or of resisting either of them individually.",
+      "source_id": "arth_6_2_08"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_6_2_07",
+        "angle": "A friend whose friendship is courted only for self-maintenance is an acquired friend, not a natural one."
+      },
+      {
+        "chunk_id": "arth_6_2_09",
+        "angle": "Every king in the circle has his own minister, country, fort, treasury and army; a state is weighed by these elements, not by its declared side."
+      },
+      {
+        "chunk_id": "arth_6_2_05",
+        "angle": "A powerful neighbouring foe becomes assailable when he is in calamity and has little help."
+      }
+    ]
+  },
+  {
+    "id": "chanakya-lateral-entry",
+    "persona_id": "chanakya",
+    "era": "modern",
+    "scope": "india",
+    "question": "Should India appoint outside experts directly to senior government posts?",
+    "context": "India fills most senior civil-service posts through a competitive exam followed by decades of promotion. Governments have also tried 'lateral entry': hiring specialists from industry and universities straight into senior posts. Supporters cite expertise; critics cite fairness, reservation rules and the risk of patronage.",
+    "concept_id": "arthashastra.ministers",
+    "stance": {
+      "statement": "A man's ability is inferred from his capacity shown in work, so officers shall be employed according to their working capacity.",
+      "source_id": "arth_1_8_06"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_1_8_05",
+        "angle": "A man with only theoretical knowledge and no practical experience is likely to commit serious blunders in actual work."
+      },
+      {
+        "chunk_id": "arth_1_9_02",
+        "angle": "Each qualification must be tested by the right judge: learning by professors of equal learning, practical knowledge by success in work."
+      },
+      {
+        "chunk_id": "arth_1_10_07",
+        "angle": "Ministers are to be employed in the works that match the character they have shown under testing."
+      }
+    ]
+  },
+  {
+    "id": "chanakya-freebies",
+    "persona_id": "chanakya",
+    "era": "modern",
+    "scope": "india",
+    "question": "Are election freebies welfare, or a raid on the treasury?",
+    "context": "Before elections, parties across India promise free electricity, cash transfers, devices or loan waivers. Courts and the Election Commission have heard arguments on whether such promises should be limited. Supporters call them welfare for the poor; critics say they strain state budgets and crowd out roads, schools and hospitals.",
+    "concept_id": "arthashastra.treasury",
+    "stance": {
+      "statement": "People suffering from anarchy elected a king and allotted him a share of their grain; fed by this payment, kings took upon themselves the safety and security of their subjects.",
+      "source_id": "arth_1_13_03"
+    },
+    "support": [
+      {
+        "chunk_id": "arth_1_19_09",
+        "angle": "In the happiness of his subjects lies the king's happiness, yet the root of wealth is activity, and without it present and future gains perish."
+      },
+      {
+        "chunk_id": "arth_6_1_04",
+        "angle": "The best treasury is justly obtained and capable of withstanding calamities of long duration."
+      },
+      {
+        "chunk_id": "arth_1_4_01",
+        "angle": "Agriculture, cattle-breeding and trade fill the treasury and the army, and through them the king holds his own and his enemy's party."
+      }
+    ]
+  },
+  {
+    "id": "sun_tzu-defence-self-reliance",
+    "persona_id": "sun_tzu",
+    "era": "modern",
+    "scope": "india",
+    "question": "Should India build its own weapons instead of buying them abroad?",
+    "context": "India has long been one of the world's largest arms importers. It now pushes domestic production of aircraft, artillery, drones and warships, and restricts some imports. Supporters say a country at war cannot depend on foreign spare parts; critics say home-built systems are often costly, late or less capable.",
+    "concept_id": "suntzu.supply",
+    "stance": {
+      "statement": "Bring war material with you from home; maintaining an army by contributions from a distance causes the people to be impoverished.",
+      "source_id": "aow_2_08"
+    },
+    "support": [
+      {
+        "chunk_id": "aow_2_03",
+        "angle": "If the campaign is protracted, the resources of the State will not be equal to the strain."
+      },
+      {
+        "chunk_id": "aow_2_13",
+        "angle": "Government expenses for chariots, horses, armour and weapons can amount to four-tenths of the total revenue."
+      },
+      {
+        "chunk_id": "aow_13_01",
+        "angle": "Raising a great host and marching it far is a heavy loss on the people and a drain on the resources of the State."
+      }
+    ]
+  },
+  {
+    "id": "napoleon-theatre-commands",
+    "persona_id": "napoleon",
+    "era": "modern",
+    "scope": "india",
+    "question": "Should India merge its army, navy and air force into joint theatre commands?",
+    "context": "India's three armed services have long kept separate commands. Since creating the post of Chief of Defence Staff in 2020, the country has debated 'theatre commands' that would put land, sea and air forces in each region under one commander. Supporters cite faster joint action; critics fear losing each service's expertise and spreading scarce air power thin.",
+    "concept_id": "napoleon.command",
+    "stance": {
+      "statement": "Nothing is so important in war as an undivided command: against a single power there should be one army, acting upon one base, and conducted by one chief.",
+      "source_id": "nap_max_064"
+    },
+    "support": [
+      {
+        "chunk_id": "nap_max_029",
+        "angle": "When you have resolved to fight, collect your whole force; a single battalion sometimes decides the day."
+      },
+      {
+        "chunk_id": "nap_max_072",
+        "angle": "A general must not shelter behind distant ministers; if the plan is faulty he must insist on a change or resign."
+      }
+    ]
+  },
+  {
+    "id": "marcus_aurelius-protest-repeal",
+    "persona_id": "marcus_aurelius",
+    "era": "modern",
+    "scope": "india",
+    "question": "Should a government withdraw a law when large protests oppose it?",
+    "context": "Governments sometimes repeal major laws after long protests; India withdrew its three farm laws in 2021 after a year of demonstrations by farmers. Some call this listening to citizens; others say it lets pressure, not reason, decide policy.",
+    "concept_id": "stoic.correction",
+    "stance": {
+      "statement": "If any man is able to convince me and show me that I do not think or act right, I will gladly change, for I seek the truth, by which no man was ever injured.",
+      "source_id": "med_6_21"
+    },
+    "support": [
+      {
+        "chunk_id": "med_6_50",
+        "angle": "Try to persuade people, but act even against their will when the principles of justice lead that way."
+      },
+      {
+        "chunk_id": "med_7_34",
+        "angle": "It is royal to do good and to be abused."
+      }
+    ]
+  }
+]

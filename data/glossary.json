@@ -1,0 +1,2986 @@
+{
+  "version": 1,
+  "note": "Terminology dictionary for newcomers. source_ids are curated corpus chunks (data/corpus/chunks.jsonl) whose text contains the term, an alias or a listed English gloss; backend/tests/test_glossary.py checks this.",
+  "entries": [
+    {
+      "slug": "shastrartha",
+      "term": "Shastrartha",
+      "devanagari": "शास्त्रार्थ",
+      "pronunciation": "SHAAS-truh-arth",
+      "category": "Debate format",
+      "short": "A formal debate on the meaning of texts, argued with evidence before an audience. The app is named after it.",
+      "long": "Shastrartha literally means 'the meaning (artha) of the shastra', the authoritative treatise. In classical India scholars held such debates in royal courts and assemblies, each side stating, defending and refuting positions under agreed rules. In this app every match follows that pattern: a position, a refutation, a reply and a conclusion.",
+      "example": "Your first shastrartha against Chanakya asks whether a ruler should use spies.",
+      "aliases": [
+        "shastrarth"
+      ],
+      "glosses": [],
+      "related": [
+        "vada",
+        "jalpa",
+        "purvapaksha",
+        "sabha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "vada",
+      "term": "Vada",
+      "devanagari": "वाद",
+      "pronunciation": "VAA-duh",
+      "category": "Debate format",
+      "short": "Honest discussion whose goal is the truth, not victory. In the app: the learning mode, with hints and no territory.",
+      "long": "The Nyaya Sutra describes vada as a discussion in which both sides argue with valid means of knowledge and well-formed reasoning, aiming to find out what is true. It is contrasted with jalpa and vitanda, where winning matters more. In the app, choosing 'Agree' in the Guru Hall opens a vada: you learn the guru's reasoning, get hints, and nothing is ranked.",
+      "example": "Try a vada first if you have never seen the Arthashastra; no rating is at stake.",
+      "aliases": [
+        "vaad"
+      ],
+      "glosses": [],
+      "related": [
+        "jalpa",
+        "vitanda",
+        "shastrartha",
+        "pramana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "jalpa",
+      "term": "Jalpa",
+      "devanagari": "जल्प",
+      "pronunciation": "JUL-puh",
+      "category": "Debate format",
+      "short": "Debate aimed at winning. In the app: the ranked mode, where your rating and a map region are at stake.",
+      "long": "In Nyaya, jalpa is a contest where each side defends its own thesis and tries to defeat the other, sometimes with tricks the tradition disapproves of. The app keeps the competitive spirit but not the tricks: the referee still penalises fallacies. Choosing 'Disagree' in the Guru Hall starts a jalpa, which updates your Elo rating and can capture territory.",
+      "example": "Win a jalpa against Chanakya with a score above his threshold and your house takes Magadha.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "vada",
+        "vitanda",
+        "elo",
+        "territory"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "vitanda",
+      "term": "Vitanda",
+      "devanagari": "वितण्डा",
+      "pronunciation": "vi-TUN-daa",
+      "category": "Debate format",
+      "short": "Pure attack: refuting the other side without ever stating or defending a position of your own.",
+      "long": "Vitanda is the third kind of discussion in the Nyaya Sutra. The debater only destroys the opponent's thesis and offers nothing in its place. The tradition treats it as the weakest form of debate. The app does not offer it as a mode, but a khandana that only says 'you are wrong' without a reason behind it scores low on structure for the same reason.",
+      "example": "Replying 'that is false' to every guru claim, and nothing more, is vitanda.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "vada",
+        "jalpa",
+        "khandana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "purvapaksha",
+      "term": "Purvapaksha",
+      "devanagari": "पूर्वपक्ष",
+      "pronunciation": "POOR-vuh-PUK-shuh",
+      "category": "Debate format",
+      "short": "The opening position, stated fairly before it is examined. In the app the guru states it, citing the text.",
+      "long": "Purva means 'prior' and paksha 'side'. Classical authors began by stating the opposing view in its strongest form, so that the refutation that followed would be honest. In every app debate the first stage is the guru's purvapaksha: a thesis on the topic backed by passages from the guru's own text.",
+      "example": "Chanakya's purvapaksha: a king must see through his spies, citing Book 1 of the Arthashastra.",
+      "aliases": [
+        "purva paksha"
+      ],
+      "glosses": [],
+      "related": [
+        "khandana",
+        "uttarapaksha",
+        "siddhanta",
+        "paksha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "khandana",
+      "term": "Khandana",
+      "devanagari": "खण्डन",
+      "pronunciation": "KHUN-duh-nuh",
+      "category": "Debate format",
+      "short": "Refutation: breaking an argument apart. In the app this is your turn to answer the guru.",
+      "long": "Khandana comes from a root meaning 'to break into pieces'. A good refutation names the claim it attacks, gives a reason, and supports the reason with an example or source. The referee scores each khandana on structure, evidence, choice of pramana, responsiveness and clarity, and flags any fallacy.",
+      "example": "A strong khandana: 'Spies breed distrust, because the Arthashastra sets spies on spies; therefore their use must be limited.'",
+      "aliases": [
+        "khandan"
+      ],
+      "glosses": [],
+      "related": [
+        "purvapaksha",
+        "uttarapaksha",
+        "pancavayava",
+        "rubric"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "uttarapaksha",
+      "term": "Uttarapaksha",
+      "devanagari": "उत्तरपक्ष",
+      "pronunciation": "UT-tuh-ruh-PUK-shuh",
+      "category": "Debate format",
+      "short": "The reply to a refutation. In the app the guru answers your khandana, again citing the text.",
+      "long": "Uttara means 'answer' or 'later'. After the refutation, the defender replies: concedes what is right, rebuts what is not, and restates the position. In the app the guru's uttarapaksha follows each of your turns; every factual sentence in it is checked against its cited passage.",
+      "example": "After your khandana, Sun Tzu's uttarapaksha may concede the cost of spies but cite Chapter 13 on foreknowledge.",
+      "aliases": [
+        "uttara paksha"
+      ],
+      "glosses": [],
+      "related": [
+        "khandana",
+        "purvapaksha",
+        "siddhanta",
+        "verified-claim"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "siddhanta",
+      "term": "Siddhanta",
+      "devanagari": "सिद्धान्त",
+      "pronunciation": "sid-DHAAN-tuh",
+      "category": "Debate format",
+      "short": "The established conclusion after all objections are heard. In the app: the closing summary before the verdict.",
+      "long": "Siddhanta means 'the settled end'. In classical texts it is the view the author holds after the purvapaksha has been stated and answered. In the app the siddhanta stage summarises what each side established across the rounds, and the verdict follows.",
+      "example": "The siddhanta notes which of your points the guru conceded and which stood unanswered.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "nirnaya",
+        "purvapaksha",
+        "uttarapaksha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "nirnaya",
+      "term": "Nirnaya",
+      "devanagari": "निर्णय",
+      "pronunciation": "nir-NUH-yuh",
+      "category": "Debate format",
+      "short": "Ascertainment, the final decision. In the app: the verdict stamp, win or loss against the threshold.",
+      "long": "Nirnaya is one of the sixteen topics of the Nyaya Sutra: the certainty reached after weighing a thesis and its counter-thesis. In the app the nirnaya combines the referee's score with the audience vote (if a Live Sabha ran) and compares it with the guru's threshold.",
+      "example": "Nirnaya: 61 against a threshold of 55. Victory.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "siddhanta",
+        "threshold",
+        "crowd-score"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "sabha",
+      "term": "Sabha",
+      "devanagari": "सभा",
+      "pronunciation": "suh-BHAA",
+      "category": "Debate format",
+      "short": "An assembly or court where debates were heard. In the app: the audience that votes on a debate.",
+      "long": "Sabha means an assembly, from a village council to a royal court. Classical debates were judged before one, often with a learned moderator. The app has a Live Sabha, where phones in the room vote round by round, and a Rivalry Sabha, where two gurus debate each other.",
+      "example": "Open a Live Sabha and the room scans a QR code to vote.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "live-sabha",
+        "rivalry-sabha",
+        "crowd-score"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "guru",
+      "term": "Guru",
+      "devanagari": "गुरु",
+      "pronunciation": "GU-roo",
+      "category": "Debate format",
+      "short": "A teacher. In the app, each historical figure you study and debate is a guru.",
+      "long": "Guru means 'weighty' and, by extension, a teacher whose word carries weight. In the app the gurus are AI interpretations of historical figures, grounded in public-domain texts. They are not the people themselves, and every factual claim they make must cite a passage or be marked inferred.",
+      "example": "The four playable gurus are Chanakya, Sun Tzu, Napoleon and Marcus Aurelius.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "shishya",
+        "gurukul",
+        "citation"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "shishya",
+      "term": "Shishya",
+      "devanagari": "शिष्य",
+      "pronunciation": "SHISH-yuh",
+      "category": "Debate format",
+      "short": "A student or disciple. In the app, you.",
+      "long": "A shishya learns from a guru, traditionally by living and studying with the teacher. In the app you are a shishya: you join a house, study the gurus' texts and test yourself against them in debate.",
+      "example": "A new shishya starts every pramana rating at 1000.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "guru",
+        "gurukul",
+        "clan"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "gurukul",
+      "term": "Gurukul",
+      "devanagari": "गुरुकुल",
+      "pronunciation": "GU-roo-kool",
+      "category": "Debate format",
+      "short": "A school where students live and learn with their teacher. The app calls itself an AI gurukul.",
+      "long": "Kula means family or household, so a gurukul is the teacher's household, the traditional setting for learning in ancient India. The app borrows the idea: you learn from several gurus, practise, and move up as your reasoning improves.",
+      "example": "Think of the map as the gurukul's courtyard: each region has a guru who guards it.",
+      "aliases": [
+        "gurukula"
+      ],
+      "glosses": [],
+      "related": [
+        "guru",
+        "shishya"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "pancavayava",
+      "term": "Pancavayava",
+      "devanagari": "पञ्चावयव",
+      "pronunciation": "PUNCH-aa-VUH-yuh-vuh",
+      "category": "Argument",
+      "short": "The five-member argument of Nyaya: thesis, reason, example, application, conclusion.",
+      "long": "Panca means five and avayava 'limb'. Nyaya logicians laid out a complete argument for others in five steps: pratijna, hetu, udaharana, upanaya and nigamana. The app's detector looks for these five in your khandana; the more members present and well linked, the higher your structure score.",
+      "example": "The hill has fire (pratijna), because it has smoke (hetu); where there is smoke there is fire, as in a kitchen (udaharana); this hill has such smoke (upanaya); so the hill has fire (nigamana).",
+      "aliases": [
+        "panchavayava",
+        "five members"
+      ],
+      "glosses": [],
+      "related": [
+        "pratijna",
+        "hetu",
+        "udaharana",
+        "upanaya",
+        "nigamana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "pratijna",
+      "term": "Pratijna",
+      "devanagari": "प्रतिज्ञा",
+      "pronunciation": "pruh-TIG-yaa",
+      "category": "Argument",
+      "short": "The proposition: the claim you set out to prove. First of the five members.",
+      "long": "Pratijna means 'promise' or 'declaration'. It states what is to be proved about a subject. A clear pratijna tells the referee and the guru exactly what you are arguing, so it is the first thing the app's structure detector looks for.",
+      "example": "'A ruler should limit the use of spies.'",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "pancavayava",
+        "hetu",
+        "paksha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "hetu",
+      "term": "Hetu",
+      "devanagari": "हेतु",
+      "pronunciation": "HAY-too",
+      "category": "Argument",
+      "short": "The reason given for the proposition. Second of the five members.",
+      "long": "Hetu means 'cause' or 'reason'. It is the mark that, if present in the subject, proves the claim. Most fallacies (hetvabhasa) are faults of the hetu: it may be unproven, inconclusive, contradictory, counterbalanced or overridden.",
+      "example": "'...because constant surveillance breeds the distrust it is meant to catch.'",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "pratijna",
+        "udaharana",
+        "hetvabhasa",
+        "vyapti"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "udaharana",
+      "term": "Udaharana",
+      "devanagari": "उदाहरण",
+      "pronunciation": "oo-DAA-huh-ruh-nuh",
+      "category": "Argument",
+      "short": "The example that shows the reason really goes with the claim. Third of the five members.",
+      "long": "Udaharana means 'illustration'. In Nyaya it states the general rule linking reason and claim and gives a known case where both are seen together. The Arthashastra uses the same word for illustrative stories studied as part of history (itihasa). In the app, a cited passage or historical case often serves as your udaharana.",
+      "example": "'...as when the Arthashastra has spies watch other spies.'",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "hetu",
+        "upanaya",
+        "vyapti",
+        "pratyaksha"
+      ],
+      "source_ids": [
+        "arth_1_5_04"
+      ]
+    },
+    {
+      "slug": "upanaya",
+      "term": "Upanaya",
+      "devanagari": "उपनय",
+      "pronunciation": "oo-PUH-nuh-yuh",
+      "category": "Argument",
+      "short": "The application: showing the present case fits the example. Fourth of the five members.",
+      "long": "Upanaya means 'bringing near'. Having stated the rule and an example, you apply it to the subject in question. Many arguments skip this step and leave the listener to connect the example to the case; the referee rewards making the link explicit.",
+      "example": "'Here too, a court full of informers would trust no one.'",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "udaharana",
+        "nigamana",
+        "pancavayava"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "nigamana",
+      "term": "Nigamana",
+      "devanagari": "निगमन",
+      "pronunciation": "ni-GUH-muh-nuh",
+      "category": "Argument",
+      "short": "The conclusion: the proposition restated as proved. Last of the five members.",
+      "long": "Nigamana means 'conclusion'. It repeats the pratijna, now supported by the reason, example and application. Ending with a clear nigamana tells the referee your argument is complete.",
+      "example": "'Therefore spies must be limited by law.'",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "pratijna",
+        "upanaya",
+        "pancavayava",
+        "siddhanta"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "vyapti",
+      "term": "Vyapti",
+      "devanagari": "व्याप्ति",
+      "pronunciation": "VYAAP-tee",
+      "category": "Argument",
+      "short": "Invariable concomitance: the rule that wherever the reason is present, the conclusion holds too.",
+      "long": "Vyapti means 'pervasion'. Inference is valid only if the reason is pervaded by what it proves, as smoke is by fire. If counter-examples exist, the vyapti fails and the reason becomes inconclusive (savyabhichara).",
+      "example": "'Wherever there is smoke, there is fire' is a vyapti; 'wherever there is a king, there is a war' is not.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "hetu",
+        "anumana",
+        "savyabhichara",
+        "udaharana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "paksha",
+      "term": "Paksha",
+      "devanagari": "पक्ष",
+      "pronunciation": "PUK-shuh",
+      "category": "Argument",
+      "short": "The subject of an inference, or one side in a debate.",
+      "long": "In logic the paksha is the thing about which something is proved, such as 'the hill' in 'the hill has fire'. In debate the word also means a side or position, as in purvapaksha and uttarapaksha.",
+      "example": "In 'a ruler should use spies', the ruler is the paksha.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "pratijna",
+        "purvapaksha",
+        "uttarapaksha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "tarka",
+      "term": "Tarka",
+      "devanagari": "तर्क",
+      "pronunciation": "TUR-kuh",
+      "category": "Argument",
+      "short": "Hypothetical reasoning: showing what absurd result would follow if the opposite were true.",
+      "long": "Tarka is reasoning of the form 'if not X, then Y, but Y is plainly false'. Nyaya treats it as a helper to the pramanas: it does not prove by itself but removes doubt and supports an inference. It is a useful move in a khandana when you want to expose an unwelcome consequence of the guru's thesis.",
+      "example": "'If the king trusted no one, he could not govern at all, and the Arthashastra itself says sovereignty needs assistance.'",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "anumana",
+        "khandana",
+        "badhita"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "hetvabhasa",
+      "term": "Hetvabhasa",
+      "devanagari": "हेत्वाभास",
+      "pronunciation": "HAY-tvaa-BHAA-suh",
+      "category": "Fallacies",
+      "short": "A fallacious reason: something that looks like a valid hetu but is not. Nyaya lists five kinds.",
+      "long": "Hetu-abhasa means 'the mere appearance of a reason'. The Nyaya Sutra names five: the inconclusive, the contradictory, the counterbalanced, the unproven and the overridden. In the app each detected hetvabhasa costs 10 points (at most 30 per round) and puts out one of your lamps of logic.",
+      "example": "'Spies are evil, so a good king never uses them' rests on an unproven reason (asiddha).",
+      "aliases": [
+        "hetvabhasas"
+      ],
+      "glosses": [],
+      "related": [
+        "asiddha",
+        "savyabhichara",
+        "viruddha",
+        "satpratipaksha",
+        "badhita",
+        "fallacy-penalty"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "asiddha",
+      "term": "Asiddha",
+      "devanagari": "असिद्ध",
+      "pronunciation": "uh-SID-dhuh",
+      "category": "Fallacies",
+      "short": "Unproven reason: the reason itself is not established, so it cannot prove anything.",
+      "long": "A reason is asiddha when it is doubtful or false that it holds of the subject, or when the subject does not exist. The usual fix is to support the reason with a source, an observation or a further argument before relying on it.",
+      "example": "'Chanakya's spies always failed, so spies are useless', without any evidence that they failed.",
+      "aliases": [
+        "unproven reason"
+      ],
+      "glosses": [],
+      "related": [
+        "hetvabhasa",
+        "hetu",
+        "pratyaksha",
+        "citation"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "savyabhichara",
+      "term": "Savyabhichara",
+      "devanagari": "सव्यभिचार",
+      "pronunciation": "suh-vyuh-bhi-CHAA-ruh",
+      "category": "Fallacies",
+      "short": "Inconclusive reason: it goes with the conclusion sometimes, and with its opposite at other times.",
+      "long": "Vyabhichara means 'deviation'. The reason has no invariable link (vyapti) with what it is meant to prove, so counter-examples exist. Many hasty generalisations are of this kind. The fix is to narrow the reason until it really holds in every case you rely on.",
+      "example": "'Strong kingdoms use spies, so using spies makes a kingdom strong': weak kingdoms used them too.",
+      "aliases": [
+        "inconclusive reason"
+      ],
+      "glosses": [],
+      "related": [
+        "hetvabhasa",
+        "vyapti",
+        "anumana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "viruddha",
+      "term": "Viruddha",
+      "devanagari": "विरुद्ध",
+      "pronunciation": "vi-ROOD-dhuh",
+      "category": "Fallacies",
+      "short": "Contradictory reason: the reason actually proves the opposite of what is claimed.",
+      "long": "A viruddha reason is invariably connected with the absence of the conclusion. The classical example is 'sound is eternal because it is produced': whatever is produced is impermanent. In debate it often appears when a point undermines the speaker's own thesis.",
+      "example": "'Peace is always best, because only war secures lasting peace.'",
+      "aliases": [
+        "contradictory reason"
+      ],
+      "glosses": [],
+      "related": [
+        "hetvabhasa",
+        "hetu",
+        "badhita"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "satpratipaksha",
+      "term": "Satpratipaksha",
+      "devanagari": "सत्प्रतिपक्ष",
+      "pronunciation": "sut-pruh-ti-PUK-shuh",
+      "category": "Fallacies",
+      "short": "Counterbalanced reason: an equally strong reason proves the opposite, so neither settles the matter.",
+      "long": "Here the reason is not obviously false, but it is matched by another reason of equal strength for the contrary thesis. The argument stalls. To escape it, show why your reason outweighs the other, for example with a better source.",
+      "example": "'Spies keep a king safe' answered by 'spies can be turned against the king', with nothing to tip the balance.",
+      "aliases": [
+        "counterbalanced reason"
+      ],
+      "glosses": [],
+      "related": [
+        "hetvabhasa",
+        "paksha",
+        "khandana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "badhita",
+      "term": "Badhita",
+      "devanagari": "बाधित",
+      "pronunciation": "BAA-dhi-tuh",
+      "category": "Fallacies",
+      "short": "Overridden (sublated) reason: the conclusion is already disproved by a stronger means of knowledge.",
+      "long": "A badhita argument may look well formed, but what it concludes is contradicted by perception, a reliable text or a stronger inference. The classical example is 'fire is cold because it is a substance'. In the app this often means a claim that the cited passage itself contradicts.",
+      "example": "Arguing that the Arthashastra forbids spies, when Book 1 sets out how to employ them.",
+      "aliases": [
+        "sublated reason",
+        "overridden reason"
+      ],
+      "glosses": [],
+      "related": [
+        "hetvabhasa",
+        "pratyaksha",
+        "shabda",
+        "viruddha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "pramana",
+      "term": "Pramana",
+      "devanagari": "प्रमाण",
+      "pronunciation": "pruh-MAA-nuh",
+      "category": "Means of knowledge",
+      "short": "A valid means of knowledge. Nyaya accepts four: perception, inference, comparison and testimony.",
+      "long": "Pramana answers the question 'how do you know?'. Indian schools disagree on the list: the Charvakas accept perception alone, Nyaya accepts four, and some Vedanta and Mimamsa thinkers add more. The app tracks a separate Elo rating for each of the four Nyaya pramanas and scores how well your chosen pramana fits the point you make.",
+      "example": "Quoting the Arthashastra is shabda; reasoning from what a policy would cause is anumana.",
+      "aliases": [
+        "pramanas"
+      ],
+      "glosses": [],
+      "related": [
+        "pratyaksha",
+        "anumana",
+        "upamana",
+        "shabda",
+        "elo"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "pratyaksha",
+      "term": "Pratyaksha",
+      "devanagari": "प्रत्यक्ष",
+      "pronunciation": "pruh-TYUK-shuh",
+      "category": "Means of knowledge",
+      "short": "Perception: knowledge from the senses. In debate, observed facts and documented events.",
+      "long": "Pratyaksha means 'before the eyes'. It is direct knowledge through the senses and is the base the other pramanas build on. The Arthashastra lists perception among the qualities of a capable mind. In the app, appealing to recorded events or data counts as pratyaksha.",
+      "example": "'The figures show defence imports fell last year' appeals to pratyaksha.",
+      "aliases": [],
+      "glosses": [
+        "perception"
+      ],
+      "related": [
+        "pramana",
+        "anumana",
+        "asiddha"
+      ],
+      "source_ids": [
+        "arth_6_1_02",
+        "arth_1_15_05"
+      ]
+    },
+    {
+      "slug": "anumana",
+      "term": "Anumana",
+      "devanagari": "अनुमान",
+      "pronunciation": "uh-noo-MAA-nuh",
+      "category": "Means of knowledge",
+      "short": "Inference: knowing something from a sign that is invariably linked to it, like fire from smoke.",
+      "long": "Anu means 'after' and mana 'measure': knowledge that follows from other knowledge. A sound inference needs a reason (hetu) present in the subject and a real rule (vyapti) linking it to the conclusion. The five-member argument is the standard way to state an inference for others.",
+      "example": "'A king who taxes harshly will lose his people's support, because oppressed subjects grow disaffected.'",
+      "aliases": [],
+      "glosses": [
+        "inference"
+      ],
+      "related": [
+        "pramana",
+        "vyapti",
+        "hetu",
+        "pancavayava"
+      ],
+      "source_ids": [
+        "arth_1_5_01",
+        "arth_6_1_02"
+      ]
+    },
+    {
+      "slug": "upamana",
+      "term": "Upamana",
+      "devanagari": "उपमान",
+      "pronunciation": "oo-puh-MAA-nuh",
+      "category": "Means of knowledge",
+      "short": "Comparison: knowing something new through its likeness to something known.",
+      "long": "The textbook case is a person told that a wild ox resembles a cow, who then recognises one in the forest. In debate, upamana covers well-chosen analogies and historical parallels. An analogy only works if the two cases really share the features that matter.",
+      "example": "'A treasury is like a reservoir: it must be filled in good years to last through drought.'",
+      "aliases": [],
+      "glosses": [
+        "comparison",
+        "analogy"
+      ],
+      "related": [
+        "pramana",
+        "udaharana"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "shabda",
+      "term": "Shabda",
+      "devanagari": "शब्द",
+      "pronunciation": "SHUB-duh",
+      "category": "Means of knowledge",
+      "short": "Testimony: knowledge from a reliable speaker or text. In the app, quoting a source passage.",
+      "long": "Shabda literally means 'word' or 'sound'. It is knowledge gained from the words of a trustworthy authority. In the app you use shabda when you cite a passage, including one from the rival guru's text ('champion the rival'). The Vedanta house earns a bonus on pramana fit when it argues from shabda.",
+      "example": "Citing Sun Tzu's chapter on spies against Chanakya is shabda.",
+      "aliases": [],
+      "glosses": [
+        "testimony"
+      ],
+      "related": [
+        "pramana",
+        "citation",
+        "vedanta"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "nyaya",
+      "term": "Nyaya",
+      "devanagari": "न्याय",
+      "pronunciation": "NYAA-yuh",
+      "category": "Clans",
+      "short": "The Indian school of logic and debate. In the app, the house that earns +5% on structure.",
+      "long": "Nyaya, 'method' or 'rule', is the philosophical school founded on the Nyaya Sutra attributed to Gautama (Akshapada). It developed the theory of pramanas, the five-member argument and the list of fallacies this app uses. Members of the Nyaya house get a 5% bonus on the structure part of their score.",
+      "example": "A Nyaya shishya is rewarded for laying out all five members cleanly.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "pancavayava",
+        "hetvabhasa",
+        "pramana",
+        "clan"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "vedanta",
+      "term": "Vedanta",
+      "devanagari": "वेदान्त",
+      "pronunciation": "vay-DAAN-tuh",
+      "category": "Clans",
+      "short": "Schools of thought based on the Upanishads. In the app, the house with +5% pramana fit on shabda.",
+      "long": "Vedanta means 'the end of the Veda' and refers to traditions that interpret the Upanishads, the Brahma Sutra and the Bhagavad Gita, such as those of Shankara and Ramanuja. They give great weight to scriptural testimony. The Vedanta house rewards arguing from a well-chosen text.",
+      "example": "A Vedanta shishya gains most by quoting the exact line that answers the guru.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "shabda",
+        "clan"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "charvaka",
+      "term": "Charvaka",
+      "devanagari": "चार्वाक",
+      "pronunciation": "CHAAR-vaa-kuh",
+      "category": "Clans",
+      "short": "The Indian materialist school, also called Lokayata. In the app, the house with +5% evidence when challenging.",
+      "long": "Charvakas held that perception is the only reliable means of knowledge and rejected claims beyond it. The school is also known as Lokayata, which the Arthashastra lists, with Sankhya and Yoga, as part of anvikshaki. The Charvaka house earns a bonus on evidence when it challenges a guru's claim.",
+      "example": "A Charvaka shishya asks: 'Where is the evidence that this ever worked?'",
+      "aliases": [
+        "lokayata"
+      ],
+      "glosses": [
+        "lokayata"
+      ],
+      "related": [
+        "pratyaksha",
+        "anvikshaki",
+        "clan"
+      ],
+      "source_ids": [
+        "arth_1_1_03"
+      ]
+    },
+    {
+      "slug": "arthashastra-house",
+      "term": "Arthashastra house",
+      "devanagari": null,
+      "pronunciation": "ar-thuh-SHAAS-truh",
+      "category": "Clans",
+      "short": "The house named after the science of statecraft. Earns +5% on responsiveness.",
+      "long": "This house takes its name from the Arthashastra tradition, which values practical judgement and answering the situation in front of you. Its members get a 5% bonus on responsiveness: how directly your khandana answers what the guru actually said.",
+      "example": "An Arthashastra shishya quotes the guru's last line and answers it point by point.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "arthashastra",
+        "clan",
+        "rubric"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "arthashastra",
+      "term": "Arthashastra",
+      "devanagari": "अर्थशास्त्र",
+      "pronunciation": "ar-thuh-SHAAS-truh",
+      "category": "Arthashastra",
+      "short": "The ancient Indian treatise on statecraft, economy and war attributed to Kautilya. Chanakya's source text.",
+      "long": "Artha means wealth, livelihood or material welfare, and shastra a systematic treatise; together, 'the science of political economy'. The text has fifteen books on the king's training, administration, law, foreign policy and war. It was rediscovered in a manuscript in 1905, and the app quotes R. Shamasastry's 1915 English translation of Books 1 and 6.",
+      "example": "Book 6 of the Arthashastra sets out the seven elements of a state and the circle of kings.",
+      "aliases": [
+        "arthasastra",
+        "artha shastra"
+      ],
+      "glosses": [
+        "arthasastra"
+      ],
+      "related": [
+        "kautilya",
+        "saptanga",
+        "mandala",
+        "dandaniti"
+      ],
+      "source_ids": [
+        "arth_1_5_04"
+      ]
+    },
+    {
+      "slug": "kautilya",
+      "term": "Kautilya",
+      "devanagari": "कौटिल्य",
+      "pronunciation": "kow-TIL-yuh",
+      "category": "Arthashastra",
+      "short": "The name the Arthashastra gives its author. Tradition identifies him with Chanakya, minister to Chandragupta Maurya.",
+      "long": "The text often states rival opinions and then says what 'Kautilya holds'. Indian tradition identifies Kautilya with Chanakya, also called Vishnugupta, who helped found the Maurya empire around the 4th century BCE. Scholars debate how much of the surviving text dates from that time.",
+      "example": "'Kautilya holds that four and only four are the sciences' (Book 1, Chapter 2).",
+      "aliases": [
+        "chanakya",
+        "vishnugupta"
+      ],
+      "glosses": [],
+      "related": [
+        "arthashastra",
+        "anvikshaki"
+      ],
+      "source_ids": [
+        "arth_1_1_03",
+        "arth_1_4_03",
+        "arth_1_7_03"
+      ]
+    },
+    {
+      "slug": "anvikshaki",
+      "term": "Anvikshaki",
+      "devanagari": "आन्वीक्षिकी",
+      "pronunciation": "aan-VEEK-shi-kee",
+      "category": "Arthashastra",
+      "short": "Critical inquiry or philosophy, the first of the four sciences a king must study.",
+      "long": "The Arthashastra counts four sciences: anvikshaki, the three Vedas (trayi), economics (varta) and government (dandaniti). It says anvikshaki comprises Sankhya, Yoga and Lokayata, and praises it as the lamp of all sciences because it steadies the mind and sharpens judgement.",
+      "example": "Studying how to test a claim before acting on it is anvikshaki.",
+      "aliases": [],
+      "glosses": [
+        "anvikshaki"
+      ],
+      "related": [
+        "trayi",
+        "varta",
+        "dandaniti",
+        "charvaka"
+      ],
+      "source_ids": [
+        "arth_1_1_01",
+        "arth_1_1_03",
+        "arth_1_1_04"
+      ]
+    },
+    {
+      "slug": "trayi",
+      "term": "Trayi",
+      "devanagari": "त्रयी",
+      "pronunciation": "TRUH-yee",
+      "category": "Arthashastra",
+      "short": "'The triple' Vedas: Sama, Rik and Yajus, one of the four sciences in the Arthashastra.",
+      "long": "The Arthashastra says the three Vedas fix the duties of the social orders and are where right and wrong conduct is learnt. Some earlier schools it quotes dismissed them as a mere pretext for government; Kautilya keeps them as one of four sciences.",
+      "example": "Shamasastry translates trayi as 'the triple Vedas'.",
+      "aliases": [],
+      "glosses": [
+        "triple vedas"
+      ],
+      "related": [
+        "anvikshaki",
+        "varta",
+        "dandaniti",
+        "dharma"
+      ],
+      "source_ids": [
+        "arth_1_1_01",
+        "arth_1_3_01"
+      ]
+    },
+    {
+      "slug": "varta",
+      "term": "Varta",
+      "devanagari": "वार्ता",
+      "pronunciation": "VAAR-taa",
+      "category": "Arthashastra",
+      "short": "Economics: agriculture, cattle-breeding and trade, one of the four sciences.",
+      "long": "Varta brings in grain, cattle, gold, forest produce and labour. The Arthashastra stresses that the treasury and army, and so the king's control over friend and foe, depend on it. The school of Brihaspati is quoted as holding that varta and government are the only sciences.",
+      "example": "A khandana about taxes and trade is an argument about varta.",
+      "aliases": [
+        "vartta"
+      ],
+      "glosses": [
+        "varta"
+      ],
+      "related": [
+        "kosha",
+        "anvikshaki",
+        "dandaniti"
+      ],
+      "source_ids": [
+        "arth_1_1_01",
+        "arth_1_4_01"
+      ]
+    },
+    {
+      "slug": "dandaniti",
+      "term": "Dandaniti",
+      "devanagari": "दण्डनीति",
+      "pronunciation": "DUN-duh-NEE-ti",
+      "category": "Arthashastra",
+      "short": "The science of government, literally 'the policy of the rod': how to use punishment and force well.",
+      "long": "The Arthashastra calls dandaniti the means to acquire what one lacks, keep what one has, increase it and share it with the deserving. The other three sciences depend on it for their safety. Its central tool is danda, punishment administered with judgement.",
+      "example": "The question 'how harsh should a ruler be?' belongs to dandaniti.",
+      "aliases": [
+        "danda-niti",
+        "danda niti"
+      ],
+      "glosses": [
+        "danda-niti",
+        "dandaniti"
+      ],
+      "related": [
+        "danda",
+        "anvikshaki",
+        "matsya-nyaya"
+      ],
+      "source_ids": [
+        "arth_1_1_01",
+        "arth_1_4_02",
+        "arth_1_5_02"
+      ]
+    },
+    {
+      "slug": "danda",
+      "term": "Danda",
+      "devanagari": "दण्ड",
+      "pronunciation": "DUN-duh",
+      "category": "Arthashastra",
+      "short": "The rod: punishment and coercive power. In the list of state elements it also means the army.",
+      "long": "Kautilya argues that punishment should be neither severe, which makes the king hated, nor mild, which makes him despised, but deserved. Justly applied it makes people devoted to right conduct and productive work. Among the seven elements of the state, danda names the army; as one of the four expedients it means force.",
+      "example": "'Whoever imposes severe punishment becomes repulsive to the people' (Book 1, Chapter 4).",
+      "aliases": [],
+      "glosses": [
+        "danda",
+        "punishment"
+      ],
+      "related": [
+        "dandaniti",
+        "matsya-nyaya",
+        "saptanga",
+        "upaya"
+      ],
+      "source_ids": [
+        "arth_1_4_02",
+        "arth_1_4_03",
+        "arth_1_5_01"
+      ]
+    },
+    {
+      "slug": "matsya-nyaya",
+      "term": "Matsya nyaya",
+      "devanagari": "मात्स्यन्याय",
+      "pronunciation": "MAAT-syuh NYAA-yuh",
+      "category": "Arthashastra",
+      "short": "'The law of the fishes': without government, the big fish eat the small ones.",
+      "long": "The Arthashastra warns that if the law of punishment is suspended, the strong swallow the weak, as large fish eat small fish. Under a ruler who applies danda, the weak can resist the strong. The proverb is a classic Indian argument for why a state is needed at all.",
+      "example": "'In the absence of a magistrate, the strong will swallow the weak' (Book 1, Chapter 4).",
+      "aliases": [
+        "matsyanyaya",
+        "matsya-nyaya",
+        "law of the fishes"
+      ],
+      "glosses": [
+        "proverb of fishes",
+        "matsyanyaya"
+      ],
+      "related": [
+        "danda",
+        "dandaniti"
+      ],
+      "source_ids": [
+        "arth_1_4_04"
+      ]
+    },
+    {
+      "slug": "saptanga",
+      "term": "Saptanga",
+      "devanagari": "सप्ताङ्ग",
+      "pronunciation": "sup-TAAN-guh",
+      "category": "Arthashastra",
+      "short": "The seven elements of a state: king, minister, country, fort, treasury, army and ally.",
+      "long": "Book 6 of the Arthashastra opens with these 'elements of sovereignty' (prakriti) and describes the best form of each. A king with excellent elements, it says, can win the whole earth even from a small territory. Later Indian political thought often calls the scheme saptanga, 'seven limbs'.",
+      "example": "A weak treasury is a flaw in one of the seven elements.",
+      "aliases": [
+        "seven elements",
+        "elements of sovereignty"
+      ],
+      "glosses": [
+        "elements of sovereignty",
+        "seven elements"
+      ],
+      "related": [
+        "svami",
+        "amatya",
+        "janapada",
+        "durga",
+        "kosha",
+        "danda",
+        "mitra"
+      ],
+      "source_ids": [
+        "arth_6_1_01",
+        "arth_6_1_07",
+        "arth_6_1_08"
+      ]
+    },
+    {
+      "slug": "svami",
+      "term": "Svami",
+      "devanagari": "स्वामी",
+      "pronunciation": "SWAA-mee",
+      "category": "Arthashastra",
+      "short": "The ruler, first of the seven elements of the state.",
+      "long": "Svami means 'master' or 'lord'. The Arthashastra lists the ideal ruler's qualities: noble birth, piety, truthfulness, gratitude, energy, a sharp intellect, discipline and readiness to take advice. Its education and self-control fill much of Book 1.",
+      "example": "Book 6, Chapter 1 begins its list of elements with the king.",
+      "aliases": [
+        "swami"
+      ],
+      "glosses": [
+        "the king"
+      ],
+      "related": [
+        "saptanga",
+        "arishadvarga",
+        "vinaya"
+      ],
+      "source_ids": [
+        "arth_6_1_01"
+      ]
+    },
+    {
+      "slug": "amatya",
+      "term": "Amatya",
+      "devanagari": "अमात्य",
+      "pronunciation": "uh-MAAT-yuh",
+      "category": "Arthashastra",
+      "short": "A minister or high officer of state, second of the seven elements.",
+      "long": "Amatyas run the departments of government. The Arthashastra discusses at length whom to appoint and has the king test their loyalty through secret temptations (upadha) before giving them office.",
+      "example": "Book 1, Chapter 10 describes how the king tests his amatyas.",
+      "aliases": [
+        "amatyas"
+      ],
+      "glosses": [
+        "amatya",
+        "minister"
+      ],
+      "related": [
+        "mantri",
+        "upadha",
+        "saptanga"
+      ],
+      "source_ids": [
+        "arth_1_10_01",
+        "arth_1_10_08"
+      ]
+    },
+    {
+      "slug": "mantri",
+      "term": "Mantri",
+      "devanagari": "मन्त्री",
+      "pronunciation": "MUN-tree",
+      "category": "Arthashastra",
+      "short": "A counsellor in the king's inner council; Shamasastry renders it 'prime minister'.",
+      "long": "The word comes from mantra in the sense of 'counsel'. The Arthashastra holds that all state measures must be preceded by deliberation in a well-formed council whose matters are kept strictly secret. It discusses how many counsellors a king should consult and rejects endless consultation.",
+      "example": "'Assisted by his prime minister (mantri) and his high priest, the king shall...' (Book 1, Chapter 10).",
+      "aliases": [
+        "mantrin"
+      ],
+      "glosses": [
+        "mantri",
+        "council"
+      ],
+      "related": [
+        "amatya",
+        "purohita"
+      ],
+      "source_ids": [
+        "arth_1_10_01",
+        "arth_1_15_01",
+        "arth_1_15_09"
+      ]
+    },
+    {
+      "slug": "purohita",
+      "term": "Purohita",
+      "devanagari": "पुरोहित",
+      "pronunciation": "poo-ROH-hi-tuh",
+      "category": "Arthashastra",
+      "short": "The royal priest and adviser, learned in the Vedas, omens and statecraft.",
+      "long": "The Arthashastra says the king should appoint as high priest a man of high family and good character, learned in the Vedas and in averting calamities, and follow him as a student follows a teacher. The purohita takes part in testing ministers.",
+      "example": "Shamasastry translates purohita as 'high priest'.",
+      "aliases": [],
+      "glosses": [
+        "high priest"
+      ],
+      "related": [
+        "mantri",
+        "upadha"
+      ],
+      "source_ids": [
+        "arth_1_9_04",
+        "arth_1_10_01"
+      ]
+    },
+    {
+      "slug": "janapada",
+      "term": "Janapada",
+      "devanagari": "जनपद",
+      "pronunciation": "JUN-uh-puh-duh",
+      "category": "Arthashastra",
+      "short": "The country and its people, the territory of the state; third of the seven elements.",
+      "long": "The Arthashastra's ideal janapada has good land, water, forests and mines, defensible borders and hard-working, loyal people. The king's spies watch both citizens and country people to learn whether they are content.",
+      "example": "Shamasastry lists it simply as 'the country'.",
+      "aliases": [],
+      "glosses": [
+        "the country"
+      ],
+      "related": [
+        "saptanga",
+        "durga"
+      ],
+      "source_ids": [
+        "arth_6_1_01"
+      ]
+    },
+    {
+      "slug": "durga",
+      "term": "Durga",
+      "devanagari": "दुर्ग",
+      "pronunciation": "DOOR-guh",
+      "category": "Arthashastra",
+      "short": "The fort or fortified capital, fourth of the seven elements.",
+      "long": "Durga means 'hard to approach'. The Arthashastra treats forts as the strong point where the treasury and army are kept safe. In Book 6 the fort is listed between the country and the treasury.",
+      "example": "A besieged king, says Book 6, may take shelter in a fort.",
+      "aliases": [],
+      "glosses": [
+        "the fort"
+      ],
+      "related": [
+        "saptanga",
+        "janapada",
+        "kosha"
+      ],
+      "source_ids": [
+        "arth_6_1_01",
+        "arth_6_2_09"
+      ]
+    },
+    {
+      "slug": "kosha",
+      "term": "Kosha",
+      "devanagari": "कोश",
+      "pronunciation": "KOH-shuh",
+      "category": "Arthashastra",
+      "short": "The treasury, fifth of the seven elements; the state's reserve of wealth.",
+      "long": "The Arthashastra describes the best treasury as one lawfully filled and large enough to last through long calamities. With the army, the treasury is how the king holds both his own party and his enemy's under control, and both depend on varta.",
+      "example": "'Capable to withstand calamities of long duration is the best treasury' (Book 6, Chapter 1).",
+      "aliases": [
+        "kosa"
+      ],
+      "glosses": [
+        "treasury"
+      ],
+      "related": [
+        "saptanga",
+        "varta",
+        "durga"
+      ],
+      "source_ids": [
+        "arth_6_1_01",
+        "arth_6_1_04",
+        "arth_1_4_01"
+      ]
+    },
+    {
+      "slug": "mitra",
+      "term": "Mitra",
+      "devanagari": "मित्र",
+      "pronunciation": "MIT-ruh",
+      "category": "Arthashastra",
+      "short": "The ally, last of the seven elements and the king beyond your neighbouring enemy in the circle of states.",
+      "long": "In Book 6 the king whose territory lies just beyond the enemy's is the natural friend, because he shares that enemy. The text also describes the best kind of ally: long-standing, steady, under one's influence and able to mobilise quickly and on a large scale.",
+      "example": "'The enemy of my enemy is my friend' is the logic of the mitra.",
+      "aliases": [],
+      "glosses": [
+        "friend"
+      ],
+      "related": [
+        "ari",
+        "vijigishu",
+        "mandala",
+        "saptanga"
+      ],
+      "source_ids": [
+        "arth_6_2_04",
+        "arth_6_2_07",
+        "arth_6_1_06"
+      ]
+    },
+    {
+      "slug": "vijigishu",
+      "term": "Vijigishu",
+      "devanagari": "विजिगीषु",
+      "pronunciation": "vi-ji-GEE-shoo",
+      "category": "Arthashastra",
+      "short": "'The one who wishes to conquer': the king at the centre of the circle of states.",
+      "long": "Shamasastry translates vijigishu as 'the conqueror'. Book 6 defines him as a king of good character with the best elements of sovereignty, 'the fountain of policy'. The whole theory of the circle of states is laid out from his point of view.",
+      "example": "In the mandala, every other king is defined by where he sits relative to the vijigishu.",
+      "aliases": [],
+      "glosses": [
+        "conqueror"
+      ],
+      "related": [
+        "ari",
+        "mitra",
+        "madhyama",
+        "udasina",
+        "mandala"
+      ],
+      "source_ids": [
+        "arth_6_2_04",
+        "arth_6_2_09"
+      ]
+    },
+    {
+      "slug": "ari",
+      "term": "Ari",
+      "devanagari": "अरि",
+      "pronunciation": "UH-ree",
+      "category": "Arthashastra",
+      "short": "The enemy: in the circle of states, the king whose territory borders the conqueror's.",
+      "long": "The Arthashastra treats the immediate neighbour as the natural enemy, because neighbours compete for the same land. It distinguishes a natural enemy, of high birth with an adjacent territory, from one who is hostile only for a time.",
+      "example": "'A neighbouring foe of considerable power is styled an enemy' (Book 6, Chapter 2).",
+      "aliases": [],
+      "glosses": [
+        "enemy"
+      ],
+      "related": [
+        "mitra",
+        "vijigishu",
+        "mandala"
+      ],
+      "source_ids": [
+        "arth_6_2_05",
+        "arth_6_2_07"
+      ]
+    },
+    {
+      "slug": "madhyama",
+      "term": "Madhyama",
+      "devanagari": "मध्यम",
+      "pronunciation": "MUDH-yuh-muh",
+      "category": "Arthashastra",
+      "short": "The middle king, bordering both the conqueror and his enemy and able to help or resist either.",
+      "long": "Shamasastry renders madhyama as 'mediatory'. Because he can tip the balance between the conqueror and the enemy, winning or neutralising the madhyama is a key aim of the conqueror's diplomacy.",
+      "example": "A regional power courted by two rivals plays the madhyama.",
+      "aliases": [],
+      "glosses": [
+        "madhyama"
+      ],
+      "related": [
+        "udasina",
+        "vijigishu",
+        "ari",
+        "mandala"
+      ],
+      "source_ids": [
+        "arth_6_2_08",
+        "arth_6_2_09"
+      ]
+    },
+    {
+      "slug": "udasina",
+      "term": "Udasina",
+      "devanagari": "उदासीन",
+      "pronunciation": "oo-DAA-see-nuh",
+      "category": "Arthashastra",
+      "short": "The neutral king: a powerful state beyond the others, able to help or resist all of them.",
+      "long": "Udasina means 'sitting apart'. In Book 6 he is situated beyond the conqueror, the enemy and the madhyama and is stronger than each. With these, the conqueror's and enemy's friends make up the twelve primary kings of the circle.",
+      "example": "A distant great power that can shift the whole region is an udasina.",
+      "aliases": [],
+      "glosses": [
+        "udasina",
+        "neutral king"
+      ],
+      "related": [
+        "madhyama",
+        "mandala",
+        "vijigishu"
+      ],
+      "source_ids": [
+        "arth_6_2_08"
+      ]
+    },
+    {
+      "slug": "mandala",
+      "term": "Mandala",
+      "devanagari": "मण्डल",
+      "pronunciation": "MUN-duh-luh",
+      "category": "Arthashastra",
+      "short": "The circle of states: the map of enemies and allies around a king that guides his foreign policy.",
+      "long": "Book 6 arranges kings in rings around the conqueror: his neighbour is an enemy, the next an ally, the next the enemy's ally, and so on, with the madhyama and udasina outside. Each king brings his own elements of sovereignty, so the circle is also an accounting of power. It is often compared with balance-of-power thinking in modern international relations.",
+      "example": "Topics like 'Is the enemy of my enemy my friend?' come straight from the mandala.",
+      "aliases": [
+        "rajamandala",
+        "circle of states"
+      ],
+      "glosses": [
+        "circle of states",
+        "circles of states"
+      ],
+      "related": [
+        "vijigishu",
+        "ari",
+        "mitra",
+        "madhyama",
+        "udasina",
+        "sadgunya"
+      ],
+      "source_ids": [
+        "arth_6_2_09",
+        "arth_6_2_14"
+      ]
+    },
+    {
+      "slug": "sadgunya",
+      "term": "Sadgunya",
+      "devanagari": "षाड्गुण्य",
+      "pronunciation": "shaad-GOON-yuh",
+      "category": "Arthashastra",
+      "short": "The six measures of foreign policy: peace, war, waiting, marching, seeking shelter and the double policy.",
+      "long": "The six are sandhi (treaty), vigraha (hostility), asana (staying put), yana (marching), samshraya (seeking protection) and dvaidhibhava (peace with one, war with another). Book 6 calls this six-fold policy the source of peace and exertion; Book 7, not included in the app's corpus, works it out in detail.",
+      "example": "Making peace with one neighbour to fight another is dvaidhibhava, one of the six measures.",
+      "aliases": [
+        "shadgunya",
+        "six measures",
+        "six-fold policy"
+      ],
+      "glosses": [
+        "six-fold"
+      ],
+      "related": [
+        "mandala",
+        "shama-vyayama",
+        "vijigishu"
+      ],
+      "source_ids": [
+        "arth_6_2_01"
+      ]
+    },
+    {
+      "slug": "shama-vyayama",
+      "term": "Shama and vyayama",
+      "devanagari": "शम व्यायाम",
+      "pronunciation": "SHUH-muh, vyaa-YAA-muh",
+      "category": "Arthashastra",
+      "short": "Peace and exertion: enjoying the fruits of work undisturbed, and the effort to achieve them.",
+      "long": "Book 6, Chapter 2 opens by saying that acquiring and securing property depend on these two. Vyayama is the effort to complete works undertaken; shama is the absence of disturbance to enjoying their results. The six-fold policy exists to produce both.",
+      "example": "Shamasastry translates vyayama as 'industry'.",
+      "aliases": [
+        "vyayama"
+      ],
+      "glosses": [
+        "vyayama",
+        "industry"
+      ],
+      "related": [
+        "sadgunya",
+        "yogakshema"
+      ],
+      "source_ids": [
+        "arth_6_2_01"
+      ]
+    },
+    {
+      "slug": "yogakshema",
+      "term": "Yogakshema",
+      "devanagari": "योगक्षेम",
+      "pronunciation": "YOH-guh-KSHAY-muh",
+      "category": "Arthashastra",
+      "short": "Welfare as acquisition and security: gaining what people need and keeping it safe.",
+      "long": "Yoga here means acquiring and kshema means preserving. The Arthashastra makes the ruler responsible for the yogakshema of his subjects, and spies in Book 1 remind people that kings carry this duty. The phrase is still used in India for public welfare.",
+      "example": "'Kings took upon themselves the responsibility of maintaining the safety and security of their subjects (yogakshemavahah).'",
+      "aliases": [
+        "yoga-kshema"
+      ],
+      "glosses": [
+        "yogakshema",
+        "safety and security",
+        "acquisition and security"
+      ],
+      "related": [
+        "dandaniti",
+        "shama-vyayama"
+      ],
+      "source_ids": [
+        "arth_1_13_03",
+        "arth_1_5_01",
+        "arth_6_2_01"
+      ]
+    },
+    {
+      "slug": "dharma",
+      "term": "Dharma",
+      "devanagari": "धर्म",
+      "pronunciation": "DHUR-muh",
+      "category": "Arthashastra",
+      "short": "Right conduct and duty. Shamasastry often translates it 'righteousness'.",
+      "long": "Dharma is one of the three aims of life, with artha and kama. In the Arthashastra the king must keep people to their duties and himself act without violating dharma or economy. The word has many meanings across Indian thought; the app uses it only in the sense the cited text gives.",
+      "example": "'Righteous and unrighteous acts (dharmadharmau) are learnt from the triple Vedas.'",
+      "aliases": [],
+      "glosses": [
+        "righteousness",
+        "righteous"
+      ],
+      "related": [
+        "artha",
+        "trivarga",
+        "trayi"
+      ],
+      "source_ids": [
+        "arth_1_1_03",
+        "arth_1_4_03",
+        "arth_1_7_02"
+      ]
+    },
+    {
+      "slug": "artha",
+      "term": "Artha",
+      "devanagari": "अर्थ",
+      "pronunciation": "AR-thuh",
+      "category": "Arthashastra",
+      "short": "Wealth and material welfare, one of the three aims of life; the subject of the Arthashastra.",
+      "long": "Kautilya holds that artha is the chief aim, because dharma and kama depend on it. In a wider sense the text defines artha as the earth inhabited by people, and the science of acquiring and keeping it.",
+      "example": "'Kautilya holds that wealth and wealth alone is important' (Book 1, Chapter 7).",
+      "aliases": [],
+      "glosses": [
+        "wealth"
+      ],
+      "related": [
+        "dharma",
+        "trivarga",
+        "arthashastra"
+      ],
+      "source_ids": [
+        "arth_1_7_03",
+        "arth_1_17_09"
+      ]
+    },
+    {
+      "slug": "trivarga",
+      "term": "Trivarga",
+      "devanagari": "त्रिवर्ग",
+      "pronunciation": "tri-VUR-guh",
+      "category": "Arthashastra",
+      "short": "The three aims of life: dharma, artha and kama (right conduct, wealth and desire).",
+      "long": "The Arthashastra tells the king to pursue all three equally, since they depend on each other, and warns that excess in one harms the others. Shamasastry renders them 'charity, wealth, and desire'.",
+      "example": "A king who chases pleasure at the cost of the treasury breaks the balance of the trivarga.",
+      "aliases": [],
+      "glosses": [
+        "three pursuits"
+      ],
+      "related": [
+        "dharma",
+        "artha",
+        "arishadvarga"
+      ],
+      "source_ids": [
+        "arth_1_7_02"
+      ]
+    },
+    {
+      "slug": "arishadvarga",
+      "term": "Arishadvarga",
+      "devanagari": "अरिषड्वर्ग",
+      "pronunciation": "uh-ri-SHUD-vur-guh",
+      "category": "Arthashastra",
+      "short": "The six inner enemies a ruler must master: lust, anger, greed, vanity, haughtiness and overjoy.",
+      "long": "Book 1, Chapter 6 says self-control, on which learning and discipline depend, comes from abandoning these six. It lists kings who perished by giving in to one of them and others who ruled long by restraining their senses.",
+      "example": "A king who acts in anger has fallen to one of the six enemies.",
+      "aliases": [
+        "six enemies"
+      ],
+      "glosses": [
+        "six enemies"
+      ],
+      "related": [
+        "indriyajaya",
+        "vinaya",
+        "svami"
+      ],
+      "source_ids": [
+        "arth_1_6_01",
+        "arth_1_6_05",
+        "arth_1_7_01"
+      ]
+    },
+    {
+      "slug": "indriyajaya",
+      "term": "Indriyajaya",
+      "devanagari": "इन्द्रियजय",
+      "pronunciation": "IN-dree-yuh-JUH-yuh",
+      "category": "Arthashastra",
+      "short": "Restraint of the senses: the self-control the Arthashastra demands of a ruler.",
+      "long": "Shamasastry calls it 'restraint of the organs of sense' and defines it as the absence of discrepancy in perceiving sound, touch, colour, flavour and scent, together with following the sciences. It is achieved by overcoming the six enemies.",
+      "example": "Book 1, Chapter 6 is titled 'Restraint of the Organs of Sense'.",
+      "aliases": [],
+      "glosses": [
+        "restraint of the organs of sense"
+      ],
+      "related": [
+        "arishadvarga",
+        "vinaya"
+      ],
+      "source_ids": [
+        "arth_1_6_01",
+        "arth_1_6_05"
+      ]
+    },
+    {
+      "slug": "vinaya",
+      "term": "Vinaya",
+      "devanagari": "विनय",
+      "pronunciation": "vi-NUH-yuh",
+      "category": "Arthashastra",
+      "short": "Discipline gained through training and study; the foundation of good government.",
+      "long": "The Arthashastra says punishment, which secures life and property, itself depends on discipline. Discipline is of two kinds, artificial (learned) and natural, and is cultivated by studying the sciences under recognised teachers and keeping company with the aged.",
+      "example": "'Danda... is, in its turn, dependent on discipline (vinaya).'",
+      "aliases": [],
+      "glosses": [
+        "vinaya",
+        "discipline"
+      ],
+      "related": [
+        "indriyajaya",
+        "danda",
+        "anvikshaki"
+      ],
+      "source_ids": [
+        "arth_1_5_01",
+        "arth_1_5_03"
+      ]
+    },
+    {
+      "slug": "upaya",
+      "term": "Upaya",
+      "devanagari": "उपाय",
+      "pronunciation": "oo-PAA-yuh",
+      "category": "Arthashastra",
+      "short": "The four expedients: conciliation (sama), gifts (dana), dissension (bheda) and force (danda).",
+      "long": "These are the standard means a ruler uses to win people over or deal with opponents, usually tried in that order from gentlest to harshest. Book 1 applies them to disaffected factions inside the king's own state.",
+      "example": "'The disaffected shall be brought round by conciliation, by gifts, or by sowing dissension, or by punishment.'",
+      "aliases": [
+        "sama dana bheda danda",
+        "four expedients"
+      ],
+      "glosses": [
+        "conciliation",
+        "sowing dissension"
+      ],
+      "related": [
+        "danda",
+        "gudhapurusha"
+      ],
+      "source_ids": [
+        "arth_1_13_06",
+        "arth_1_13_04"
+      ]
+    },
+    {
+      "slug": "gudhapurusha",
+      "term": "Gudhapurusha",
+      "devanagari": "गूढपुरुष",
+      "pronunciation": "GOO-dhuh-POO-roo-shuh",
+      "category": "Arthashastra",
+      "short": "A secret agent. The Arthashastra describes many kinds of spies, in disguise, at home and abroad.",
+      "long": "Book 1, Chapters 11 and 12 set out the 'institution of spies': stationary spies posing as disciples, recluses, householders, merchants and ascetics, and wandering spies such as classmates, firebrands, poisoners and mendicant women. Spies report on ministers, officials, citizens and enemies, and are themselves checked by other spies.",
+      "example": "The topic 'Should a ruler use spies?' starts from these chapters.",
+      "aliases": [],
+      "glosses": [
+        "spies",
+        "espionage"
+      ],
+      "related": [
+        "satri",
+        "tikshna",
+        "upadha",
+        "five-spies"
+      ],
+      "source_ids": [
+        "arth_1_11_01",
+        "arth_1_12_07",
+        "arth_1_12_13"
+      ]
+    },
+    {
+      "slug": "satri",
+      "term": "Satri",
+      "devanagari": "सत्त्री",
+      "pronunciation": "SUT-tree",
+      "category": "Arthashastra",
+      "short": "'Classmate' spies: state-raised orphans trained in many arts who gather news through social contact.",
+      "long": "The Arthashastra describes them as orphans fed by the state and taught sciences, palmistry, sorcery, conjuring and omens. They test ministers' loyalty and stage disputes in public places to learn what people think of the king.",
+      "example": "Classmate spies argue for and against the king in assemblies to sound out public opinion.",
+      "aliases": [],
+      "glosses": [
+        "satri",
+        "classmate"
+      ],
+      "related": [
+        "gudhapurusha",
+        "tikshna",
+        "upadha"
+      ],
+      "source_ids": [
+        "arth_1_11_01",
+        "arth_1_12_01",
+        "arth_1_13_01"
+      ]
+    },
+    {
+      "slug": "tikshna",
+      "term": "Tikshna",
+      "devanagari": "तीक्ष्ण",
+      "pronunciation": "TEEKSH-nuh",
+      "category": "Arthashastra",
+      "short": "'Firebrand' spies: fearless desperados employed for dangerous work.",
+      "long": "The Arthashastra describes them as brave men of the country who, for money, would fight an elephant or a tiger with no regard for their own life. They serve close to the king, for example as bearers of the royal umbrella.",
+      "example": "Shamasastry calls them 'fire-brands or fiery spies'.",
+      "aliases": [],
+      "glosses": [
+        "tikshna",
+        "fiery spies"
+      ],
+      "related": [
+        "gudhapurusha",
+        "satri"
+      ],
+      "source_ids": [
+        "arth_1_11_01",
+        "arth_1_12_02",
+        "arth_1_12_05"
+      ]
+    },
+    {
+      "slug": "upadha",
+      "term": "Upadha",
+      "devanagari": "उपधा",
+      "pronunciation": "oo-PUH-dhaa",
+      "category": "Arthashastra",
+      "short": "Secret tests of a minister's loyalty by temptation: through religion, money, love and fear.",
+      "long": "Book 1, Chapter 10 describes the four allurements. Agents make a minister an offer under each pretext and watch whether he refuses. Ministers who pass a given test are placed in offices suited to it; those who fail are kept from sensitive work.",
+      "example": "Offering a treasury officer a bribe to see whether he refuses is a monetary upadha.",
+      "aliases": [
+        "upadhas"
+      ],
+      "glosses": [
+        "allurement",
+        "temptations"
+      ],
+      "related": [
+        "amatya",
+        "satri",
+        "purohita"
+      ],
+      "source_ids": [
+        "arth_1_10_01",
+        "arth_1_10_04",
+        "arth_1_10_08"
+      ]
+    },
+    {
+      "slug": "duta",
+      "term": "Duta",
+      "devanagari": "दूत",
+      "pronunciation": "DOO-tuh",
+      "category": "Arthashastra",
+      "short": "An envoy. The Arthashastra ranks envoys by how much authority they carry.",
+      "long": "Book 1, Chapter 16 names three grades: an envoy with full powers, one with a limited mission and a bearer of royal writs. Envoys deliver messages faithfully, make friends with the enemy's officers and quietly learn the strength of the other state.",
+      "example": "'Whoever has succeeded as a councillor is an envoy' (Book 1, Chapter 16).",
+      "aliases": [
+        "dootha"
+      ],
+      "glosses": [
+        "envoy"
+      ],
+      "related": [
+        "mantri",
+        "gudhapurusha",
+        "mandala"
+      ],
+      "source_ids": [
+        "arth_1_16_01",
+        "arth_1_16_02",
+        "arth_1_16_03"
+      ]
+    },
+    {
+      "slug": "art-of-war",
+      "term": "The Art of War",
+      "devanagari": null,
+      "origin": "Chinese: 孫子兵法 (Sunzi bingfa)",
+      "pronunciation": "SOON-dzuh BING-fah",
+      "category": "Art of War",
+      "short": "The Chinese military classic in thirteen chapters attributed to Sun Tzu. The app quotes Lionel Giles's 1910 translation.",
+      "long": "The book treats war as a matter of life and death for the state, to be studied through calculation rather than courage alone. It covers planning, cost, strategy, terrain, deception and the use of spies. Most scholars date the text to the Warring States period (5th to 3rd century BCE).",
+      "example": "'The art of war is of vital importance to the State' (Chapter 1).",
+      "aliases": [
+        "Art of War",
+        "Sunzi bingfa"
+      ],
+      "glosses": [
+        "the art of war"
+      ],
+      "related": [
+        "sun-tzu",
+        "five-constant-factors",
+        "deception"
+      ],
+      "source_ids": [
+        "aow_1_01",
+        "aow_11_01"
+      ]
+    },
+    {
+      "slug": "sun-tzu",
+      "term": "Sun Tzu",
+      "devanagari": null,
+      "origin": "Chinese: 孫子 (Sunzi), 'Master Sun'",
+      "pronunciation": "SOON dzuh",
+      "category": "Art of War",
+      "short": "'Master Sun', the general traditionally named as author of The Art of War.",
+      "long": "Tradition identifies him as Sun Wu, a general serving the state of Wu around the late 6th century BCE. Historians are unsure how much is known about him and think the text grew over time. Each chapter opens 'Sun Tzu said'.",
+      "example": "'Sun Tzu said: We may distinguish six kinds of terrain' (Chapter 10).",
+      "aliases": [
+        "sunzi",
+        "sun tzu"
+      ],
+      "glosses": [
+        "sun tzu"
+      ],
+      "related": [
+        "art-of-war"
+      ],
+      "source_ids": [
+        "aow_10_01",
+        "aow_11_01"
+      ]
+    },
+    {
+      "slug": "five-constant-factors",
+      "term": "Five constant factors",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Sun Tzu's checklist for judging a war: the Moral Law, Heaven, Earth, the Commander, Method and discipline.",
+      "long": "Chapter 1 says every general must weigh these five before fighting: whether the people are united with their ruler, the weather and seasons, the ground, the commander's virtues, and the army's organisation and supply. Comparing both sides on them lets one forecast victory or defeat.",
+      "example": "Before a debate, compare your evidence and the guru's like Sun Tzu compares two armies.",
+      "aliases": [
+        "five factors"
+      ],
+      "glosses": [
+        "five constant factors"
+      ],
+      "related": [
+        "moral-law",
+        "art-of-war"
+      ],
+      "source_ids": [
+        "aow_1_01"
+      ]
+    },
+    {
+      "slug": "moral-law",
+      "term": "Moral Law",
+      "devanagari": null,
+      "origin": "Chinese: 道 (dao), 'the way'",
+      "pronunciation": "dow",
+      "category": "Art of War",
+      "short": "Giles's rendering of dao: what makes the people fully in accord with their ruler.",
+      "long": "The first of the five constant factors. Sun Tzu says that when it holds, people will follow their ruler regardless of danger to their lives. A consummate leader cultivates it. Other translators render the word as 'the Way' or 'moral influence'.",
+      "example": "'The Moral Law causes the people to be in complete accord with their ruler' (Chapter 1).",
+      "aliases": [
+        "dao"
+      ],
+      "glosses": [
+        "moral law"
+      ],
+      "related": [
+        "five-constant-factors"
+      ],
+      "source_ids": [
+        "aow_1_01",
+        "aow_1_12",
+        "aow_4_16"
+      ]
+    },
+    {
+      "slug": "deception",
+      "term": "Deception",
+      "devanagari": null,
+      "origin": "Chinese: 詭道 (guidao)",
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Sun Tzu's principle that 'all warfare is based on deception'.",
+      "long": "When able to attack, seem unable; when near, seem far. Sun Tzu advises hiding one's strength, baiting the enemy and striking where unexpected. The principle is often debated: is cunning a virtue in a ruler or a general?",
+      "example": "'All warfare is based on deception' (Chapter 1).",
+      "aliases": [],
+      "glosses": [
+        "deception"
+      ],
+      "related": [
+        "direct-and-indirect",
+        "five-spies"
+      ],
+      "source_ids": [
+        "aow_1_15",
+        "aow_13_09"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "direct-and-indirect",
+      "term": "Direct and indirect",
+      "devanagari": null,
+      "origin": "Chinese: 正 / 奇 (zheng / qi)",
+      "pronunciation": "jung / chee",
+      "category": "Art of War",
+      "short": "The orthodox and the surprising move. Use the direct to engage and the indirect to win.",
+      "long": "Sun Tzu says there are only two methods of attack, yet their combinations are endless, like the five notes of music. The direct holds the enemy in place; the indirect, unexpected, decides the battle. Each can turn into the other.",
+      "example": "'The direct method may be used for joining battle, but indirect methods will be needed in order to secure victory.'",
+      "aliases": [
+        "zheng and qi",
+        "cheng and ch'i"
+      ],
+      "glosses": [
+        "direct and the indirect",
+        "indirect methods",
+        "direct and indirect"
+      ],
+      "related": [
+        "energy",
+        "deception"
+      ],
+      "source_ids": [
+        "aow_5_01",
+        "aow_5_05",
+        "aow_5_09"
+      ]
+    },
+    {
+      "slug": "energy",
+      "term": "Energy",
+      "devanagari": null,
+      "origin": "Chinese: 勢 (shi)",
+      "pronunciation": "shir",
+      "category": "Art of War",
+      "short": "Giles's word for shi: the momentum or advantage of position that makes force decisive.",
+      "long": "Chapter 5 likens it to a crossbow drawn back or a round stone rolled down a mountain. A clever commander looks to combined energy, not to individual effort, and chooses the moment of release. Other translators use 'momentum', 'potential' or 'strategic advantage'.",
+      "example": "'Energy may be likened to the bending of a crossbow; decision, to the releasing of a trigger.'",
+      "aliases": [
+        "shi"
+      ],
+      "glosses": [
+        "energy",
+        "momentum"
+      ],
+      "related": [
+        "direct-and-indirect",
+        "weak-points-and-strong"
+      ],
+      "source_ids": [
+        "aow_5_14",
+        "aow_5_19",
+        "aow_5_23"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "weak-points-and-strong",
+      "term": "Weak points and strong",
+      "devanagari": null,
+      "origin": "Chinese: 虛實 (xu shi), 'empty and full'",
+      "pronunciation": "shoo shir",
+      "category": "Art of War",
+      "short": "Attack where the enemy is weak and avoid where he is strong; title of Chapter 6.",
+      "long": "Sun Tzu teaches that the attacker should go where the enemy is unprepared and make his own weak points invisible. Like water, an army avoids the high and flows to the low. Your army then strikes 'like a grindstone dashed against an egg'.",
+      "example": "In a khandana, attack the guru's least supported claim, not the best cited one.",
+      "aliases": [
+        "xu and shi"
+      ],
+      "glosses": [
+        "weak points"
+      ],
+      "related": [
+        "energy",
+        "deception"
+      ],
+      "source_ids": [
+        "aow_5_01",
+        "aow_6_10"
+      ]
+    },
+    {
+      "slug": "winning-without-fighting",
+      "term": "Winning without fighting",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Sun Tzu's 'supreme excellence': breaking the enemy's resistance without battle.",
+      "long": "Chapter 3 ranks strategies: best is to defeat the enemy's plans, next his alliances, then his army, and worst of all to besiege cities. To fight and win every battle is not the highest skill.",
+      "example": "'Supreme excellence consists in breaking the enemy's resistance without fighting.'",
+      "aliases": [
+        "supreme excellence"
+      ],
+      "glosses": [
+        "without fighting"
+      ],
+      "related": [
+        "know-the-enemy",
+        "art-of-war"
+      ],
+      "source_ids": [
+        "aow_3_01"
+      ]
+    },
+    {
+      "slug": "know-the-enemy",
+      "term": "Know the enemy and know yourself",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Sun Tzu's saying that knowledge of both sides decides victory.",
+      "long": "If you know both the enemy and yourself, you need not fear a hundred battles; if you know only yourself, every victory is matched by a defeat; if neither, you lose every battle. The saying appears in Chapters 3 and 10.",
+      "example": "Read the guru's text before you debate: that is knowing the enemy.",
+      "aliases": [
+        "know your enemy"
+      ],
+      "glosses": [
+        "know the enemy"
+      ],
+      "related": [
+        "winning-without-fighting",
+        "foreknowledge"
+      ],
+      "source_ids": [
+        "aow_3_18",
+        "aow_10_31"
+      ]
+    },
+    {
+      "slug": "nine-grounds",
+      "term": "Nine grounds",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Sun Tzu's nine kinds of strategic situation, from dispersive ground to desperate ground.",
+      "long": "Chapter 11 lists dispersive, facile, contentious, open, intersecting, serious, difficult, hemmed-in and desperate ground, with the right conduct for each. On desperate ground, for instance, an army must fight because there is no escape. Chapter 10 separately lists six kinds of terrain.",
+      "example": "'On desperate ground, fight' (Chapter 11).",
+      "aliases": [
+        "nine varieties of ground"
+      ],
+      "glosses": [
+        "nine varieties of ground",
+        "terrain"
+      ],
+      "related": [
+        "sun-tzu",
+        "five-constant-factors"
+      ],
+      "source_ids": [
+        "aow_11_01",
+        "aow_10_01"
+      ]
+    },
+    {
+      "slug": "five-spies",
+      "term": "Five kinds of spies",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Sun Tzu's local, inward, converted, doomed and surviving spies.",
+      "long": "Chapter 13 says that when all five work together, no one can discover the system, and calls it the sovereign's most precious faculty. Local spies are inhabitants of the enemy's district, inward spies are enemy officials, doomed spies carry false reports, and surviving spies return with news.",
+      "example": "Compare with the Arthashastra's spies when debating 'Should a ruler use spies?'.",
+      "aliases": [
+        "five classes of spies"
+      ],
+      "glosses": [
+        "five classes",
+        "spies"
+      ],
+      "related": [
+        "converted-spy",
+        "foreknowledge",
+        "gudhapurusha"
+      ],
+      "source_ids": [
+        "aow_13_03",
+        "aow_13_09"
+      ]
+    },
+    {
+      "slug": "converted-spy",
+      "term": "Converted spy",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "An enemy spy won over to your side; Sun Tzu calls him the key to all the others.",
+      "long": "Enemy spies should be sought out, bribed and comfortably housed. Through the converted spy one recruits local and inward spies, sends doomed spies with false news and times the return of surviving spies. So, Sun Tzu says, he must be treated with the utmost liberality.",
+      "example": "'Thus they will become converted spies and available for our service' (Chapter 13).",
+      "aliases": [
+        "converted spies",
+        "double agent"
+      ],
+      "glosses": [
+        "converted spies",
+        "converted spy"
+      ],
+      "related": [
+        "five-spies",
+        "foreknowledge"
+      ],
+      "source_ids": [
+        "aow_13_03",
+        "aow_13_21"
+      ]
+    },
+    {
+      "slug": "foreknowledge",
+      "term": "Foreknowledge",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Art of War",
+      "short": "Knowing the enemy's situation in advance, which Sun Tzu says can only come from people, not spirits.",
+      "long": "Chapter 13 says foreknowledge is what lets a wise ruler and good general win where ordinary men fail. It cannot be gained from spirits, from analogy with past events or from calculation, only from men who know the enemy's situation, that is, spies.",
+      "example": "'This foreknowledge cannot be elicited from spirits' (Chapter 13).",
+      "aliases": [],
+      "glosses": [
+        "foreknowledge"
+      ],
+      "related": [
+        "five-spies",
+        "know-the-enemy"
+      ],
+      "source_ids": [
+        "aow_13_03"
+      ]
+    },
+    {
+      "slug": "military-maxims",
+      "term": "Military Maxims of Napoleon",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "A collection of 78 short rules of war attributed to Napoleon; the app quotes D'Aguilar's 1831 English edition.",
+      "long": "The maxims were compiled after Napoleon's death from his writings and sayings and published in French; the attribution of each maxim is not always certain. Sir G. C. D'Aguilar's English translation added editorial notes, which the app leaves out so the guru speaks only from the maxims.",
+      "example": "Maxim 12: 'An army ought to have only one line of operation.'",
+      "aliases": [
+        "Napoleon's maxims"
+      ],
+      "glosses": [
+        "maxim"
+      ],
+      "related": [
+        "line-of-operation",
+        "unity-of-command"
+      ],
+      "source_ids": [
+        "nap_max_016",
+        "nap_max_024"
+      ]
+    },
+    {
+      "slug": "line-of-operation",
+      "term": "Line of operation",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "The route linking an army to its base, along which it advances and is supplied.",
+      "long": "The maxims insist an army should have only one line of operation, guard it carefully and abandon it only for the gravest reasons. Changing it skilfully can be a master stroke, but losing it cuts the army off from reinforcements and supply.",
+      "example": "'An army ought to have only one line of operation' (Maxim 12).",
+      "aliases": [
+        "lines of operation",
+        "line of operations"
+      ],
+      "glosses": [
+        "line of operation"
+      ],
+      "related": [
+        "unity-of-command",
+        "military-maxims"
+      ],
+      "source_ids": [
+        "nap_max_012",
+        "nap_max_020",
+        "nap_max_004"
+      ]
+    },
+    {
+      "slug": "unity-of-command",
+      "term": "Unity of command",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "One army, one base, one chief: the maxim that a war against one power needs a single commander.",
+      "long": "Maxim 64 says that in a war against a single power there should be only one army acting on one base under one chief. Divided command, the maxims argue, leads to hesitation and defeat.",
+      "example": "'There should be only one army, acting upon one base, and conducted by one chief.'",
+      "aliases": [],
+      "glosses": [
+        "one chief"
+      ],
+      "related": [
+        "council-of-war",
+        "line-of-operation"
+      ],
+      "source_ids": [
+        "nap_max_064"
+      ]
+    },
+    {
+      "slug": "council-of-war",
+      "term": "Council of war",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "A meeting of officers to decide a course of action, which Maxim 65 distrusts.",
+      "long": "Maxim 65 claims that long discussions and councils of war end by adopting the most timid course, and that the only true wisdom in a general is determined courage. It is a useful contrast with the Arthashastra, which requires deliberation in council before any measure.",
+      "example": "'The only true wisdom in a general is determined courage' (Maxim 65).",
+      "aliases": [
+        "councils of war"
+      ],
+      "glosses": [
+        "councils of war"
+      ],
+      "related": [
+        "unity-of-command",
+        "mantri"
+      ],
+      "source_ids": [
+        "nap_max_065"
+      ]
+    },
+    {
+      "slug": "mass-and-rapidity",
+      "term": "Mass and rapidity",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "Maxim 9: an army's strength is its mass multiplied by its speed.",
+      "long": "The maxim borrows from mechanics: strength equals mass times rapidity. A rapid march raises morale and increases the means of victory. When an army is outnumbered, the maxims advise making up the lack with speed of movement.",
+      "example": "'A rapid march augments the morale of an army, and increases its means of victory. Press on!'",
+      "aliases": [],
+      "glosses": [
+        "rapidity"
+      ],
+      "related": [
+        "morale",
+        "offensive-and-defensive"
+      ],
+      "source_ids": [
+        "nap_max_009",
+        "nap_max_010"
+      ]
+    },
+    {
+      "slug": "morale",
+      "term": "Morale",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "The confidence and fighting spirit of troops, which the maxims treat as a real military force.",
+      "long": "Rapid marches raise morale; retreats, however skilful, lower it. When an army is weaker in numbers, cavalry and artillery, 'the morale of the soldier does much'.",
+      "example": "'However skilful the manœuvres in a retreat, it will always weaken the morale of an army' (Maxim 6).",
+      "aliases": [],
+      "glosses": [
+        "morale"
+      ],
+      "related": [
+        "mass-and-rapidity",
+        "moral-law"
+      ],
+      "source_ids": [
+        "nap_max_006",
+        "nap_max_009",
+        "nap_max_010"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "offensive-and-defensive",
+      "term": "Offensive and defensive",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "Attacking and holding ground. The maxims call the passage from one to the other most delicate.",
+      "long": "Once the offensive is taken, it must be sustained to the last extremity. Even when attacking, the maxims advise fighting defensive combats that oblige the enemy to attack you, and never attacking in front a position you can gain by turning it.",
+      "example": "'The transition from the defensive to the offensive is one of the most delicate operations' (Maxim 19).",
+      "aliases": [],
+      "glosses": [
+        "offensive",
+        "defensive"
+      ],
+      "related": [
+        "turning-movement",
+        "mass-and-rapidity"
+      ],
+      "source_ids": [
+        "nap_max_006",
+        "nap_max_014",
+        "nap_max_019"
+      ]
+    },
+    {
+      "slug": "turning-movement",
+      "term": "Turning movement",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "Going round the enemy's flank instead of attacking his front.",
+      "long": "Maxim 16 advises never to do what the enemy wishes, and so never to attack in front a position that can be gained by turning it. Occupying positions on the enemy's flank or rear forces him to abandon his position without a fight.",
+      "example": "'Never to attack a position in front which you can gain by turning' (Maxim 16).",
+      "aliases": [],
+      "glosses": [
+        "turning",
+        "flank"
+      ],
+      "related": [
+        "offensive-and-defensive",
+        "winning-without-fighting"
+      ],
+      "source_ids": [
+        "nap_max_016",
+        "nap_max_014",
+        "nap_max_025"
+      ]
+    },
+    {
+      "slug": "combined-arms",
+      "term": "Combined arms",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "Using infantry, cavalry and artillery together so each covers the others' weaknesses.",
+      "long": "Maxim 47 says the three arms are nothing without each other, and should be quartered so as to help each other in a surprise. Maxim 7 says infantry should never be without its artillery, cavalry and generals.",
+      "example": "'Infantry, cavalry, and artillery, are nothing without each other' (Maxim 47).",
+      "aliases": [],
+      "glosses": [
+        "infantry, cavalry, and artillery",
+        "artillery"
+      ],
+      "related": [
+        "advanced-guard",
+        "military-maxims"
+      ],
+      "source_ids": [
+        "nap_max_047",
+        "nap_max_007"
+      ]
+    },
+    {
+      "slug": "advanced-guard",
+      "term": "Advanced guard",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Napoleon",
+      "short": "The force ahead of the main army that scouts, screens and delays the enemy.",
+      "long": "Maxim 32 says its duty is not just to advance or retire but to manoeuvre. It should be made of picked troops: light cavalry supported by heavy cavalry, infantry battalions and artillery.",
+      "example": "'The duty of an advanced guard does not consist in advancing or retiring, but in manœuvring' (Maxim 32).",
+      "aliases": [
+        "advance guard"
+      ],
+      "glosses": [
+        "advanced guard"
+      ],
+      "related": [
+        "combined-arms"
+      ],
+      "source_ids": [
+        "nap_max_032"
+      ]
+    },
+    {
+      "slug": "stoicism",
+      "term": "Stoicism",
+      "devanagari": null,
+      "origin": "Greek: Στοά (Stoa), 'porch'",
+      "pronunciation": "STOH-i-sizm",
+      "category": "Stoicism",
+      "short": "The Greek and Roman philosophy that the good life is virtue, lived in agreement with nature and reason.",
+      "long": "Founded by Zeno of Citium in Athens around 300 BCE and named after the painted porch where he taught. Stoics held that only virtue is good, that external things are indifferent, and that our distress comes from our judgements. Marcus Aurelius wrote the Meditations in this tradition.",
+      "example": "Marcus Aurelius remarks that some doctrines seem hard to understand 'even to the Stoics themselves'.",
+      "aliases": [
+        "stoic",
+        "stoics"
+      ],
+      "glosses": [
+        "stoics"
+      ],
+      "related": [
+        "meditations",
+        "virtue",
+        "living-according-to-nature"
+      ],
+      "source_ids": [
+        "med_5_10",
+        "med_10_23"
+      ]
+    },
+    {
+      "slug": "meditations",
+      "term": "Meditations",
+      "devanagari": null,
+      "origin": "Greek: Τὰ εἰς ἑαυτόν (Ta eis heauton), 'to himself'",
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "Marcus Aurelius's private notebook of Stoic reflections, in twelve books. The app quotes George Long's 1862 translation.",
+      "long": "Marcus, Roman emperor from 161 to 180 CE, wrote these notes to himself in Greek, many reportedly while on campaign. Book 1 lists what he learnt from family and teachers; the rest returns again and again to death, duty, judgement and the whole of nature. The app uses the Standard Ebooks public-domain edition of Long's translation.",
+      "example": "'Take away thy opinion, and then there is taken away the complaint' (Book 4).",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "stoicism",
+        "ruling-faculty"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "ruling-faculty",
+      "term": "Ruling faculty",
+      "devanagari": null,
+      "origin": "Greek: ἡγεμονικόν (hegemonikon)",
+      "pronunciation": "hay-geh-mon-ih-KON",
+      "category": "Stoicism",
+      "short": "The mind's governing part, which judges, chooses and assents. For Marcus, it alone can be harmed or kept sound.",
+      "long": "Long translates hegemonikon as 'ruling faculty'. Marcus says it does not disturb itself, that no one else can make it worse, and that when self-collected it is invincible. Keeping it sound is the task of a whole life.",
+      "example": "'Remember that the ruling faculty is invincible, when self-collected' (Book 8).",
+      "aliases": [
+        "hegemonikon"
+      ],
+      "glosses": [
+        "ruling faculty"
+      ],
+      "related": [
+        "assent",
+        "impressions",
+        "daemon"
+      ],
+      "source_ids": [
+        "med_7_14",
+        "med_7_19",
+        "med_8_48"
+      ]
+    },
+    {
+      "slug": "daemon",
+      "term": "Daemon",
+      "devanagari": null,
+      "origin": "Greek: δαίμων (daimon)",
+      "pronunciation": "DEE-mun",
+      "category": "Stoicism",
+      "short": "The divine guiding spirit within each person; for Marcus, reason itself, to be kept pure.",
+      "long": "Marcus writes that Zeus gave every man a daemon as guardian and guide, which is his mind and reason. Philosophy consists in keeping it free from violence and unharmed, superior to pain and pleasure. It has nothing to do with the modern word 'demon'.",
+      "example": "'It is sufficient to attend to the daemon within him, and to reverence it sincerely' (Book 2).",
+      "aliases": [
+        "daimon"
+      ],
+      "glosses": [
+        "daemon"
+      ],
+      "related": [
+        "ruling-faculty",
+        "living-according-to-nature"
+      ],
+      "source_ids": [
+        "med_2_13",
+        "med_2_17",
+        "med_5_27"
+      ]
+    },
+    {
+      "slug": "virtue",
+      "term": "Virtue",
+      "devanagari": null,
+      "origin": "Greek: ἀρετή (arete), 'excellence'",
+      "pronunciation": "ah-reh-TAY",
+      "category": "Stoicism",
+      "short": "For the Stoics, the only true good: wisdom, justice, courage and self-control.",
+      "long": "Arete means excellence of character. Stoics counted four cardinal virtues; Marcus names justice, truth, temperance and fortitude and asks whether anything in life is better. Everything between virtue and vice is indifferent.",
+      "example": "'If thou findest in human life anything better than justice, truth, temperance, fortitude...' (Book 3).",
+      "aliases": [
+        "arete"
+      ],
+      "glosses": [
+        "virtue",
+        "justice"
+      ],
+      "related": [
+        "indifferents",
+        "stoicism"
+      ],
+      "source_ids": [
+        "med_3_06",
+        "med_7_30",
+        "med_6_16_c"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "indifferents",
+      "term": "Indifferents",
+      "devanagari": null,
+      "origin": "Greek: ἀδιάφορα (adiaphora)",
+      "pronunciation": "ah-dee-AH-foh-rah",
+      "category": "Stoicism",
+      "short": "Things neither good nor bad in themselves, such as wealth, health, fame and death.",
+      "long": "Stoics held that only virtue and vice matter morally; everything else is indifferent, though some indifferents are naturally preferred. Marcus says losses in such matters should not be imagined as damage, and that he still tries to judge the value of each.",
+      "example": "'In things indifferent I attempt to ascertain the value of each' (Book 3).",
+      "aliases": [
+        "adiaphora",
+        "things indifferent"
+      ],
+      "glosses": [
+        "indifferent",
+        "indifference"
+      ],
+      "related": [
+        "virtue",
+        "opinion"
+      ],
+      "source_ids": [
+        "med_3_11_b",
+        "med_5_36",
+        "med_7_30"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "impressions",
+      "term": "Impressions",
+      "devanagari": null,
+      "origin": "Greek: φαντασίαι (phantasiai)",
+      "pronunciation": "fan-tah-SEE-eye",
+      "category": "Stoicism",
+      "short": "How things first appear to the mind, before we judge them. Stoics train themselves to test each one.",
+      "long": "An impression is the raw appearance, such as 'he insulted me'. Animals receive impressions too; what is human is to examine them before giving assent. Long translates the Greek variously as 'impressions' and 'appearances'.",
+      "example": "'On the occasion of every impression maintain the faculty of comprehension' (Book 4).",
+      "aliases": [
+        "phantasia"
+      ],
+      "glosses": [
+        "impressions",
+        "impression",
+        "appearances"
+      ],
+      "related": [
+        "assent",
+        "opinion",
+        "ruling-faculty"
+      ],
+      "source_ids": [
+        "med_3_16",
+        "med_4_22",
+        "med_3_01"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "assent",
+      "term": "Assent",
+      "devanagari": null,
+      "origin": "Greek: συγκατάθεσις (synkatathesis)",
+      "pronunciation": "sin-kah-TAH-theh-sis",
+      "category": "Stoicism",
+      "short": "Agreeing that an impression is true. Stoics say assent is up to us and must be given carefully.",
+      "long": "For the Stoics we choose whether to accept an impression. Hasty assent is the root of false beliefs and passions. Marcus says one must find a rule for giving assent and notes that assent can change.",
+      "example": "'Nor hastily to give my assent to those who talk overmuch' (Book 1).",
+      "aliases": [],
+      "glosses": [
+        "assent"
+      ],
+      "related": [
+        "impressions",
+        "opinion"
+      ],
+      "source_ids": [
+        "med_1_07",
+        "med_5_10",
+        "med_11_35"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "opinion",
+      "term": "Opinion",
+      "devanagari": null,
+      "origin": "Greek: ὑπόληψις (hypolepsis), 'judgement'",
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "Our judgement about things; Marcus holds that disturbance comes from opinion, not from things themselves.",
+      "long": "Long often translates the Greek for 'judgement' as 'opinion'. Marcus repeats that it is within our power to take an opinion away, and that the complaint goes with it. 'All is opinion,' he writes, quoting the Cynic Monimus.",
+      "example": "'Take away thy opinion, and then there is taken away the complaint, \"I have been harmed\"' (Book 4).",
+      "aliases": [],
+      "glosses": [
+        "opinion"
+      ],
+      "related": [
+        "impressions",
+        "assent",
+        "indifferents"
+      ],
+      "source_ids": [
+        "med_2_15",
+        "med_4_03_c",
+        "med_4_07"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "living-according-to-nature",
+      "term": "Living according to nature",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "The Stoic goal: to live in agreement with human reason and with the order of the whole universe.",
+      "long": "Human nature, for the Stoics, is rational and social, and the universe is ordered by reason. To live according to nature is to act by reason, for the common good, and accept what the whole brings. Marcus thanks his teachers for showing him what such a life is.",
+      "example": "'Clear and frequent impressions about living according to nature' (Book 1).",
+      "aliases": [
+        "according to nature"
+      ],
+      "glosses": [
+        "according to nature",
+        "conformably to nature"
+      ],
+      "related": [
+        "providence",
+        "social-animal",
+        "virtue"
+      ],
+      "source_ids": [
+        "med_1_09",
+        "med_1_17_b",
+        "med_3_04_c"
+      ]
+    },
+    {
+      "slug": "providence",
+      "term": "Providence",
+      "devanagari": null,
+      "origin": "Greek: πρόνοια (pronoia)",
+      "pronunciation": "PRON-oy-ah",
+      "category": "Stoicism",
+      "short": "The rational order the Stoics saw guiding the universe. Marcus often weighs it against chance atoms.",
+      "long": "Marcus writes that all that is from the gods is full of providence. Elsewhere he sets out an alternative, 'either providence or atoms', and argues that in either case one should act well and stay calm.",
+      "example": "'All that is from the gods is full of providence' (Book 2).",
+      "aliases": [
+        "pronoia"
+      ],
+      "glosses": [
+        "providence"
+      ],
+      "related": [
+        "living-according-to-nature",
+        "impermanence"
+      ],
+      "source_ids": [
+        "med_2_03",
+        "med_2_11",
+        "med_4_03_b"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "social-animal",
+      "term": "Social animal",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "Marcus's view that humans are made for one another and must act for the common good.",
+      "long": "Because reason is shared, all rational beings form one community, a world city. Marcus calls one who flees social reason a runaway, and says the good of a social animal lies in acting socially.",
+      "example": "'Thoughts just, and acts social, and words which never lie' (Book 4).",
+      "aliases": [
+        "cosmopolis"
+      ],
+      "glosses": [
+        "social animal",
+        "social"
+      ],
+      "related": [
+        "living-according-to-nature",
+        "virtue"
+      ],
+      "source_ids": [
+        "med_3_04_b",
+        "med_4_33",
+        "med_5_06"
+      ]
+    },
+    {
+      "slug": "inner-citadel",
+      "term": "Retreat into yourself",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "Marcus's advice that calm is found by withdrawing into one's own mind, not to the country or the sea.",
+      "long": "People seek retreats in the country and by the shore, Marcus writes, but one can retire into oneself at any moment, and nowhere is there more quiet or freedom. Modern writers call this the 'inner citadel'.",
+      "example": "'It is in thy power whenever thou shalt choose to retire into thyself' (Book 4).",
+      "aliases": [
+        "inner citadel"
+      ],
+      "glosses": [
+        "retire into"
+      ],
+      "related": [
+        "tranquillity",
+        "ruling-faculty"
+      ],
+      "source_ids": [
+        "med_4_03",
+        "med_4_03_c",
+        "med_7_27"
+      ]
+    },
+    {
+      "slug": "tranquillity",
+      "term": "Tranquillity",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "Freedom from inner disturbance, which the Stoic gains by right judgement rather than by outside help.",
+      "long": "Marcus defines tranquillity as nothing else than the good ordering of the mind. He advises not to seek the tranquillity others give, and to wait in tranquillity for whatever end comes.",
+      "example": "'Tranquillity is nothing else than the good ordering of the mind' (Book 4).",
+      "aliases": [
+        "tranquility",
+        "ataraxia"
+      ],
+      "glosses": [
+        "tranquillity"
+      ],
+      "related": [
+        "inner-citadel",
+        "opinion"
+      ],
+      "source_ids": [
+        "med_4_03",
+        "med_3_04_d",
+        "med_5_32"
+      ],
+      "auto": false
+    },
+    {
+      "slug": "impermanence",
+      "term": "Change and impermanence",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "Stoicism",
+      "short": "Marcus's constant reminder that all things change and pass, so nothing external should be clung to.",
+      "long": "Marcus asks the reader to observe that everything takes place by change and that the nature of the universe loves to change things. Death, too, is a natural dissolution of the elements, to be awaited with a cheerful mind.",
+      "example": "'It is no evil for things to undergo change' (Book 4).",
+      "aliases": [
+        "memento mori"
+      ],
+      "glosses": [
+        "change",
+        "dissolution"
+      ],
+      "related": [
+        "providence",
+        "indifferents"
+      ],
+      "source_ids": [
+        "med_4_34",
+        "med_4_40",
+        "med_2_17"
+      ]
+    },
+    {
+      "slug": "citation",
+      "term": "Citation",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "A link from a sentence to the source passage that supports it, shown as a chip you can open.",
+      "long": "The app's first rule is 'no source, no claim'. Every factual sentence a guru says carries a citation to a passage from a public-domain text, or is marked inferred. Tap a chip to read the passage with the supporting line highlighted, plus its edition and licence.",
+      "example": "A chip like 'Arthashastra 1.12' opens the chapter on the institution of spies.",
+      "aliases": [
+        "citations",
+        "source chip"
+      ],
+      "glosses": [],
+      "related": [
+        "verified-claim",
+        "inferred-claim",
+        "nli",
+        "shabda"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "verified-claim",
+      "term": "Verified",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "A claim the checker found entailed by its cited passage. Shown with a green chip.",
+      "long": "After the guru speaks, each sentence is split into claims and checked against its passage by an NLI model. If entailment reaches the threshold (0.7 by default) the claim is verified. If the passage contradicts it, the guru must rewrite it; a claim that still fails is dropped rather than shown as fact.",
+      "example": "'The Arthashastra lists seven elements of sovereignty' is verified against Book 6, Chapter 1.",
+      "aliases": [
+        "verified claim"
+      ],
+      "glosses": [],
+      "related": [
+        "inferred-claim",
+        "nli",
+        "citation",
+        "accuracy-meter"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "inferred-claim",
+      "term": "Inferred",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "A statement that is the guru's interpretation, not something the source says directly.",
+      "long": "Gurus may reason beyond their texts, for example applying Kautilya to a modern question. Such sentences are labelled inferred so you can tell interpretation from quotation. An inferred claim is a fair target for your khandana.",
+      "example": "'Kautilya would oppose lateral entry' is inferred: the Arthashastra never mentions it.",
+      "aliases": [
+        "inferred claim"
+      ],
+      "glosses": [],
+      "related": [
+        "verified-claim",
+        "citation",
+        "anumana"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "nli",
+      "term": "NLI",
+      "devanagari": null,
+      "pronunciation": "en-el-eye",
+      "category": "How the app judges",
+      "short": "Natural language inference: a model that judges whether one text supports, contradicts or is neutral to another.",
+      "long": "The app uses a DeBERTa model trained for NLI to compare each guru claim with its cited passage. It returns probabilities for entailment, neutral and contradiction. This check is what separates the gurus from a plain chatbot: unsupported claims are caught and labelled.",
+      "example": "Passage: 'All warfare is based on deception.' Claim: 'Sun Tzu valued deception.' Result: entailment.",
+      "aliases": [
+        "natural language inference"
+      ],
+      "glosses": [],
+      "related": [
+        "verified-claim",
+        "inferred-claim",
+        "accuracy-meter"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "accuracy-meter",
+      "term": "Accuracy meter",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "The share of a guru's claims in this debate that were verified against their sources.",
+      "long": "The meter updates as each claim is checked. A high reading means the guru is staying close to the text; a lower one means more of what you hear is interpretation. It measures the guru's sourcing, not who is winning.",
+      "example": "Accuracy 86%: six of seven checked claims were verified.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "verified-claim",
+        "nli"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "rubric",
+      "term": "Rubric",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "How each round is scored: structure 30%, evidence 25%, pramana fit 20%, responsiveness 15%, clarity 10%.",
+      "long": "The referee rates each part from 0 to 1 and combines them into a round score out of 100, then subtracts the fallacy penalty. Structure means the five members; evidence means sources and facts; pramana fit means using the right kind of knowledge for the point; responsiveness means answering what the guru actually said. Your house adds a 5% bonus to one part.",
+      "example": "A clear, cited, on-point khandana with no fallacy can score above 70.",
+      "aliases": [
+        "score breakdown"
+      ],
+      "glosses": [],
+      "related": [
+        "fallacy-penalty",
+        "threshold",
+        "pancavayava",
+        "clan"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "fallacy-penalty",
+      "term": "Fallacy penalty",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Ten points off a round's score for each detected fallacy, up to thirty per round.",
+      "long": "The fallacy detector checks every khandana for the five hetvabhasas. Each one found is flagged in the moments feed with the reason and a suggested fix, and costs 10 points. The penalty is capped at 30 per round.",
+      "example": "Two fallacies in one round: a raw score of 68 becomes 48.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "hetvabhasa",
+        "lamps-of-logic",
+        "rubric"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "lamps-of-logic",
+      "term": "Lamps of logic",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Five lamps on the Arena scoreboard; one goes out for each fallacy you commit.",
+      "long": "The lamps are a quick visual record of your reasoning hygiene across the whole debate. They do not add a separate penalty; the points are taken by the fallacy penalty. A debate won with all five lamps lit is a clean win.",
+      "example": "Three lamps lit at the verdict means two fallacies were flagged.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "fallacy-penalty",
+        "hetvabhasa"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "threshold",
+      "term": "Threshold",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "The score you must reach to beat a guru; 55 by default, higher for harder gurus.",
+      "long": "Your debate score is the average of your round scores, combined with the audience vote if a Live Sabha ran. If it is at or above the guru's threshold, you win. The score bar in the Arena shows where you stand against it.",
+      "example": "Final 58 against a threshold of 55: you win the debate.",
+      "aliases": [
+        "win threshold"
+      ],
+      "glosses": [],
+      "related": [
+        "rubric",
+        "crowd-score",
+        "nirnaya"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "crowd-score",
+      "term": "Crowd score",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "The share of audience votes for you in a Live Sabha; it makes up 30% of the final score.",
+      "long": "When a Live Sabha runs, the final score is 70% the referee's score and 30% the crowd score. Each phone gets one vote per round. Without a Sabha, the referee's score alone decides.",
+      "example": "Referee 60, crowd 40%: final score 0.7 x 60 + 0.3 x 40 = 54.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "live-sabha",
+        "threshold",
+        "sabha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "elo",
+      "term": "Elo rating",
+      "devanagari": null,
+      "pronunciation": "EE-loh",
+      "category": "How the app judges",
+      "short": "A skill rating that rises when you beat stronger opponents. The app keeps one per pramana.",
+      "long": "Named after the chess statistician Arpad Elo. Everyone starts at 1000; gurus are seeded between 1000 and 1600. After a ranked debate your rating moves by up to 32 points (16 after 20 rounds), more if the result was unexpected. Separate ratings for perception, inference, comparison and testimony show which kind of reasoning you are strong at.",
+      "example": "Beating a 1400 guru with a 1000 rating raises you far more than beating a 1000 guru.",
+      "aliases": [
+        "Elo"
+      ],
+      "glosses": [],
+      "related": [
+        "bkt-mastery",
+        "pramana",
+        "jalpa"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "bkt-mastery",
+      "term": "BKT mastery",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Bayesian Knowledge Tracing: the app's estimate of how likely you have mastered each concept.",
+      "long": "BKT updates a probability after every attempt, allowing for lucky guesses and careless slips. A concept counts as mastered when the estimate reaches 95%. The app's next-challenge suggestion picks the guru and topic where your mastery and rating are lowest.",
+      "example": "After three clean uses of the five members, your structure mastery may pass 95%.",
+      "aliases": [
+        "BKT",
+        "Bayesian Knowledge Tracing"
+      ],
+      "glosses": [],
+      "related": [
+        "elo",
+        "rubric"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "clan",
+      "term": "House (clan)",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "The school you join: Nyaya, Vedanta, Charvaka or Arthashastra. Each gives a 5% bonus to one score part.",
+      "long": "Your house's wins capture map regions for it, and house standings rank the houses. The bonus nudges your style: Nyaya rewards structure, Vedanta testimony, Charvaka evidence when challenging, and Arthashastra responsiveness.",
+      "example": "Pick Nyaya if you like laying out arguments step by step.",
+      "aliases": [
+        "clans"
+      ],
+      "glosses": [],
+      "related": [
+        "nyaya",
+        "vedanta",
+        "charvaka",
+        "arthashastra-house",
+        "territory"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "territory",
+      "term": "Territory",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Map regions guarded by gurus. Win a ranked debate against the guardian and your house takes the region.",
+      "long": "Each region shows its guardian guru, the house holding it and the top score. A rival house takes it over by beating that top score in a ranked debate. Learning debates (vada) never change the map.",
+      "example": "Magadha is guarded by Chanakya; beat the recorded top score to claim it.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "jalpa",
+        "clan"
+      ],
+      "source_ids": [],
+      "auto": false
+    },
+    {
+      "slug": "live-sabha",
+      "term": "Live Sabha",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Audience voting by phone: people in the room scan a QR code and vote each round.",
+      "long": "The host opens a Live Sabha from the Arena. Phones join through the QR code and get one vote per argued round. The tally shows live, and at the end the crowd score is blended into the verdict.",
+      "example": "Project the Arena, open a Sabha, and let the class decide who argued better.",
+      "aliases": [
+        "sabha voting"
+      ],
+      "glosses": [],
+      "related": [
+        "crowd-score",
+        "sabha",
+        "rivalry-sabha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "rivalry-sabha",
+      "term": "Rivalry Sabha",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Two gurus debate each other on a shared question while you watch and judge.",
+      "long": "A Rivalry Sabha runs four turns between two gurus, each citing their own text and answering the other. It is a way to see two traditions side by side, for example Chanakya and Sun Tzu on spies.",
+      "example": "Start a Rivalry Sabha on 'Should a ruler use spies?' between Chanakya and Napoleon.",
+      "aliases": [
+        "rivalry"
+      ],
+      "glosses": [],
+      "related": [
+        "live-sabha",
+        "sabha",
+        "five-spies",
+        "gudhapurusha"
+      ],
+      "source_ids": []
+    },
+    {
+      "slug": "today-desk",
+      "term": "Today desk",
+      "devanagari": null,
+      "pronunciation": null,
+      "category": "How the app judges",
+      "short": "Present-day background for modern topics: short encyclopedia passages, open data and recent headlines.",
+      "long": "For modern questions, the Guru Hall shows a briefing built from Wikipedia lead passages and World Bank figures, which gurus may cite for plain facts. Headlines are listed for context only and never sent to the AI. Judgements about today stay marked inferred.",
+      "example": "Debating defence self-reliance, the desk shows recent import figures you can cite.",
+      "aliases": [],
+      "glosses": [],
+      "related": [
+        "citation",
+        "inferred-claim"
+      ],
+      "source_ids": []
+    }
+  ]
+}

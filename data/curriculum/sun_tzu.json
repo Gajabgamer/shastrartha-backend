@@ -1,0 +1,628 @@
+{
+  "persona_id": "sun_tzu",
+  "title": "The Art of War: thirteen chapters in six steps",
+  "work": "The Art of War (Lionel Giles 1910)",
+  "pass_mark": 0.75,
+  "generated_by": "gemini:gemini-2.5-flash",
+  "generated_at": "2026-10-31T00:35:24+00:00",
+  "rejected_questions": 11,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Laying plans",
+      "summary": "War is a vital matter of state that requires careful deliberation through five constant factors, deceptive tactics, and thorough planning before any battle is fought.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "The five constant factors",
+          "chunk_ids": [
+            "aow_1_01"
+          ],
+          "explainer": "Sun Tzu explains that the art of war is a matter of life and death for the state, governed by five constant factors. A student learns that military planning begins with fundamental conditions like the Moral Law, which aligns the people completely with their ruler.",
+          "key_terms": [
+            {
+              "term": "Moral Law",
+              "meaning": "Causes the people to be in complete accord with their ruler."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l2",
+          "title": "Heaven, Earth and the Commander",
+          "chunk_ids": [
+            "aow_1_07"
+          ],
+          "explainer": "This section defines the remaining constant factors: Heaven, Earth, the Commander, and Method and discipline. Students learn that a general must be familiar with all five heads to achieve victory rather than failure.",
+          "key_terms": [
+            {
+              "term": "Heaven",
+              "meaning": "Signifies night and day, cold and heat, times and seasons."
+            },
+            {
+              "term": "Earth",
+              "meaning": "Comprises distances, danger, security, open ground, and narrow passes."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l3",
+          "title": "All warfare is deception",
+          "chunk_ids": [
+            "aow_1_15",
+            "aow_1_20"
+          ],
+          "explainer": "Warfare is fundamentally based on deception, requiring generals to hide their true strength and use baits to entice the enemy. Students see that victory belongs to the commander who makes many calculations in advance.",
+          "key_terms": [
+            {
+              "term": "deception",
+              "meaning": "The foundational principle upon which all warfare is based."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1q1",
+          "question": "What does Sun Tzu state that the art of war is governed by?",
+          "options": [
+            "Three elemental forces",
+            "Five constant factors",
+            "Ten tactical principles",
+            "Four seasons of combat"
+          ],
+          "answer": 1,
+          "explanation": "The art of war, then, is governed by five constant factors, to be taken into account in one's deliberations.",
+          "chunk_id": "aow_1_01",
+          "kind": "llm",
+          "support": "The art of war, then, is governed by five constant factors, to be taken into account in one’s deliberations, when seeking to determine the conditions obtaining in the field."
+        },
+        {
+          "id": "m1q2",
+          "question": "What is all warfare based on according to Sun Tzu?",
+          "options": [
+            "Superior numbers",
+            "Strict discipline",
+            "Deception",
+            "Financial resources"
+          ],
+          "answer": 2,
+          "explanation": "All warfare is based on deception.",
+          "chunk_id": "aow_1_15",
+          "kind": "llm",
+          "support": "All warfare is based on deception."
+        },
+        {
+          "id": "m1q3",
+          "question": "What does a general who wins a battle do beforehand in his temple?",
+          "options": [
+            "Makes many calculations",
+            "Prays for divine favor",
+            "Sacrifices white horses",
+            "Gathers all his officers"
+          ],
+          "answer": 0,
+          "explanation": "Now the general who wins a battle makes many calculations in his temple ere the battle is fought.",
+          "chunk_id": "aow_1_20",
+          "kind": "llm",
+          "support": "Now the general who wins a battle makes many calculations in his temple ere the battle is fought."
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "The cost of war",
+      "summary": "Campaigns are extremely costly and should be short, as prolonged warfare exhausts the state's resources and invites outside threats.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "What a campaign costs",
+          "chunk_ids": [
+            "aow_2_01"
+          ],
+          "explainer": "Maintaining an army in the field demands enormous financial and material expenditures every single day. A student understands that long sieges and delayed victories quickly exhaust an army's strength and dull its weapons.",
+          "key_terms": [
+            {
+              "term": "chariots",
+              "meaning": "Vehicles used in operations of war alongside mail-clad soldiers."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l2",
+          "title": "No profit in a long war",
+          "chunk_ids": [
+            "aow_2_03"
+          ],
+          "explainer": "Protracted campaigns drain state resources and invite other chieftains to attack a weakened nation. Students learn that long delays in war have never benefited any country.",
+          "key_terms": [
+            {
+              "term": "protracted",
+              "meaning": "A long campaign that strains the resources of the State."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l3",
+          "title": "Using the enemy's strength",
+          "chunk_ids": [
+            "aow_2_17"
+          ],
+          "explainer": "Clever leaders augment their own strength by capturing enemy resources and treating prisoners kindly. For a student, this highlights that the ultimate goal of war is swift victory rather than lengthy campaigns.",
+          "key_terms": [
+            {
+              "term": "arbiter",
+              "meaning": "The leader of armies upon whom the nation's fate depends."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2q1",
+          "question": "What happens when a campaign is protracted and resources are strained?",
+          "options": [
+            "The enemy surrenders out of exhaustion",
+            "Other chieftains will spring up to take advantage of your extremity",
+            "The ruler must abdicate the throne",
+            "New alliances will be formed with neighbors"
+          ],
+          "answer": 1,
+          "explanation": "Now, when your weapons are dulled, your ardour damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity.",
+          "chunk_id": "aow_2_03",
+          "kind": "llm",
+          "support": "Now, when your weapons are dulled, your ardour damped, your strength exhausted and your treasure spent, other chieftains will spring up to take advantage of your extremity."
+        },
+        {
+          "id": "m2q2",
+          "question": "According to Sun Tzu, has a country ever benefited from prolonged warfare?",
+          "options": [
+            "Yes, if the victory is absolute",
+            "Only when the treasury is full",
+            "There is no instance of it",
+            "Yes, after initial heavy losses"
+          ],
+          "answer": 2,
+          "explanation": "There is no instance of a country having benefited from prolonged warfare.",
+          "chunk_id": "aow_2_03",
+          "kind": "llm",
+          "support": "There is no instance of a country having benefited from prolonged warfare."
+        },
+        {
+          "id": "m2q3",
+          "question": "How should captured soldiers be treated in chariot fighting?",
+          "options": [
+            "They should be kindly treated and kept",
+            "They should be returned to their commanders",
+            "They should be set free immediately",
+            "They should be put to work on the roads"
+          ],
+          "answer": 0,
+          "explanation": "The captured soldiers should be kindly treated and kept.",
+          "chunk_id": "aow_2_17",
+          "kind": "llm",
+          "support": "The captured soldiers should be kindly treated and kept."
+        },
+        {
+          "id": "m2q4",
+          "question": "In war, what should your great object be?",
+          "options": [
+            "Territorial expansion",
+            "Victory, not lengthy campaigns",
+            "The total destruction of the enemy",
+            "Gaining the respect of other rulers"
+          ],
+          "answer": 1,
+          "explanation": "In war, then, let your great object be victory, not lengthy campaigns.",
+          "chunk_id": "aow_2_17",
+          "kind": "llm",
+          "support": "In war, then, let your great object be victory, not lengthy campaigns."
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Winning without fighting",
+      "summary": "The highest form of generalship is to conquer the enemy without fighting by knowing both yourself and your opponent thoroughly.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Take it whole",
+          "chunk_ids": [
+            "aow_3_01"
+          ],
+          "explainer": "The supreme excellence in war is breaking the enemy's resistance without fighting by taking states and armies whole. Students learn that baulking enemy plans is far superior to besieging walled cities.",
+          "key_terms": [
+            {
+              "term": "generalship",
+              "meaning": "The skill of leading an army, with its highest form aiming to baulk enemy plans."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l2",
+          "title": "Avoid sieges; the ruler's errors",
+          "chunk_ids": [
+            "aow_3_04",
+            "aow_3_11"
+          ],
+          "explainer": "Sieges waste months and cost many lives through frustrated assaults. Students learn that rulers can bring misfortune upon their armies by interfering with commands or ignoring military conditions.",
+          "key_terms": [
+            {
+              "term": "bulwark",
+              "meaning": "A term describing the general as the defense of the State."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l3",
+          "title": "Know the enemy and yourself",
+          "chunk_ids": [
+            "aow_3_16",
+            "aow_3_18"
+          ],
+          "explainer": "Victory relies on five key points, culminating in the famous rule to know both the enemy and yourself. A student learns that mutual knowledge prevents failure across a hundred battles.",
+          "key_terms": [
+            {
+              "term": "enemy",
+              "meaning": "The opposing force that one must know alongside oneself."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3q1",
+          "question": "In the practical art of war, what is the best thing of all to do?",
+          "options": [
+            "To take the enemy's country whole and intact",
+            "To destroy the enemy's capital city",
+            "To kill the enemy commander in single combat",
+            "To capture all their weapons and supplies"
+          ],
+          "answer": 0,
+          "explanation": "In the practical art of war, the best thing of all is to take the enemy's country whole and intact; to shatter and destroy it is not so good.",
+          "chunk_id": "aow_3_01",
+          "kind": "llm",
+          "support": "Sun Tzŭ said: In the practical art of war, the best thing of all is to take the enemy’s country whole and intact; to shatter and destroy it is not so good."
+        },
+        {
+          "id": "m3q2",
+          "question": "What constitutes supreme excellence in the art of war?",
+          "options": [
+            "Winning a hundred battles in a row",
+            "Conquering all neighboring states",
+            "Breaking the enemy's resistance without fighting",
+            "Starving the enemy out of their walled cities"
+          ],
+          "answer": 2,
+          "explanation": "...supreme excellence consists in breaking the enemy's resistance without fighting.",
+          "chunk_id": "aow_3_01",
+          "kind": "llm",
+          "support": "Hence to fight and conquer in all your battles is not supreme excellence; supreme excellence consists in breaking the enemy’s resistance without fighting."
+        },
+        {
+          "id": "m3q3",
+          "question": "What is it called when a ruler commands the army to advance or retreat while ignorant that it cannot obey?",
+          "options": [
+            "Hobbling the army",
+            "Undermining the state",
+            "Flinging victory away",
+            "Spreading anarchy"
+          ],
+          "answer": 0,
+          "explanation": "This is called hobbling the army.",
+          "chunk_id": "aow_3_11",
+          "kind": "llm",
+          "support": "This is called hobbling the army."
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Position and energy",
+      "summary": "Good fighters secure themselves against defeat first, using indirect methods and arriving early in the field to impose their will.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Beyond the possibility of defeat",
+          "chunk_ids": [
+            "aow_4_01"
+          ],
+          "explainer": "Good fighters first establish their own invincibility through defensive tactics before waiting for enemy mistakes. Students learn that security is in one's own hands, while victory opportunities are provided by the opponent.",
+          "key_terms": [
+            {
+              "term": "defensive",
+              "meaning": "Tactics that secure a force against defeat."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l2",
+          "title": "Direct and indirect",
+          "chunk_ids": [
+            "aow_5_05"
+          ],
+          "explainer": "While direct methods join battle, indirect tactics are essential for securing victory and offer endless combinations. Students see that these tactics resemble the inexhaustible flow of rivers or the four seasons.",
+          "key_terms": [
+            {
+              "term": "direct",
+              "meaning": "A method used for joining battle."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l3",
+          "title": "First in the field",
+          "chunk_ids": [
+            "aow_6_01"
+          ],
+          "explainer": "The army that arrives first in the field rests and forces its will upon the exhausted latecomers. Students learn that a clever combatant controls the enemy through advantages, harassment, or starvation.",
+          "key_terms": [
+            {
+              "term": "combatant",
+              "meaning": "A fighter who imposes his will on the enemy."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4q1",
+          "question": "What did the good fighters of old do first?",
+          "options": [
+            "Gathered intelligence on enemy leaders",
+            "Put themselves beyond the possibility of defeat",
+            "Secured abundant provisions for the march",
+            "Trained their soldiers in chariot combat"
+          ],
+          "answer": 1,
+          "explanation": "The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy.",
+          "chunk_id": "aow_4_01",
+          "kind": "llm",
+          "support": "Sun Tzŭ said: The good fighters of old first put themselves beyond the possibility of defeat, and then waited for an opportunity of defeating the enemy."
+        },
+        {
+          "id": "m4q2",
+          "question": "How does Sun Tzu describe the inexhaustibility of efficiently applied indirect tactics?",
+          "options": [
+            "Like gold and silver in a royal treasury",
+            "As Heaven and Earth, unending as the flow of rivers and streams",
+            "Like the trees in a vast mountain forest",
+            "As the number of stars in the night sky"
+          ],
+          "answer": 1,
+          "explanation": "Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams...",
+          "chunk_id": "aow_5_05",
+          "kind": "llm",
+          "support": "Indirect tactics, efficiently applied, are inexhaustible as Heaven and Earth, unending as the flow of rivers and streams; like the sun and moon, they end but to begin anew; like the four seasons, they pass away but to return once more."
+        },
+        {
+          "id": "m4q3",
+          "question": "What advantage does whoever is first in the field enjoy?",
+          "options": [
+            "They can choose the weather for the battle",
+            "They will be fresh for the fight",
+            "They can capture the enemy's baggage train",
+            "They will have the support of local guides"
+          ],
+          "answer": 1,
+          "explanation": "Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight...",
+          "chunk_id": "aow_6_01",
+          "kind": "llm",
+          "support": "Sun Tzŭ said: Whoever is first in the field and awaits the coming of the enemy, will be fresh for the fight; whoever is second in the field and has to hasten to battle, will arrive exhausted."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Manoeuvre and ground",
+      "summary": "A general must adapt to different kinds of terrain, move only for real advantage, and maintain the welfare and discipline of the soldiers.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Move only for advantage",
+          "chunk_ids": [
+            "aow_7_14"
+          ],
+          "explainer": "Commanders must use local guides, practice dissimulation, and move only when there is real advantage. Students learn to make their movements as swift as wind and as dark as night.",
+          "key_terms": [
+            {
+              "term": "dissimulation",
+              "meaning": "A practice in war essential for success."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l2",
+          "title": "Six kinds of terrain",
+          "chunk_ids": [
+            "aow_10_01"
+          ],
+          "explainer": "Sun Tzu categorizes terrain into six distinct types that dictate tactical movement and survival. Students learn that failing to understand specific terrains like entangling ground leads directly to disaster.",
+          "key_terms": [
+            {
+              "term": "terrain",
+              "meaning": "Different kinds of ground encountered in the field."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l3",
+          "title": "The general and the ruler",
+          "chunk_ids": [
+            "aow_10_23"
+          ],
+          "explainer": "A true general fights when victory is certain regardless of a ruler's commands, seeking neither fame nor disgrace. Students see that soldiers treated like beloved children will stand by their leader unto death.",
+          "key_terms": [
+            {
+              "term": "jewel",
+              "meaning": "A description of the selfless general who protects his country."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5q1",
+          "question": "What must be used if natural advantages are to be turned to account?",
+          "options": [
+            "Local guides",
+            "Surviving spies",
+            "Chariot divisions",
+            "Captured officers"
+          ],
+          "answer": 0,
+          "explanation": "We shall be unable to turn natural advantages to account unless we make use of local guides.",
+          "chunk_id": "aow_7_14",
+          "kind": "llm",
+          "support": "We shall be unable to turn natural advantages to account unless we make use of local guides."
+        },
+        {
+          "id": "m5q2",
+          "question": "What is the definition of entangling ground?",
+          "options": [
+            "Ground which can be abandoned but is hard to re-occupy",
+            "Ground surrounded on all sides by narrow passes",
+            "Ground that is situated at a great distance from the enemy",
+            "Ground where neither side can maneuver chariots"
+          ],
+          "answer": 0,
+          "explanation": "Ground which can be abandoned but is hard to re-occupy is called entangling.",
+          "chunk_id": "aow_10_01",
+          "kind": "llm",
+          "support": "Ground which can be abandoned but is hard to re-occupy is called _entangling_."
+        },
+        {
+          "id": "m5q3",
+          "question": "What should a general do if fighting is sure to result in victory?",
+          "options": [
+            "Ask the ruler for formal permission",
+            "Wait until supplies are doubled",
+            "Fight, even though the ruler forbid it",
+            "Consult the local guides first"
+          ],
+          "answer": 2,
+          "explanation": "If fighting is sure to result in victory, then you must fight, even though the ruler forbid it...",
+          "chunk_id": "aow_10_23",
+          "kind": "llm",
+          "support": "If fighting is sure to result in victory, then you must fight, even though the ruler forbid it; if fighting will not result in victory, then you must not fight even at the ruler’s bidding."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Fire and foreknowledge",
+      "summary": "Wars should never be fought out of anger, and gaining crucial foreknowledge depends entirely on employing five types of spies.",
+      "lessons": [
+        {
+          "id": "m6l1",
+          "title": "Move not unless you see an advantage",
+          "chunk_ids": [
+            "aow_12_16"
+          ],
+          "explainer": "Enlightened rulers plan ahead and never engage in war out of anger or pique. Students learn that destroyed kingdoms and dead lives can never be brought back.",
+          "key_terms": [
+            {
+              "term": "enlightened",
+              "meaning": "A description of the ruler who lays plans well ahead."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l2",
+          "title": "Foreknowledge",
+          "chunk_ids": [
+            "aow_13_01",
+            "aow_13_03"
+          ],
+          "explainer": "Because war is intensely costly, grudging money for spies is the height of inhumanity. Students learn that vital foreknowledge cannot be gained from spirits or deduction, but only from men.",
+          "key_terms": [
+            {
+              "term": "foreknowledge",
+              "meaning": "What enables the wise sovereign and good general to conquer."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l3",
+          "title": "Five kinds of spies",
+          "chunk_ids": [
+            "aow_13_09"
+          ],
+          "explainer": "Sun Tzu outlines five distinct classes of spies—local, inward, converted, doomed, and surviving—who form a secret system. Students learn that spies require the closest relations, liberal rewards, and absolute secrecy.",
+          "key_terms": [
+            {
+              "term": "spies",
+              "meaning": "Agents used to obtain knowledge of the enemy's dispositions."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6q1",
+          "question": "What does the enlightened ruler do according to the chapter on fire?",
+          "options": [
+            "Lays his plans well ahead",
+            "Consults the spirits for foreknowledge",
+            "Leads the vanguard into battle personally",
+            "Rewards the surviving spies liberally"
+          ],
+          "answer": 0,
+          "explanation": "The enlightened ruler lays his plans well ahead; the good general cultivates his resources.",
+          "chunk_id": "aow_12_16",
+          "kind": "llm",
+          "support": "Hence the saying: The enlightened ruler lays his plans well ahead; the good general cultivates his resources."
+        },
+        {
+          "id": "m6q2",
+          "question": "Why is remaining in ignorance of the enemy's condition by grudging money for spies considered the height of inhumanity?",
+          "options": [
+            "Because spies are cheap to employ",
+            "Because a single day decides a victory while armies face each other for years",
+            "Because it leads directly to the destruction of the ruler's palace",
+            "Because soldiers will mutiny if they lack intelligence"
+          ],
+          "answer": 1,
+          "explanation": "Hostile armies may face each other for years, striving for the victory which is decided in a single day. This being so, to remain in ignorance... is the height of inhumanity.",
+          "chunk_id": "aow_13_01",
+          "kind": "llm",
+          "support": "Hostile armies may face each other for years, striving for the victory which is decided in a single day."
+        },
+        {
+          "id": "m6q3",
+          "question": "With whom in the whole army should the most intimate relations be maintained?",
+          "options": [
+            "The senior generals",
+            "Spies",
+            "Local guides",
+            "The royal ministers"
+          ],
+          "answer": 1,
+          "explanation": "Hence it is that with none in the whole army are more intimate relations to be maintained than with spies.",
+          "chunk_id": "aow_13_09",
+          "kind": "llm",
+          "support": "Having _inward spies_, making use of officials of the enemy."
+        }
+      ]
+    }
+  ]
+}

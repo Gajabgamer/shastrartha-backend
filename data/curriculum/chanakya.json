@@ -1,0 +1,705 @@
+{
+  "persona_id": "chanakya",
+  "title": "The Arthashastra: statecraft in six steps",
+  "work": "Arthashastra, Books 1 and 6 (Shamasastry 1915)",
+  "pass_mark": 0.75,
+  "generated_by": "gemini:gemini-2.5-flash",
+  "generated_at": "2026-10-31T00:34:36+00:00",
+  "rejected_questions": 6,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Discipline before power",
+      "summary": "Discipline and self-control under the science of government are essential for a king's rule.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "The four sciences and the rod",
+          "chunk_ids": [
+            "arth_1_1_01",
+            "arth_1_4_02"
+          ],
+          "explainer": "The text lists four foundational sciences and places the science of government above them. This matters because government provides the protective framework necessary for all other knowledge to thrive.",
+          "key_terms": [
+            {
+              "term": "Anvikshaki",
+              "meaning": "Philosophy or a special branch of study."
+            },
+            {
+              "term": "Danda-Niti",
+              "meaning": "The science of government or law of punishment."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l2",
+          "title": "Discipline and the company of elders",
+          "chunk_ids": [
+            "arth_1_5_01",
+            "arth_1_5_02"
+          ],
+          "explainer": "Government success relies heavily on discipline, which combines natural aptitude with formal instruction under specialist teachers. Students must learn basic literacy and specific sciences to become capable leaders.",
+          "key_terms": [
+            {
+              "term": "vinaya",
+              "meaning": "Discipline."
+            },
+            {
+              "term": "lipi",
+              "meaning": "The alphabet."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l3",
+          "title": "Conquering the six enemies",
+          "chunk_ids": [
+            "arth_1_6_01",
+            "arth_1_7_01"
+          ],
+          "explainer": "A ruler must conquer six internal enemies, such as lust and anger, to achieve true self-control. This mastery enables the king to act wisely through spies, discipline, and benevolence.",
+          "key_terms": [
+            {
+              "term": "mána",
+              "meaning": "Vanity."
+            },
+            {
+              "term": "mada",
+              "meaning": "Haughtiness."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1q1",
+          "question": "According to the passage, what does the school of Manu (Manava) hold concerning the number of sciences?",
+          "options": [
+            "There are only three sciences: the triple Vedas, Varta and the science of government",
+            "There are six sciences, including Anvikshaki as an independent science",
+            "There are five sciences, excluding the science of government",
+            "There are only two sciences: Varta and Danda-Niti"
+          ],
+          "answer": 0,
+          "explanation": "The school of Manu (Manava) hold that there are only three sciences: the triple Vedas, Varta and the science of government.",
+          "chunk_id": "arth_1_1_01",
+          "kind": "llm",
+          "support": "The school of Manu (Manava) hold that there are only three sciences: the triple Vedas, Varta and the science of government, inasmuch as the science of Anvikshaki is nothing but a special branch of the Vedas."
+        },
+        {
+          "id": "m1q2",
+          "question": "What is Danda (punishment) according to the text?",
+          "options": [
+            "A means to acquire territory exclusively for the priesthood",
+            "That sceptre on which the well-being and progress of the sciences of Anvikshaki, the triple Vedas, and Varta depend",
+            "A temporary measure used only during times of foreign invasion",
+            "An obsolete form of royal punishment with no relation to progress"
+          ],
+          "answer": 1,
+          "explanation": "That sceptre on which the well-being and progress of the sciences of Anvikshaki, the triple Vedas, and Varta depend is known as Danda (punishment).",
+          "chunk_id": "arth_1_4_02",
+          "kind": "llm",
+          "support": "That sceptre on which the well-being and progress of the sciences of Anvikshaki, the triple Vedas, and Varta depend is known as Danda (punishment)."
+        },
+        {
+          "id": "m1q3",
+          "question": "What two kinds of discipline are mentioned in the text?",
+          "options": [
+            "Spiritual and physical",
+            "Artificial and natural",
+            "Mandatory and voluntary",
+            "Royal and common"
+          ],
+          "answer": 1,
+          "explanation": "Discipline is of two kinds: artificial and natural; for instruction (kriya) can render only a docile being conformable to the rules of discipline.",
+          "chunk_id": "arth_1_5_01",
+          "kind": "llm",
+          "support": "Discipline is of two kinds: artificial and natural; for instruction (kriya) can render only a docile being conformable to the rules of discipline, and not an undocile being (adravyam)."
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "The king's duties",
+      "summary": "An energetic king who prioritizes his subjects' happiness maintains a structured daily schedule and ensures his personal safety.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "An energetic king",
+          "chunk_ids": [
+            "arth_1_19_01",
+            "arth_1_19_09"
+          ],
+          "explainer": "A king's energy directly influences the behavior of his subjects and protects him from enemies. Because the root of wealth is activity, the king must find his own happiness in the welfare of his people.",
+          "key_terms": [
+            {
+              "term": "energy",
+              "meaning": "Active discharge of royal duties."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l2",
+          "title": "The king's day",
+          "chunk_ids": [
+            "arth_1_19_02"
+          ],
+          "explainer": "Both day and night are strictly partitioned into set time intervals using shadow measurements. This structure ensures the king manages his responsibilities methodically.",
+          "key_terms": [
+            {
+              "term": "nálikas",
+              "meaning": "Time units of one and a half hours."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l3",
+          "title": "Personal safety",
+          "chunk_ids": [
+            "arth_1_21_01"
+          ],
+          "explainer": "Upon waking, the king's personal safety is managed through successive layers of armed women and trusted attendants. This highlights the constant need for security measures around the ruler.",
+          "key_terms": [
+            {
+              "term": "Kanchuki",
+              "meaning": "A presenter of the king's coat."
+            },
+            {
+              "term": "Ushnisi",
+              "meaning": "A presenter of the king's head-dress."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2q1",
+          "question": "What happens if a king is energetic, according to the text?",
+          "options": [
+            "His subjects will be equally energetic",
+            "His subjects will become reckless and eat into his works",
+            "His enemies will immediately capture his treasury",
+            "His ministers will resign from office"
+          ],
+          "answer": 0,
+          "explanation": "IF a king is energetic, his subjects will be equally energetic.",
+          "chunk_id": "arth_1_19_01",
+          "kind": "llm",
+          "support": "IF a king is energetic, his subjects will be equally energetic."
+        },
+        {
+          "id": "m2q2",
+          "question": "Where does the king's happiness lie?",
+          "options": [
+            "In the accumulation of personal wealth and secret treasures",
+            "In the happiness of his subjects",
+            "In the conquest of neighboring neutral kings",
+            "In the praise of foreign envoys"
+          ],
+          "answer": 1,
+          "explanation": "In the happiness of his subjects lies his happiness; in their welfare his welfare...",
+          "chunk_id": "arth_1_19_09",
+          "kind": "llm",
+          "support": "In the happiness of his subjects lies his happiness; in their welfare his welfare; whatever pleases himself he shall not consider as good, but whatever pleases his subjects he shall consider as good."
+        },
+        {
+          "id": "m2q3",
+          "question": "How shall the king divide both the day and the night?",
+          "options": [
+            "Into four parts based on seasons",
+            "Into six equal watches of four hours each",
+            "Into eight nálikas (1½ hours), or according to the length of the shadow",
+            "Into twelve parts corresponding to the zodiac"
+          ],
+          "answer": 2,
+          "explanation": "He shall divide both the day and the night into eight nálikas (1½ hours), or according to the length of the shadow...",
+          "chunk_id": "arth_1_19_02",
+          "kind": "llm",
+          "support": "He shall divide both the day and the night into eight nálikas (1½ hours), or according to the length of the shadow (cast by a gnomon standing in the sun): the shadow of three purushás (36 angulás or inches), of one purushá (12 inches), of four angulás (4 inches), and absence of shadow denoting midday are the four one-eighth divisions of the forenoon; like divisions (in the reverse order) in the afternoon."
+        },
+        {
+          "id": "m2q4",
+          "question": "Who receives the king upon getting up from the bed?",
+          "options": [
+            "Troops of women armed with bows",
+            "The prime minister and the high priest",
+            "A delegation of foreign merchants",
+            "A group of senior military generals"
+          ],
+          "answer": 0,
+          "explanation": "ON getting up from the bed, the king shall be received by troops of women armed with bows.",
+          "chunk_id": "arth_1_21_01",
+          "kind": "llm",
+          "support": "ON getting up from the bed, the king shall be received by troops of women armed with bows."
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "Ministers and council",
+      "summary": "Ministers must be carefully selected, tested for loyalty, and involved in secure councils to protect state secrets.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Choosing ministers",
+          "chunk_ids": [
+            "arth_1_8_01",
+            "arth_1_9_01"
+          ],
+          "explainer": "Selecting ministers requires weighing different views on whether to trust classmates or associates. A qualified ministerial officer must possess a broad array of strong moral, intellectual, and physical traits.",
+          "key_terms": [
+            {
+              "term": "amátyasampat",
+              "meaning": "Qualifications of a ministerial officer."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l2",
+          "title": "Testing by temptation",
+          "chunk_ids": [
+            "arth_1_10_01",
+            "arth_1_10_02"
+          ],
+          "explainer": "The king and high priest use secret temptations to test the loyalty and purity of government officials. Those who resist disloyal plots prove their trustworthiness.",
+          "key_terms": [
+            {
+              "term": "amátya",
+              "meaning": "Ministers appointed in government departments."
+            },
+            {
+              "term": "satri",
+              "meaning": "Spies under the guise of class-mates."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l3",
+          "title": "Guarding counsel",
+          "chunk_ids": [
+            "arth_1_15_01",
+            "arth_1_15_03"
+          ],
+          "explainer": "Administrative measures must originate in well-guarded council meetings to prevent leaks. Protecting these deliberations is crucial because carelessness can lead to the betrayal of state secrets.",
+          "key_terms": [
+            {
+              "term": "councillors",
+              "meaning": "Officials participating in state deliberations."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3q1",
+          "question": "Why does Bharadvaja suggest the king employ his classmates as ministers?",
+          "options": [
+            "Because they are from foreign lands and know enemy secrets",
+            "For they can be trusted by him inasmuch as he has personal knowledge of their honesty and capacity",
+            "Because they will fear his royal authority and remain silent",
+            "Because they possess no education in the sciences"
+          ],
+          "answer": 1,
+          "explanation": "\"The King,\" says Bháradvája, \"shall employ his classmates as his ministers; for they can be trusted by him inasmuch as he has personal knowledge of their honesty and capacity.\"",
+          "chunk_id": "arth_1_8_01",
+          "kind": "llm",
+          "support": "\"THE King,\" says Bháradvája, \"shall employ his classmates as his ministers; for they can be trusted by him inasmuch as he has personal knowledge of their honesty and capacity.\" “No,” says Visáláksha, \"for, as they have been his playmates as well, they would despise him."
+        },
+        {
+          "id": "m3q2",
+          "question": "Which of the following is listed as a qualification of a ministerial officer (amátyasampat)?",
+          "options": [
+            "Native, born of high family, influential, well trained in arts, possessed of foresight, wise...",
+            "Foreign-born, reckless, procrastinating, and fickle-minded",
+            "Uneducated in the arts, silent, and fearful",
+            "Derived from wild tribes with no formal training"
+          ],
+          "answer": 0,
+          "explanation": "NATIVE, born of high family, influential, well trained in arts, possessed of foresight, wise, of strong memory, bold, eloquent, skillful, intelligent...",
+          "chunk_id": "arth_1_9_01",
+          "kind": "llm",
+          "support": "NATIVE, born of high family, influential, well trained in arts, possessed of foresight, wise, of strong memory, bold, eloquent, skillful, intelligent, possessed of enthusiasm, dignity, and endurance, pure in character, affable, firm in loyal devotion, endowed with excellent conduct, strength, health and bravery, free from procrastination and ficklemindedness, affectionate, and free from such qualities as excite hatred and enmity--these are the qualifications of a ministerial officer (amátyasampat)."
+        },
+        {
+          "id": "m3q3",
+          "question": "When shall the king dismiss a priest according to the text?",
+          "options": [
+            "When the priest refuses to travel to a foreign country",
+            "When the priest refuses to teach the Vedas to an outcaste person or officiate in an outcaste's sacrifice",
+            "When the priest demands a higher salary for temple services",
+            "When the priest fails to report on enemy spies"
+          ],
+          "answer": 1,
+          "explanation": "The king shall dismiss a priest who, when ordered, refuses to teach the Vedás to an outcaste person or to officiate in a sacrificial performance (apparently) undertaken by an outcaste person (ayájya).",
+          "chunk_id": "arth_1_10_01",
+          "kind": "llm",
+          "support": "The king shall dismiss a priest who, when ordered, refuses to teach the Vedás to an outcaste person or to officiate in a sacrificial performance (apparently) undertaken by an outcaste person (ayájya)."
+        },
+        {
+          "id": "m3q4",
+          "question": "Through whom does the dismissed priest instigate each minister during the temptations?",
+          "options": [
+            "Spies under the guise of class-mates (satri)",
+            "Openly through the royal court crier",
+            "Through foreign merchants coming from afar",
+            "By sending written letters via wild chiefs"
+          ],
+          "answer": 0,
+          "explanation": "Then the dismissed priest shall, through the medium of spies under the guise of class-mates (satri), instigate each minister one after another...",
+          "chunk_id": "arth_1_10_02",
+          "kind": "llm",
+          "support": "Then the dismissed priest shall, through the medium of spies under the guise of class-mates (satri), instigate each minister one after another, saying on oath \"this king is unrighteous; well let us set up in his place another king who is righteous, or who is born of the same family as of this king, or who is kept imprisoned, or a neighbouring king of his family and of self-sufficiency (ekapragraha), or a wild chief (atavika), or an upstart (aupapádika); this attempt is to the liking of all of us; what dost thou think ?\""
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Spies and envoys",
+      "summary": "Spies and qualified envoys are vital instruments for gathering intelligence and executing diplomatic missions.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "The institution of spies",
+          "chunk_ids": [
+            "arth_1_11_01",
+            "arth_1_11_02"
+          ],
+          "explainer": "The ruler employs various disguised operatives to gather intelligence on wickedness within the state. These agents are rewarded to ensure their continued reliability and vigilance.",
+          "key_terms": [
+            {
+              "term": "tápasa",
+              "meaning": "An ascetic practising austerities."
+            },
+            {
+              "term": "bhikshuki",
+              "meaning": "A mendicant woman."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l2",
+          "title": "Wandering spies",
+          "chunk_ids": [
+            "arth_1_12_01",
+            "arth_1_12_02"
+          ],
+          "explainer": "The state trains orphans and fearless individuals to serve as specialized wandering and fiery spies. Their unique backgrounds make them suited for high-risk intelligence work.",
+          "key_terms": [
+            {
+              "term": "tíkshna",
+              "meaning": "A fire-brand or fiery spy."
+            },
+            {
+              "term": "rasada",
+              "meaning": "A poisoner."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l3",
+          "title": "The mission of envoys",
+          "chunk_ids": [
+            "arth_1_16_01",
+            "arth_1_16_02"
+          ],
+          "explainer": "Envoys are ranked based on how closely their qualifications match those of a councillor. Before departing, they carefully prepare their itinerary, arguments, and expected counterarguments.",
+          "key_terms": [
+            {
+              "term": "nisrishtárthah",
+              "meaning": "A chargé-d'affaires."
+            },
+            {
+              "term": "sásanaharah",
+              "meaning": "A conveyer of royal writs."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4q1",
+          "question": "Which of the following is listed as one of the disguises for spies created by the king?",
+          "options": [
+            "A fraudulent disciple (kápatika-chhátra)",
+            "A high-ranking foreign ambassador",
+            "A royal prince in disguise",
+            "An elected village headman"
+          ],
+          "answer": 0,
+          "explanation": "...the king shall proceed to create spies: --Spies under the guise of a fraudulent disciple (kápatika-chhátra)...",
+          "chunk_id": "arth_1_11_01",
+          "kind": "llm",
+          "support": "ASSISTED by the council of his ministers tried under espionage, the king shall proceed to create spies: --Spies under the guise of a fraudulent disciple (kápatika-chhátra), a recluse (udásthita), a householder (grihapaitika), a merchant (vaidehaka), an ascetic practising austerities (tápasa), a class-mate or a colleague (satri), a fire-brand (tíkshna), a poisoner (rasada), and a mendicant woman (bhikshuki)."
+        },
+        {
+          "id": "m4q2",
+          "question": "What should the minister tell a fraudulent disciple after encouraging him with honour and money rewards?",
+          "options": [
+            "\"Sworn to the king and myself, thou shalt inform us of whatever wickedness thou findest in others.\"",
+            "\"Go forth and conquer the neighbouring neutral king's territory.\"",
+            "\"Teach the triple Vedas to all outcaste persons in the realm.\"",
+            "\"Take charge of the royal treasury and distribute profits among the deserved.\""
+          ],
+          "answer": 0,
+          "explanation": "Having encouraged such a spy with honour and money rewards, the minister shall tell him, \"sworn to the king and myself, thou shalt inform us of whatever wickedness thou findest in others.\"",
+          "chunk_id": "arth_1_11_02",
+          "kind": "llm",
+          "support": "Having encouraged such a spy with honour and money rewards, the minister shall tell him, \"sworn to the king and myself, thou shalt inform us of whatever wickedness thou findest in others.\""
+        },
+        {
+          "id": "m4q3",
+          "question": "Who are the classmate spies or spies learning by social intercourse (samsargavidyasatrinah)?",
+          "options": [
+            "Those orphans who are to be necessarily fed by the state and are put to study science, palmistry, sorcery, etc.",
+            "Foreign merchants who trade in cattle-breeding and agriculture",
+            "Experienced military generals who have retired from active warfare",
+            "Desperados who fight elephants in the forest for money"
+          ],
+          "answer": 0,
+          "explanation": "THOSE orphans (asambandhinah) who are to be necessarily fed by the state and are put to study science, palmistry (angavidya), sorcery (máyágata)... are classmate spies...",
+          "chunk_id": "arth_1_12_01",
+          "kind": "llm",
+          "support": "THOSE orphans (asambandhinah) who are to be necessarily fed by the state and are put to study science, palmistry (angavidya), sorcery (máyágata), the duties of the various orders of religious life, legerdemain (jambhakavidya), and the reading of omens and augury (antara-chakra), are classmate spies or spies learning by social intercourse (samsargavidyasatrinah)."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "The circle of states",
+      "summary": "Sovereignty rests on seven core elements, and the state must navigate relationships within a complex circle of neighbouring powers.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Seven elements of sovereignty",
+          "chunk_ids": [
+            "arth_6_1_01"
+          ],
+          "explainer": "A state is defined by seven interdependent elements of sovereignty, starting with the king. The ideal king possesses specific noble and commanding qualities to attract prosperity and control neighbours.",
+          "key_terms": [
+            {
+              "term": "sovereignty",
+              "meaning": "The seven elements composing a state."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l2",
+          "title": "Enemy, friend and the madhyama",
+          "chunk_ids": [
+            "arth_6_2_05",
+            "arth_6_2_07",
+            "arth_6_2_08"
+          ],
+          "explainer": "Neighbouring rulers are categorized by their geographic position and political stance into enemies, friends, and mediators. Recognizing these distinctions helps the conqueror determine whether to make peace or wage war.",
+          "key_terms": [
+            {
+              "term": "Madhyama",
+              "meaning": "A mediatory king."
+            },
+            {
+              "term": "udásína",
+              "meaning": "A neutral king."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l3",
+          "title": "The conqueror at the nave",
+          "chunk_ids": [
+            "arth_6_2_09",
+            "arth_6_2_14"
+          ],
+          "explainer": "The conqueror forms the central hub of a vast, multi-tiered circle of states. By positioning allies and enemies strategically, the ruler manages international relations effectively.",
+          "key_terms": [
+            {
+              "term": "circle of states",
+              "meaning": "A network of primary kings and sovereign elements."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5q1",
+          "question": "What are the seven elements of sovereignty listed in the text?",
+          "options": [
+            "The king, the minister, the country, the fort, the treasury, the army and the friend",
+            "Anvikshaki, the triple Vedas, Varta, Dandaniti, peace, industry, and fortune",
+            "Lust, anger, greed, vanity, haughtiness, overjoy, and discipline",
+            "Spies, envoys, councillors, priests, merchants, ascetics, and outcasts"
+          ],
+          "answer": 0,
+          "explanation": "THE king, the minister, the country, the fort, the treasury, the army and the friend are the elements of sovereignty.",
+          "chunk_id": "arth_6_1_01",
+          "kind": "llm",
+          "support": "THE king, the minister, the country, the fort, the treasury, the army and the friend are the elements of sovereignty."
+        },
+        {
+          "id": "m5q2",
+          "question": "When does a neighbouring foe of considerable power become assailable?",
+          "options": [
+            "When he is involved in calamities or has taken himself to evil ways",
+            "When he possesses an abundant treasury and a strong army",
+            "When he forms a tight alliance with the neutral king",
+            "When he sits at the nave of the circle of states"
+          ],
+          "answer": 0,
+          "explanation": "A neighbouring foe of considerable power is styled an enemy; and when he is involved in calamities or has taken himself to evil ways, he becomes assailable...",
+          "chunk_id": "arth_6_2_05",
+          "kind": "llm",
+          "support": "A neighbouring foe of considerable power is styled an enemy; and when he is involved in calamities or has taken himself to evil ways, he becomes assailable; and when he has little or no help, he becomes destructible; otherwise (i.e., when he is provided with some help), he deserves to be harassed or reduced."
+        },
+        {
+          "id": "m5q3",
+          "question": "How is a natural friend defined in the text?",
+          "options": [
+            "He whose friendship is derived from father and grandfather, and who is situated close to the territory of the immediate enemy of the conqueror",
+            "He whose friendship is courted exclusively for self-maintenance",
+            "The king who occupies a territory close to both the conqueror and his immediate enemy in front",
+            "A neighbouring foe who has taken himself to evil ways"
+          ],
+          "answer": 0,
+          "explanation": "He whose friendship is derived from father and grandfather, and who is situated close to the territory of the immediate enemy of the conqueror is a natural friend...",
+          "chunk_id": "arth_6_2_07",
+          "kind": "llm",
+          "support": "He whose friendship is derived from father and grandfather, and who is situated close to the territory of the immediate enemy of the conqueror is a natural friend; while he whose friendship is courted for self-maintenance is an acquired friend."
+        },
+        {
+          "id": "m5q4",
+          "question": "In the circle of states, what role does the conqueror assume in relation to the circumference and the spokes?",
+          "options": [
+            "He shall make himself as the nave of that circle",
+            "He shall act as the outer circumference of the neighbouring enemy",
+            "He shall remain entirely outside the circle as a neutral entity",
+            "He shall position himself as a spoke of the Madhyama king"
+          ],
+          "answer": 0,
+          "explanation": "* Throwing the circumference of the Circle of States beyond his friend's territory, and making the kings of those states as the spokes of that circle, the conqueror shall make himself as the nave of that circle.",
+          "chunk_id": "arth_6_2_14",
+          "kind": "llm",
+          "support": "* Throwing the circumference of the Circle of States beyond his friend's territory, and making the kings of those states as the spokes of that circle, the conqueror shall make himself as the nave of that circle. * A reducible or a conquerable enemy will, when placed between a conqueror and the conqueror's friend, appear to be growing in strength."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Peace and exertion",
+      "summary": "Peace, industry, and the systematic augmentation of power allow a ruler to achieve progress and superiority.",
+      "lessons": [
+        {
+          "id": "m6l1",
+          "title": "Peace and industry",
+          "chunk_ids": [
+            "arth_6_2_01",
+            "arth_6_2_02"
+          ],
+          "explainer": "Securing property relies directly on maintaining peace and exercising industry. Every state's position is always shifting among deterioration, stagnation, and progress due to human and providential causes.",
+          "key_terms": [
+            {
+              "term": "vyáyáma",
+              "meaning": "Industry."
+            },
+            {
+              "term": "naya",
+              "meaning": "Policy."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l2",
+          "title": "Power and its three kinds",
+          "chunk_ids": [
+            "arth_6_2_10",
+            "arth_6_2_12"
+          ],
+          "explainer": "Strength is divided into intellectual, sovereign, and martial forms that determine a king's superiority. A wise ruler constantly works to augment this power and elevate his state's happiness.",
+          "key_terms": [
+            {
+              "term": "Strength",
+              "meaning": "Power of deliberation, sovereignty, or martial might."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6q1",
+          "question": "Upon what are acquisition and security (of property) dependent?",
+          "options": [
+            "Peace and industry",
+            "Fortune and misfortune alone",
+            "The application of the four sciences",
+            "Divine providence without human effort"
+          ],
+          "answer": 0,
+          "explanation": "ACQUISITION and security (of property) are dependent upon peace and industry.",
+          "chunk_id": "arth_6_2_01",
+          "kind": "llm",
+          "support": "ACQUISITION and security (of property) are dependent upon peace and industry."
+        },
+        {
+          "id": "m6q2",
+          "question": "What are the three aspects of position mentioned in the text?",
+          "options": [
+            "Deterioration, stagnation, and progress",
+            "Power of deliberation, sovereignty, and martial strength",
+            "Lust, anger, and greed",
+            "Acquisition, security, and punishment"
+          ],
+          "answer": 0,
+          "explanation": "Deterioration, stagnation, and progress are the three aspects of position.",
+          "chunk_id": "arth_6_2_02",
+          "kind": "llm",
+          "support": "Deterioration, stagnation, and progress are the three aspects of position."
+        },
+        {
+          "id": "m6q3",
+          "question": "What makes a king superior to another king in power?",
+          "options": [
+            "The possession of power and happiness in a greater degree",
+            "Having more friends in the circle of states",
+            "Being born of an ordinary family with no discipline",
+            "Relying solely on providential causes without human industry"
+          ],
+          "answer": 0,
+          "explanation": "The possession of power and happiness in a greater degree makes a king superior to another; in a less degree, inferior; and in an equal degree, equal.",
+          "chunk_id": "arth_6_2_12",
+          "kind": "llm",
+          "support": "The possession of power and happiness in a greater degree makes a king superior to another; in a less degree, inferior; and in an equal degree, equal."
+        },
+        {
+          "id": "m6q4",
+          "question": "What should a king always endeavor to do regarding his power and happiness?",
+          "options": [
+            "Augment his own power and elevate his happiness",
+            "Reduce his power so as not to alarm neighboring neutral kings",
+            "Maintain his position without seeking progress or stagnation",
+            "Rely exclusively on his enemy's calamities"
+          ],
+          "answer": 0,
+          "explanation": "Hence a king shall always endeavor to augment his own power and elevate his happiness.",
+          "chunk_id": "arth_6_2_12",
+          "kind": "llm",
+          "support": "Hence a king shall always endeavor to augment his own power and elevate his happiness."
+        }
+      ]
+    }
+  ]
+}

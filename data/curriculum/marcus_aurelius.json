@@ -1,0 +1,730 @@
+{
+  "persona_id": "marcus_aurelius",
+  "title": "Meditations: a Stoic practice in six steps",
+  "work": "Meditations (George Long translation)",
+  "pass_mark": 0.75,
+  "generated_by": "gemini:gemini-2.5-flash",
+  "generated_at": "2026-10-31T00:36:20+00:00",
+  "rejected_questions": 3,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "Beginning the day",
+      "summary": "Beginning the day with the right perspective prepares us to face ungrateful people and willingly perform our natural work.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Begin the morning",
+          "chunk_ids": [
+            "med_2_01"
+          ],
+          "explainer": "The passages advise beginning the morning by expecting to meet difficult people who act out of ignorance. Because we share the same intelligence, we cannot be injured by them or feel anger toward our kinsmen, since we are made for co-operation. This matters for a student because it prevents daily frustration and preserves social harmony.",
+          "key_terms": [
+            {
+              "term": "divinity",
+              "meaning": "The divine portion or intelligence shared among humans."
+            },
+            {
+              "term": "co-operation",
+              "meaning": "Working together naturally like parts of a body."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l2",
+          "title": "Rising to work",
+          "chunk_ids": [
+            "med_5_01"
+          ],
+          "explainer": "When waking up unwillingly, remind yourself that you are rising to do human work and fulfill your nature. Plants, birds, ants, spiders, and bees all work together to put the universe in order. A student learns from this to embrace physical exertion and daily duties instead of seeking endless pleasure in bed.",
+          "key_terms": [
+            {
+              "term": "nature",
+              "meaning": "The fundamental guiding order and constitution of beings."
+            },
+            {
+              "term": "exertion",
+              "meaning": "Physical or mental effort put into action."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1q1",
+          "question": "What should you say to yourself at the beginning of the morning?",
+          "options": [
+            "I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial.",
+            "Today I will seek out a quiet country house to find peace.",
+            "I will avoid all human contact to protect my inner calm.",
+            "I must demand respect and gratitude from everyone I encounter."
+          ],
+          "answer": 0,
+          "explanation": "Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial.",
+          "chunk_id": "med_2_01",
+          "kind": "llm",
+          "support": "Begin the morning by saying to thyself, I shall meet with the busybody, the ungrateful, arrogant, deceitful, envious, unsocial."
+        },
+        {
+          "id": "m1q2",
+          "question": "Why can you neither be injured nor angry when dealing with unreasonable people?",
+          "options": [
+            "Because they are physically weaker than you.",
+            "Because they participate in the same intelligence and portion of the divinity.",
+            "Because you can easily banish them from the city.",
+            "Because they will eventually apologize for their behavior."
+          ],
+          "answer": 1,
+          "explanation": "Not only of the same blood or seed, but that it participates in intelligence and portion of the divinity, so I can neither be injured nor angry.",
+          "chunk_id": "med_2_01",
+          "kind": "llm",
+          "support": "But I who have seen the nature of the good that it is beautiful, and of the bad that it is ugly, and the nature of him who does wrong, that it is akin to me; not [only] of the same blood or seed, but that it participates in [the same] intelligence and [the same] portion of the divinity, I can neither be injured by any of them, for no one can fix on me what is ugly, nor can I be angry with my kinsman, nor hate him."
+        },
+        {
+          "id": "m1q3",
+          "question": "What is acting against one another described as?",
+          "options": [
+            "A necessary part of political life",
+            "Contrary to nature",
+            "A sign of superior intelligence",
+            "An efficient way to settle disputes"
+          ],
+          "answer": 1,
+          "explanation": "To act against one another, then, is contrary to nature; and it is acting against one another to be vexed and to turn away.",
+          "chunk_id": "med_2_01",
+          "kind": "llm",
+          "support": "To act against one another, then, is contrary to nature; and it is acting against one another to be vexed and to turn away."
+        },
+        {
+          "id": "m1q4",
+          "question": "Which creatures does the text say work together to put in order their parts of the universe?",
+          "options": [
+            "Only humans and domestic animals",
+            "The little plants, the little birds, the ants, the spiders, the bees",
+            "Wolves, lions, and bears",
+            "Fish in the sea and birds in the air exclusively"
+          ],
+          "answer": 1,
+          "explanation": "Dost thou not see the little plants, the little birds, the ants, the spiders, the bees working together to put in order their several parts of the universe?",
+          "chunk_id": "med_5_01",
+          "kind": "llm",
+          "support": "Dost thou not see the little plants, the little birds, the ants, the spiders, the bees working together to put in order their several parts of the universe?"
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Opinion and what is in our power",
+      "summary": "External things cannot harm us because only our own judgments cause disturbance, and we can choose to stand firm like a promontory.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Take away the opinion",
+          "chunk_ids": [
+            "med_4_07"
+          ],
+          "explainer": "Removing the opinion that you have been harmed instantly removes the complaint and the harm itself. That which does not make a person worse cannot make their life worse. For a student, this teaches that moral character remains untouched by external events.",
+          "key_terms": [
+            {
+              "term": "opinion",
+              "meaning": "A mental judgment or view about events."
+            },
+            {
+              "term": "harm",
+              "meaning": "Something that makes a person or their life worse."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l2",
+          "title": "Your own judgement disturbs you",
+          "chunk_ids": [
+            "med_8_47"
+          ],
+          "explainer": "External things do not disturb us; our own judgments about them are what cause pain. Because it is always in our power to wipe out these judgments, we can correct our disposition or take action. This matters because it shifts responsibility for emotional distress from the world to our own minds.",
+          "key_terms": [
+            {
+              "term": "judgment",
+              "meaning": "An internal evaluation of an external thing."
+            },
+            {
+              "term": "disposition",
+              "meaning": "A person's inherent qualities of mind and character."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l3",
+          "title": "The promontory",
+          "chunk_ids": [
+            "med_4_49"
+          ],
+          "explainer": "We should stand firm like a promontory against crashing waves, remaining free from pain and unafraid of the future. Bearing misfortune nobly is true good fortune because external events do not prevent us from being just or temperate. This is valuable for students facing sudden hardships.",
+          "key_terms": [
+            {
+              "term": "promontory",
+              "meaning": "A high point of land standing firm against waves."
+            },
+            {
+              "term": "misfortune",
+              "meaning": "An unfortunate condition often mistaken for a true evil."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2q1",
+          "question": "What happens when you take away your opinion of being harmed?",
+          "options": [
+            "The complaint and the harm are taken away.",
+            "You become wealthy and powerful.",
+            "Your enemies are punished justly.",
+            "Your physical pain immediately doubles."
+          ],
+          "answer": 0,
+          "explanation": "Take away thy opinion, and then there is taken away the complaint, 'I have been harmed.' Take away the complaint, 'I have been harmed,' and the harm is taken away.",
+          "chunk_id": "med_4_07",
+          "kind": "llm",
+          "support": "Take away thy opinion, and then there is taken away the complaint, \"I have been harmed.\" Take away the complaint, \"I have been harmed,\" and the harm is taken away."
+        },
+        {
+          "id": "m2q2",
+          "question": "What does not harm a man?",
+          "options": [
+            "Anything that makes his life worse from without",
+            "That which does not make a man worse than he was",
+            "Public criticism and slander",
+            "The loss of material wealth"
+          ],
+          "answer": 1,
+          "explanation": "That which does not make a man worse than he was, also does not make his life worse, nor does it harm him either from without or from within.",
+          "chunk_id": "med_4_07",
+          "kind": "llm",
+          "support": "That which does not make a man worse than he was, also does not make his life worse, nor does it harm him either from without or from within."
+        },
+        {
+          "id": "m2q3",
+          "question": "If thou art pained by any external thing, what is it that really disturbs thee?",
+          "options": [
+            "The malice of other people",
+            "Thy own judgment about it",
+            "An unavoidable curse",
+            "The poor condition of the universe"
+          ],
+          "answer": 1,
+          "explanation": "If thou art pained by any external thing, it is not this thing that disturbs thee, but thy own judgment about it.",
+          "chunk_id": "med_8_47",
+          "kind": "llm",
+          "support": "And it is in thy power to wipe out this judgment now."
+        },
+        {
+          "id": "m2q4",
+          "question": "What can you do if something in your disposition gives you pain?",
+          "options": [
+            "Correct your opinion",
+            "Blame your parents",
+            "Move to a distant country",
+            "Wait for time to heal it"
+          ],
+          "answer": 0,
+          "explanation": "And if anything in thy own disposition gives thee pain, who hinders thee from correcting thy opinion?",
+          "chunk_id": "med_8_47",
+          "kind": "llm",
+          "support": "But if anything in thy own disposition gives thee pain, who hinders thee from correcting thy opinion?"
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "The inner citadel",
+      "summary": "We can always find a quiet retreat within our own minds where the fountain of good is located.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Retreat into yourself",
+          "chunk_ids": [
+            "med_4_03"
+          ],
+          "explainer": "People often seek remote country houses or sea-shores for retreat, but you can retire into your own soul whenever you choose. Tranquillity is simply the good ordering of the mind through fundamental principles. For a student, this means peace is always internally accessible without needing external escape.",
+          "key_terms": [
+            {
+              "term": "tranquillity",
+              "meaning": "The good ordering of the mind."
+            },
+            {
+              "term": "retreat",
+              "meaning": "A quiet place of withdrawal into one's own soul."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l2",
+          "title": "Look within",
+          "chunk_ids": [
+            "med_7_59",
+            "med_7_54"
+          ],
+          "explainer": "The fountain of good is located within and will bubble up if you continually dig. The art of life resembles wrestling because one must stand ready to meet sudden onsets. This matters because it directs the student to cultivate internal goodness and examine every thought.",
+          "key_terms": [
+            {
+              "term": "fountain",
+              "meaning": "The internal source of good within the mind."
+            },
+            {
+              "term": "wrestler's art",
+              "meaning": "Readiness to meet sudden and unexpected onsets."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3q1",
+          "question": "Where can a man retire with the greatest quiet and freedom from trouble?",
+          "options": [
+            "Into a country house or mountain cabin",
+            "Into his own soul",
+            "Across the sea-shores",
+            "Among a crowd of cheerful friends"
+          ],
+          "answer": 1,
+          "explanation": "For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul.",
+          "chunk_id": "med_4_03",
+          "kind": "llm",
+          "support": "Constantly then give to thyself this retreat, and renew thyself; and let thy principles be brief and fundamental, which, as soon as thou shalt recur to them, will be sufficient to cleanse the soul completely, and to send thee back free from all discontent with the things to which thou returnest."
+        },
+        {
+          "id": "m3q2",
+          "question": "What is tranquillity defined as?",
+          "options": [
+            "The absence of all external work",
+            "The good ordering of the mind",
+            "Wealth and security",
+            "Living in a quiet country house"
+          ],
+          "answer": 1,
+          "explanation": "And I affirm that tranquillity is nothing else than the good ordering of the mind.",
+          "chunk_id": "med_4_03",
+          "kind": "llm",
+          "support": "For nowhere either with more quiet or more freedom from trouble does a man retire than into his own soul, particularly when he has within him such thoughts that by looking into them he is immediately in perfect tranquillity; and I affirm that tranquillity is nothing else than the good ordering of the mind."
+        },
+        {
+          "id": "m3q3",
+          "question": "What is described as being within, where it will ever bubble up if thou wilt dig?",
+          "options": [
+            "The fountain of good",
+            "A spring of bitter tears",
+            "Endless ambition",
+            "Desire for fame"
+          ],
+          "answer": 0,
+          "explanation": "Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig.",
+          "chunk_id": "med_7_59",
+          "kind": "llm",
+          "support": "Within is the fountain of good, and it will ever bubble up, if thou wilt ever dig."
+        },
+        {
+          "id": "m3q4",
+          "question": "What should you do everywhere and at all times regarding your present condition?",
+          "options": [
+            "Piously acquiesce in it",
+            "Try to escape it",
+            "Complain about your fate",
+            "Ignore it completely"
+          ],
+          "answer": 0,
+          "explanation": "Everywhere and at all times it is in thy power piously to acquiesce in thy present condition...",
+          "chunk_id": "med_7_54",
+          "kind": "llm",
+          "support": "Everywhere and at all times it is in thy power piously to acquiesce in thy present condition, and to behave, justly to those who are about thee, and to exert thy skill upon thy present thoughts, that nothing shall steal into them without being well examined."
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Time and mortality",
+      "summary": "Since the present moment is the only life we lose, we should act with urgency and treat life's events as neutral.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Only the present",
+          "chunk_ids": [
+            "med_2_14"
+          ],
+          "explainer": "No matter how long someone lives, they only lose the present moment, which is the only life they truly have. The past and future cannot be taken because a person does not possess them. This teaches students to value the present rather than worrying about infinite time.",
+          "key_terms": [
+            {
+              "term": "present",
+              "meaning": "The only moment of life that a person possesses."
+            },
+            {
+              "term": "eternity",
+              "meaning": "Infinite time in which things come round in a circle."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l2",
+          "title": "The times of Vespasian",
+          "chunk_ids": [
+            "med_4_32"
+          ],
+          "explainer": "Looking back at past eras like the times of Vespasian or Trajan shows that whole generations lived busy lives and are now gone. People often distract themselves with idle things while neglecting their true constitution. A student learns to give proper proportion and value to their attention instead of chasing trivial matters.",
+          "key_terms": [
+            {
+              "term": "epochs",
+              "meaning": "Particular periods of time in history."
+            },
+            {
+              "term": "constitution",
+              "meaning": "The proper nature and makeup of a human being."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l3",
+          "title": "As if you might depart now",
+          "chunk_ids": [
+            "med_2_11"
+          ],
+          "explainer": "Since you might depart from life this very moment, you should regulate every act and thought accordingly. Life and death, honor and dishonor happen equally to good and bad people, making them neither good nor evil. For a student, this removes the fear of death and centers attention on moral virtue.",
+          "key_terms": [
+            {
+              "term": "providence",
+              "meaning": "The protective care of the gods over human affairs."
+            },
+            {
+              "term": "dishonor",
+              "meaning": "A neutral external circumstance that does not affect virtue."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4q1",
+          "question": "Why can a man not lose either the past or the future?",
+          "options": [
+            "Because memory preserves the past perfectly.",
+            "Because for what a man has not, how can any one take this from him?",
+            "Because time is infinite and repeating.",
+            "Because the gods protect those periods."
+          ],
+          "answer": 1,
+          "explanation": "For a man cannot lose either the past or the future: for what a man has not, how can any one take this from him?",
+          "chunk_id": "med_2_14",
+          "kind": "llm",
+          "support": "For a man cannot lose either the past or the future: for what a man has not, how can any one take this from him?"
+        },
+        {
+          "id": "m4q2",
+          "question": "When observing the times of Vespasian, what were people doing?",
+          "options": [
+            "Living simple, philosophical lives free from care",
+            "Marrying, bringing up children, sick, dying, warring, feasting",
+            "Building monuments to future generations",
+            "Studying the nature of the universe exclusively"
+          ],
+          "answer": 1,
+          "explanation": "Thou wilt see all these things, people marrying, bringing up children, sick, dying, warring, feasting, trafficking...",
+          "chunk_id": "med_4_32",
+          "kind": "llm",
+          "support": "Thou wilt see all these things, people marrying, bringing up children, sick, dying, warring, feasting, trafficking, cultivating the ground, flattering, obstinately arrogant, suspecting, plotting, wishing for some to die, grumbling about the present, loving, heaping up treasure, desiring consulship, kingly power."
+        },
+        {
+          "id": "m4q3",
+          "question": "What did people in past epochs often do, leading them to fall and be resolved into elements?",
+          "options": [
+            "Distracting themselves about idle things",
+            "Following nature too closely",
+            "Spending too much time in quiet retreat",
+            "Ignoring public service altogether"
+          ],
+          "answer": 0,
+          "explanation": "Thou shouldst think of those whom thou hast thyself known distracting themselves about idle things, neglecting to do what was in accordance with their proper constitution...",
+          "chunk_id": "med_4_32",
+          "kind": "llm",
+          "support": "But chiefly thou shouldst think of those whom thou hast thyself known distracting themselves about idle things, neglecting to do what was in accordance with their proper constitution, and to hold firmly to this and to be content with it."
+        },
+        {
+          "id": "m4q4",
+          "question": "Since it is possible that thou mayest depart from life this very moment, what should you do?",
+          "options": [
+            "Regulate every act and thought accordingly",
+            "Accumulate as much treasure as possible",
+            "Despair of the gods and providence",
+            "Abandon all human relationships"
+          ],
+          "answer": 0,
+          "explanation": "Since it is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly.",
+          "chunk_id": "med_2_11",
+          "kind": "llm",
+          "support": "Since it is possible that thou mayest depart from life this very moment, regulate every act and thought accordingly."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "Others and the common good",
+      "summary": "We should focus on the common utility rather than wasting time on others, accepting necessary human flaws while doing good without seeking reward.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Thoughts about others",
+          "chunk_ids": [
+            "med_3_04"
+          ],
+          "explainer": "We should not waste life wondering what others are doing unless it serves common utility. Dwelling on the actions or words of others causes us to wander away from observing our own ruling power. This matters for a student because it preserves mental focus on purposeful actions.",
+          "key_terms": [
+            {
+              "term": "utility",
+              "meaning": "Usefulness or benefit directed toward the common good."
+            },
+            {
+              "term": "ruling power",
+              "meaning": "The governing center of the human mind."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l2",
+          "title": "Shameless men must exist",
+          "chunk_ids": [
+            "med_9_42"
+          ],
+          "explainer": "When offended by shameless or faithless conduct, ask yourself if it is possible for such men not to exist. Since they must exist in the world, demanding otherwise is asking for the impossible. Recognizing this helps students become more kindly disposed toward everyone.",
+          "key_terms": [
+            {
+              "term": "shameless",
+              "meaning": "Displaying a lack of shame or proper moral conduct."
+            },
+            {
+              "term": "antidote",
+              "meaning": "A virtue given by nature to oppose wrongful acts."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l3",
+          "title": "Doing good without counting",
+          "chunk_ids": [
+            "med_5_06"
+          ],
+          "explainer": "Some people record favors, while others view recipients as debtors, but true benefactors are like a vine that produces grapes and seeks nothing more. A person should perform good acts without calling out for others to see, moving directly on to the next good deed. This teaches students genuine altruism.",
+          "key_terms": [
+            {
+              "term": "vine",
+              "meaning": "A plant that produces fruit and seeks nothing in return."
+            },
+            {
+              "term": "social animal",
+              "meaning": "A being designed to work cooperatively with others."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5q1",
+          "question": "What should you avoid wasting the remainder of your life doing?",
+          "options": [
+            "Working in public service",
+            "Thoughts about others when not referred to common utility",
+            "Examining your own ruling power",
+            "Cultivating crops and building houses"
+          ],
+          "answer": 1,
+          "explanation": "Do not waste the remainder of thy life in thoughts about others, when thou dost not refer thy thoughts to some object of common utility.",
+          "chunk_id": "med_3_04",
+          "kind": "llm",
+          "support": "Do not waste the remainder of thy life in thoughts about others, when thou dost not refer thy thoughts to some object of common utility."
+        },
+        {
+          "id": "m5q2",
+          "question": "What feelings should you check most of all in the series of your thoughts?",
+          "options": [
+            "The over-curious feeling and the malignant",
+            "Feelings of joy and gratitude",
+            "Desires for physical exercise",
+            "Thoughts about the stars"
+          ],
+          "answer": 0,
+          "explanation": "We ought then to check in the series of our thoughts everything that is without a purpose and useless, but most of all the over-curious feeling and the malignant.",
+          "chunk_id": "med_3_04",
+          "kind": "llm",
+          "support": "We ought then to check in the series of our thoughts everything that is without a purpose and useless, but most of all the over-curious feeling and the malignant; and a man should use himself to think of those things only about which if one should suddenly ask, What hast thou now in thy thoughts? with perfect openness thou mightest immediately answer, This or That;"
+        },
+        {
+          "id": "m5q3",
+          "question": "When offended by a shameless man, what should you immediately ask yourself?",
+          "options": [
+            "Can I banish this man from the city?",
+            "Is it possible, then, that shameless men should not be in the world?",
+            "Why do the gods permit me to suffer?",
+            "How can I exact revenge for this insult?"
+          ],
+          "answer": 1,
+          "explanation": "When thou art offended with any man's shameless conduct, immediately ask thyself, Is it possible, then, that shameless men should not be in the world?",
+          "chunk_id": "med_9_42",
+          "kind": "llm",
+          "support": "When thou art offended with any man's shameless conduct, immediately ask thyself, Is it possible, then, that shameless men should not be in the world?"
+        },
+        {
+          "id": "m5q4",
+          "question": "What has nature given to man as an antidote against the stupid man?",
+          "options": [
+            "Mildness",
+            "Anger",
+            "Silence",
+            "Wealth"
+          ],
+          "answer": 0,
+          "explanation": "For she has given to man, as an antidote against the stupid man, mildness, and against another kind of man some other power.",
+          "chunk_id": "med_9_42",
+          "kind": "llm",
+          "support": "For she has given to man, as an antidote against the stupid man, mildness, and against another kind of man some other power."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "Character and rule",
+      "summary": "Our character is shaped by our habitual thoughts, so we must keep ourselves simple, avoid the corruption of power, and see things plainly as they truly are.",
+      "lessons": [
+        {
+          "id": "m6l1",
+          "title": "The soul is dyed by thoughts",
+          "chunk_ids": [
+            "med_5_16"
+          ],
+          "explainer": "Your character becomes like your habitual thoughts because the soul is dyed by them. A student must dye their mind with continuous reasoning, remembering that humans are made for society and that the good of a reasonable animal is social living.",
+          "key_terms": [
+            {
+              "term": "dyed",
+              "meaning": "Colored or shaped permanently by habitual thoughts."
+            },
+            {
+              "term": "reasonable animal",
+              "meaning": "A human being possessing the capacity for reason."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l2",
+          "title": "Not made into a Caesar",
+          "chunk_ids": [
+            "med_6_30"
+          ],
+          "explainer": "You must take care not to be corrupted by power or dyed with the status of a Caesar. Keep yourself simple, good, just, and kind, following the philosophical example of Antoninus. This reminds students to maintain moral integrity and humility despite high status or praise.",
+          "key_terms": [
+            {
+              "term": "Caesar",
+              "meaning": "An emperor holding supreme political power."
+            },
+            {
+              "term": "piety",
+              "meaning": "A devout disposition of reverence toward the gods."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l3",
+          "title": "Seeing things as they are",
+          "chunk_ids": [
+            "med_6_13"
+          ],
+          "explainer": "Outward show is a great perverter of reason, often making trivial things seem worthy of our pains. By describing things plainly—such as viewing a purple robe as mere sheep's wool dyed with shell-fish blood—we strip away false prestige. This teaches students to see through superficial luxury.",
+          "key_terms": [
+            {
+              "term": "impression",
+              "meaning": "A mental image or perception of an external thing."
+            },
+            {
+              "term": "purple robe",
+              "meaning": "An expensive garment made from dyed sheep's wool."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6q1",
+          "question": "What dyes the character of the mind?",
+          "options": [
+            "Habitual thoughts",
+            "External wealth and status",
+            "The opinions of the crowd",
+            "Physical exercise and diet"
+          ],
+          "answer": 0,
+          "explanation": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts.",
+          "chunk_id": "med_5_16",
+          "kind": "llm",
+          "support": "Such as are thy habitual thoughts, such also will be the character of thy mind; for the soul is dyed by the thoughts."
+        },
+        {
+          "id": "m6q2",
+          "question": "What is the good for the reasonable animal?",
+          "options": [
+            "Solitude",
+            "Society",
+            "Absolute power",
+            "Fame"
+          ],
+          "answer": 1,
+          "explanation": "Now the good for the reasonable animal is society; for that we are made for society has been shown above.",
+          "chunk_id": "med_5_16",
+          "kind": "llm",
+          "support": "Now the good for the reasonable animal is society; for that we are made for society has been shown above."
+        },
+        {
+          "id": "m6q3",
+          "question": "What warning does the text give regarding power?",
+          "options": [
+            "Take care that thou art not made into a Caesar, that thou art not dyed with this dye",
+            "Always seek high political office to do good",
+            "Avoid learning philosophy if you rule",
+            "Trust no one when you hold authority"
+          ],
+          "answer": 0,
+          "explanation": "Take care that thou art not made into a Caesar, that thou art not dyed with this dye; for such things happen.",
+          "chunk_id": "med_6_30",
+          "kind": "llm",
+          "support": "Take care that thou art not made into a Caesar, that thou art not dyed with this dye; for such things happen."
+        },
+        {
+          "id": "m6q4",
+          "question": "What are stated to be the only fruit of this terrene life?",
+          "options": [
+            "Wealth and a noble title",
+            "A pious disposition and social acts",
+            "Long life and freedom from pain",
+            "Immortal fame and praise"
+          ],
+          "answer": 1,
+          "explanation": "There is only one fruit of this terrene life--a pious disposition and social acts.",
+          "chunk_id": "med_6_30",
+          "kind": "llm",
+          "support": "There is only one fruit of this terrene life--a pious disposition and social acts."
+        }
+      ]
+    }
+  ]
+}

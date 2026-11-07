@@ -1,0 +1,37 @@
+# Core Framework
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+pydantic>=2.0,<3.0
+python-dotenv==1.0.1
+
+# Database
+asyncpg==0.29.0
+sqlalchemy==2.0.35
+
+# LLM & AI
+google-genai==0.8.3
+anthropic==0.39.0
+openai==1.54.0
+langgraph==0.2.45
+
+# Retrieval (lightweight BM25 only, no heavy models for free tier)
+rank-bm25==0.2.2
+numpy>=1.24,<2.0
+
+# Optional: Dense retrieval (ChromaDB - excluded by default to save memory)
+# chromadb==0.5.20
+# sentence-transformers==3.3.1
+
+# Optional: NLI verification (heavy - ~1.5GB, excluded for free tier)
+# transformers==4.46.3
+# torch==2.5.1
+
+# Utilities
+networkx==3.4.2
+qrcode>=7.4
+
+# Optional: Observability
+# langfuse==2.52.3
+
+# Testing
+pytest==8.3.3

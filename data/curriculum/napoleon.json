@@ -1,0 +1,758 @@
+{
+  "persona_id": "napoleon",
+  "title": "Military Maxims of Napoleon in six steps",
+  "work": "The Military Maxims of Napoleon (D'Aguilar 1831)",
+  "pass_mark": 0.75,
+  "generated_by": "gemini:gemini-2.5-flash",
+  "generated_at": "2026-10-31T00:35:55+00:00",
+  "rejected_questions": 0,
+  "modules": [
+    {
+      "id": "m1",
+      "title": "The plan of a campaign",
+      "summary": "A campaign requires a careful plan for all enemy actions, a steady offensive once begun, and the avoidance of any battlefield chosen by the opponent.",
+      "lessons": [
+        {
+          "id": "m1l1",
+          "title": "Foresee everything",
+          "chunk_ids": [
+            "nap_max_002",
+            "nap_max_005"
+          ],
+          "explainer": "The passages state that campaign plans must foresee everything the enemy might do and remain adaptable to circumstances. Every war must have a definite object and forces proportioned to its obstacles.",
+          "key_terms": [
+            {
+              "term": "campaign",
+              "meaning": "A series of military operations forming a distinct phase of a war."
+            },
+            {
+              "term": "principles",
+              "meaning": "Fundamental rules governing how all wars should be conducted."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l2",
+          "title": "The offensive and constant readiness",
+          "chunk_ids": [
+            "nap_max_006",
+            "nap_max_008"
+          ],
+          "explainer": "Once an offensive is assumed, it must be sustained because retreats weaken morale and cost more men and resources than battles. A commander must constantly evaluate what to do if the enemy suddenly appears.",
+          "key_terms": [
+            {
+              "term": "offensive",
+              "meaning": "The act of attacking or taking the initiative against an enemy."
+            },
+            {
+              "term": "retreat",
+              "meaning": "The act of falling back before an enemy, which weakens army morale."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m1l3",
+          "title": "Never do what the enemy wishes",
+          "chunk_ids": [
+            "nap_max_016"
+          ],
+          "explainer": "A commander should never do what the enemy wishes or fight on a battlefield the enemy has studied. It is also advised never to attack a position from the front if it can be turned.",
+          "key_terms": [
+            {
+              "term": "maxim",
+              "meaning": "An approved rule or principle in the art of war."
+            },
+            {
+              "term": "position",
+              "meaning": "A place or ground occupied by military forces."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m1q1",
+          "question": "What is requisite in forming the plan of a campaign according to Maxim 2?",
+          "options": [
+            "To foresee everything the enemy may do, and be prepared with the necessary means to counteract it",
+            "To ensure that all troops are stationed exclusively within home territory",
+            "To attack only during the winter months using cavalry exclusively",
+            "To secure financial backing before gathering any soldiers"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 2 states that in forming the plan of a campaign, it is requisite to foresee everything the enemy may do, and to be prepared with the necessary means to counteract it.",
+          "chunk_id": "nap_max_002",
+          "kind": "llm",
+          "support": "In forming the plan of a campaign, it is requisite to foresee everything the enemy may do, and to be prepared with the necessary means to counteract it."
+        },
+        {
+          "id": "m1q2",
+          "question": "According to Maxim 5, how should all wars be governed?",
+          "options": [
+            "By random choices made by the commanding officers on the spot",
+            "By certain principles, for every war should have a definite object and be conducted according to the rules of art",
+            "By the personal wealth and desires of the sovereign ruler",
+            "By the changing moods of the public and the legislature"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 5 notes that all wars should be governed by certain principles, for every war should have a definite object, and be conducted according to the rules of art.",
+          "chunk_id": "nap_max_005",
+          "kind": "llm",
+          "support": "All wars should be governed by certain principles, for every war should have a definite object, and be conducted according to the rules of art."
+        },
+        {
+          "id": "m1q3",
+          "question": "What happens when once the offensive has been assumed, as described in Maxim 6?",
+          "options": [
+            "It can be safely paused for several months without risk",
+            "It must be sustained to the last extremity",
+            "It should immediately be converted into a defensive fortification",
+            "It requires the general to resign command to a subordinate"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 6 states that when once the offensive has been assumed, it must be sustained to the last extremity.",
+          "chunk_id": "nap_max_006",
+          "kind": "llm",
+          "support": "At the commencement of a campaign, to advance or not to advance, is a matter for grave consideration; but when once the offensive has been assumed, it must be sustained to the last extremity."
+        },
+        {
+          "id": "m1q4",
+          "question": "What question should a general-in-chief ask himself frequently in the day, according to Maxim 8?",
+          "options": [
+            "What should I do if the enemy's army appeared now in my front, or on my right, or my left?",
+            "How many provisions remain in the national treasury?",
+            "What will the historians write about my current campaign?",
+            "When will the reinforcements from the capital arrive?"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 8 advises that a general-in-chief should ask himself frequently in the day: “What should I do if the enemy’s army appeared now in my front, or on my right, or my left?”",
+          "chunk_id": "nap_max_008",
+          "kind": "llm",
+          "support": "A general-in-chief should ask himself frequently in the day: “What should I do if the enemy’s army appeared now in my front, or on my right, or my left?” If he have any difficulty in answering these questions, his position is bad, and he should seek to remedy it."
+        }
+      ]
+    },
+    {
+      "id": "m2",
+      "title": "Speed and the line of operation",
+      "summary": "An army's strength depends on mass and rapidity along a single, carefully preserved line of operation.",
+      "lessons": [
+        {
+          "id": "m2l1",
+          "title": "Mass and rapidity",
+          "chunk_ids": [
+            "nap_max_009",
+            "nap_max_010"
+          ],
+          "explainer": "An army's strength is calculated by multiplying its mass by its rapidity of movement. When numerically inferior, an army must rely on speed, clever manœuvres, and careful positioning instead of general actions.",
+          "key_terms": [
+            {
+              "term": "rapidity",
+              "meaning": "Speed of movement that augments morale and victory means."
+            },
+            {
+              "term": "cavalry",
+              "meaning": "Mounted military units used alongside infantry and artillery."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l2",
+          "title": "One line of operation",
+          "chunk_ids": [
+            "nap_max_011",
+            "nap_max_012"
+          ],
+          "explainer": "Operating with widely separated columns without communication leads to mistakes and forces detached units to act at hazard. An army should keep its columns united and rely on a single line of operation.",
+          "key_terms": [
+            {
+              "term": "columns",
+              "meaning": "Military formations moving in single file lines or deep formations."
+            },
+            {
+              "term": "line of operation",
+              "meaning": "The path or route an army takes to advance its operations."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m2l3",
+          "title": "Changing the line",
+          "chunk_ids": [
+            "nap_max_020"
+          ],
+          "explainer": "While the line of operation should normally be preserved, knowing how to change it skilfully is a valuable manoeuvre. A skilful change deceives the enemy regarding the army's rear and weak points.",
+          "key_terms": [
+            {
+              "term": "manœuvres",
+              "meaning": "Tactical movements of troops or ships to gain an advantage."
+            },
+            {
+              "term": "rear",
+              "meaning": "The back part of an army's formation or line of operation."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m2q1",
+          "question": "According to Maxim 9, how is the strength of an army estimated?",
+          "options": [
+            "By multiplying the mass by the rapidity",
+            "By adding the number of horses to the infantry count",
+            "By calculating the total weight of the artillery wagons",
+            "By dividing the budget by the number of regiments"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 9 states that the strength of an army, like the power in mechanics, is estimated by multiplying the mass by the rapidity.",
+          "chunk_id": "nap_max_009",
+          "kind": "llm",
+          "support": "The strength of an army, like the power in mechanics, is estimated by multiplying the mass by the rapidity; a rapid march augments the morale of an army, and increases its means of victory."
+        },
+        {
+          "id": "m2q2",
+          "question": "What is essential when an army is inferior in number, in cavalry, and in artillery, according to Maxim 10?",
+          "options": [
+            "To surrender immediately to the enemy",
+            "To avoid a general action",
+            "To divide the forces into three equal columns",
+            "To fight only during the night"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 10 states that when an army is inferior in number, inferior in cavalry, and in artillery, it is essential to avoid a general action.",
+          "chunk_id": "nap_max_010",
+          "kind": "llm",
+          "support": "When an army is inferior in number, inferior in cavalry, and in artillery, it is essential to avoid a general action."
+        },
+        {
+          "id": "m2q3",
+          "question": "What is said in Maxim 11 about directing operations with lines far removed from each other and without communications?",
+          "options": [
+            "It is a brilliant strategy to confuse the enemy",
+            "It is to commit a fault which always gives birth to a second",
+            "It guarantees victory through surprise",
+            "It is the standard method for winter quarters"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 11 states that to direct operations with lines far removed from each other, and without communications, is to commit a fault which always gives birth to a second.",
+          "chunk_id": "nap_max_011",
+          "kind": "llm",
+          "support": "To direct operations with lines far removed from each other, and without communications, is to commit a fault which always gives birth to a second."
+        },
+        {
+          "id": "m2q4",
+          "question": "According to Maxim 12, what rule applies to an army's line of operation?",
+          "options": [
+            "An army ought to have only one line of operation",
+            "An army should change its line of operation every week",
+            "An army needs at least four distinct supply lines",
+            "An army may abandon its line whenever the weather turns bad"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 12 states that an army ought to have only one line of operation.",
+          "chunk_id": "nap_max_012",
+          "kind": "llm",
+          "support": "An army ought to have only one line of operation."
+        }
+      ]
+    },
+    {
+      "id": "m3",
+      "title": "The day of battle",
+      "summary": "Battles require the collection of all available forces and careful preparation, especially when facing superior adversaries or threats of encirclement.",
+      "lessons": [
+        {
+          "id": "m3l1",
+          "title": "Collect your whole force",
+          "chunk_ids": [
+            "nap_max_028",
+            "nap_max_029"
+          ],
+          "explainer": "No forces should be detached on the eve of battle because circumstances can change overnight. A commander must collect the whole force since a single battalion can decide the outcome.",
+          "key_terms": [
+            {
+              "term": "battalion",
+              "meaning": "A large body of military troops forming part of a regiment."
+            },
+            {
+              "term": "reinforcements",
+              "meaning": "Extra personnel sent to increase the strength of an army."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l2",
+          "title": "Every chance of success",
+          "chunk_ids": [
+            "nap_max_031"
+          ],
+          "explainer": "Before risking a battle, a commander must reserve every possible chance of success, particularly against a talented adversary. Defeat brings severe consequences even when close to magazines and communications.",
+          "key_terms": [
+            {
+              "term": "magazines",
+              "meaning": "Storehouses for military ammunition, provisions, and equipment."
+            },
+            {
+              "term": "communications",
+              "meaning": "Lines connecting an army to its supply sources and bases."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m3l3",
+          "title": "When threatened with encirclement",
+          "chunk_ids": [
+            "nap_max_023"
+          ],
+          "explainer": "When an enemy threatens to surround a position, the commander should immediately collect all forces and menace the enemy with an offensive movement. This prevents flanking attacks during a retreat.",
+          "key_terms": [
+            {
+              "term": "flanks",
+              "meaning": "The right or left sides of an army's military formation."
+            },
+            {
+              "term": "retire",
+              "meaning": "To withdraw or pull back from a threatened position."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m3q1",
+          "question": "Why should no force be detached on the eve of a battle, according to Maxim 28?",
+          "options": [
+            "Because affairs may change during the night, either by the enemy's retreat or the arrival of large reinforcements",
+            "Because the soldiers will be too tired to march the next morning",
+            "Because the officers will lose their commission",
+            "Because the supply wagons cannot follow detached troops"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 28 explains that no force should be detached on the eve of a battle, because affairs may change during the night, either by the retreat of the enemy, or by the arrival of large reinforcements.",
+          "chunk_id": "nap_max_028",
+          "kind": "llm",
+          "support": "No force should be detached on the eve of a battle, because affairs may change during the night, either by the retreat of the enemy, or by the arrival of large reinforcements to enable him to resume the offensive, and counteract your previous arrangements."
+        },
+        {
+          "id": "m3q2",
+          "question": "What does Maxim 29 advise when you have resolved to fight a battle?",
+          "options": [
+            "Send half your force away to guard the rear",
+            "Collect your whole force and dispense with nothing",
+            "Wait for three days before engaging",
+            "Consult the local inhabitants for advice"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 29 states that when you have resolved to fight a battle, collect your whole force, and dispense with nothing.",
+          "chunk_id": "nap_max_029",
+          "kind": "llm",
+          "support": "Dispense with nothing."
+        },
+        {
+          "id": "m3q3",
+          "question": "What should you reserve to yourself when you determine to risk a battle, especially against a superior adversary, per Maxim 31?",
+          "options": [
+            "Every possible chance of success",
+            "A safe route to neutral territory",
+            "Exclusive use of the telegraph",
+            "Extra rations of wine"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 31 states that when you determine to risk a battle, reserve to yourself every possible chance of success, more particularly if you have to deal with an adversary of superior talent.",
+          "chunk_id": "nap_max_031",
+          "kind": "llm",
+          "support": "When you determine to risk a battle, reserve to yourself every possible chance of success, more particularly if you have to deal with an adversary of superior talent; for if you are beaten, even in the midst of your magazines and your communications, wo to the vanquished!"
+        },
+        {
+          "id": "m3q4",
+          "question": "According to Maxim 23, what should you do when occupying a position the enemy threatens to surround?",
+          "options": [
+            "Surrender unconditionally to avoid bloodshed",
+            "Collect all your force immediately and menace him with an offensive movement",
+            "Spread your troops out into a thin cordon",
+            "Hide inside the nearest town"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 23 states that when you are occupying a position which the enemy threatens to surround, collect all your force immediately, and menace him with an offensive movement.",
+          "chunk_id": "nap_max_023",
+          "kind": "llm",
+          "support": "When you are occupying a position which the enemy threatens to surround, collect all your force immediately, and menace him with an offensive movement."
+        }
+      ]
+    },
+    {
+      "id": "m4",
+      "title": "Arms and places",
+      "summary": "Infantry, cavalry, and artillery must mutually support each other, with cavalry pursuing victory, artillery placed well forward, and fortresses used to delay the enemy.",
+      "lessons": [
+        {
+          "id": "m4l1",
+          "title": "Nothing without each other",
+          "chunk_ids": [
+            "nap_max_047"
+          ],
+          "explainer": "Infantry, cavalry, and artillery depend entirely on each other for effectiveness. They should be arranged in cantonments so they can assist one another in case of a surprise attack.",
+          "key_terms": [
+            {
+              "term": "infantry",
+              "meaning": "Foot soldiers fighting with personal weapons."
+            },
+            {
+              "term": "cantonments",
+              "meaning": "Lodgings or quarters assigned for troops."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l2",
+          "title": "Cavalry and artillery",
+          "chunk_ids": [
+            "nap_max_051",
+            "nap_max_054"
+          ],
+          "explainer": "Cavalry is tasked with following up victories and preventing the beaten enemy from rallying. Artillery should occupy forward, advantageous positions with a clear, unmasked range across the field.",
+          "key_terms": [
+            {
+              "term": "artillery",
+              "meaning": "Large-caliber mounted guns used in field warfare."
+            },
+            {
+              "term": "batteries",
+              "meaning": "Units of artillery positioned to fire together on the field."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m4l3",
+          "title": "Fortresses",
+          "chunk_ids": [
+            "nap_max_040"
+          ],
+          "explainer": "Fortresses are useful in both offensive and defensive warfare to retard and weaken a victorious enemy. While they cannot stop an army entirely, they create significant embarrassment and delay.",
+          "key_terms": [
+            {
+              "term": "fortresses",
+              "meaning": "Strong, fortified military buildings used for defense."
+            },
+            {
+              "term": "defensive",
+              "meaning": "Relating to the resistance against enemy attacks."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m4q1",
+          "question": "What is stated about infantry, cavalry, and artillery in Maxim 47?",
+          "options": [
+            "They can operate entirely independently of one another",
+            "They are nothing without each other and should be disposed to assist each other",
+            "Artillery is the only arm that truly matters in modern warfare",
+            "Infantry alone is sufficient to win any campaign"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 47 states that infantry, cavalry, and artillery, are nothing without each other; therefore, they should always be so disposed in cantonments as to assist each other in case of surprise.",
+          "chunk_id": "nap_max_047",
+          "kind": "llm",
+          "support": "Infantry, cavalry, and artillery, are nothing without each other; therefore, they should always be so disposed in cantonments as to assist each other in case of surprise."
+        },
+        {
+          "id": "m4q2",
+          "question": "According to Maxim 51, what is the business of cavalry?",
+          "options": [
+            "To follow up the victory, and to prevent the beaten enemy from rallying",
+            "To dig trenches and build field fortifications",
+            "To transport heavy ammunition crates",
+            "To lead the initial infantry charge against fortified walls"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 51 states that it is the business of cavalry to follow up the victory, and to prevent the beaten enemy from rallying.",
+          "chunk_id": "nap_max_051",
+          "kind": "llm",
+          "support": "It is the business of cavalry to follow up the victory, and to prevent the beaten enemy from rallying."
+        },
+        {
+          "id": "m4q3",
+          "question": "Where should artillery always be placed, according to Maxim 54?",
+          "options": [
+            "Hidden deep behind the infantry lines",
+            "In the most advantageous positions, and as far in front of the line of cavalry and infantry as possible",
+            "Inside permanent stone fortresses only",
+            "Directly beside the supply wagons"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 54 states that artillery should always be placed in the most advantageous positions, and as far in front of the line of cavalry and infantry as possible, without compromising the safety of the guns.",
+          "chunk_id": "nap_max_054",
+          "kind": "llm",
+          "support": "Artillery should always be placed in the most advantageous positions, and as far in front of the line of cavalry and infantry as possible, without compromising the safety of the guns."
+        },
+        {
+          "id": "m4q4",
+          "question": "What role do fortresses play in warfare, according to Maxim 40?",
+          "options": [
+            "They will stop an enemy army completely on their own",
+            "They are an excellent means of retarding, embarrassing, weakening and annoying a victorious enemy",
+            "They are entirely useless in modern military operations",
+            "They serve only as royal palaces for the sovereign"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 40 states that while fortresses will not in themselves arrest an army, they are an excellent means of retarding, embarrassing, weakening and annoying a victorious enemy.",
+          "chunk_id": "nap_max_040",
+          "kind": "llm",
+          "support": "It is true, they will not in themselves arrest an army, but they are an excellent means of retarding, embarrassing, weakening and annoying a victorious enemy."
+        }
+      ]
+    },
+    {
+      "id": "m5",
+      "title": "The soldier",
+      "summary": "Good troops are shaped by severe discipline, hardship, veteran leadership, and deep attachment to their colors.",
+      "lessons": [
+        {
+          "id": "m5l1",
+          "title": "Good troops are made",
+          "chunk_ids": [
+            "nap_max_056",
+            "nap_max_058"
+          ],
+          "explainer": "Good troops are created through capable generalship, organization, instructions, and severe discipline regardless of the cause. Furthermore, physical endurance under hardship is valued above raw courage.",
+          "key_terms": [
+            {
+              "term": "discipline",
+              "meaning": "Trained obedience and order enforced within military ranks."
+            },
+            {
+              "term": "fortitude",
+              "meaning": "Mental and physical strength to endure fatigue and privation."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m5l2",
+          "title": "Attaching the soldier",
+          "chunk_ids": [
+            "nap_max_060",
+            "nap_max_061"
+          ],
+          "explainer": "Soldiers are best attached to their colors through respect and increasing pay for veterans over recruits. Set speeches before battle are largely ineffective, whereas daily camp discourses help maintain morale and correct false reports.",
+          "key_terms": [
+            {
+              "term": "veteran",
+              "meaning": "An experienced soldier with a long length of service."
+            },
+            {
+              "term": "recruit",
+              "meaning": "A newly enlisted soldier entering the military."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m5q1",
+          "question": "According to Maxim 56, what combination will always make good troops?",
+          "options": [
+            "High pay, fine uniforms, and good rations",
+            "A good general, a well-organized system, good instructions, and severe discipline",
+            "Enthusiasm for the cause and a large population",
+            "Noble birth and long training in fencing"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 56 states that a good general, a well-organized system, good instructions, and severe discipline, aided by effective establishments, will always make good troops.",
+          "chunk_id": "nap_max_056",
+          "kind": "llm",
+          "support": "A good general, a well-organized system, good instructions, and severe discipline, aided by effective establishments, will always make good troops, independently of the cause for which they fight."
+        },
+        {
+          "id": "m5q2",
+          "question": "What is stated in Maxim 58 to be the first qualification of a soldier?",
+          "options": [
+            "Fortitude under fatigue and privation",
+            "Absolute obedience to civilian authorities",
+            "Unflinching courage in every charge",
+            "Skill in marksmanship"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 58 states that the first qualification of a soldier is fortitude under fatigue and privation.",
+          "chunk_id": "nap_max_058",
+          "kind": "llm",
+          "support": "The first qualification of a soldier is fortitude under fatigue and privation."
+        },
+        {
+          "id": "m5q3",
+          "question": "How is best to accomplish attaching the soldier to his colors, according to Maxim 60?",
+          "options": [
+            "By making inspiring speeches every morning",
+            "By showing consideration and respect to the old soldier",
+            "By promising land grants after a single campaign",
+            "By keeping recruits separated from veterans"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 60 states that every means should be taken to attach the soldier to his colors, and this is best accomplished by showing consideration and respect to the old soldier.",
+          "chunk_id": "nap_max_060",
+          "kind": "llm",
+          "support": "This is best accomplished by showing consideration and respect to the old soldier."
+        },
+        {
+          "id": "m5q4",
+          "question": "What does Maxim 61 say about set speeches at the moment of battle?",
+          "options": [
+            "They are what render soldiers brave and steadfast",
+            "It is not set speeches at the moment of battle that render soldiers brave",
+            "They are eagerly listened to by both recruits and veterans",
+            "They should be printed and distributed to every soldier"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 61 states that it is not set speeches at the moment of battle that render soldiers brave.",
+          "chunk_id": "nap_max_061",
+          "kind": "llm",
+          "support": "It is not set speeches at the moment of battle that render soldiers brave."
+        }
+      ]
+    },
+    {
+      "id": "m6",
+      "title": "The general",
+      "summary": "Effective generalship requires an undivided command, a cool head, and deep study of the campaigns of great captains.",
+      "lessons": [
+        {
+          "id": "m6l1",
+          "title": "An undivided command",
+          "chunk_ids": [
+            "nap_max_064",
+            "nap_max_065"
+          ],
+          "explainer": "Undivided command is crucial in war, requiring a single army acting on one base under one chief. Long discussions and councils of war consistently lead to the worst and most timid courses.",
+          "key_terms": [
+            {
+              "term": "councils of war",
+              "meaning": "Meetings held to discuss and decide military strategies."
+            },
+            {
+              "term": "courage",
+              "meaning": "Determined bravery seen as the only true wisdom in a general."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l2",
+          "title": "A cool head",
+          "chunk_ids": [
+            "nap_max_073"
+          ],
+          "explainer": "The primary qualification of a commander-in-chief is a cool head that weighs things objectively without being overly elated or depressed. Individuals who view everything through a dramatic or exaggerated lens are unsuited for command.",
+          "key_terms": [
+            {
+              "term": "general-in-chief",
+              "meaning": "The supreme commander in charge of an entire army."
+            },
+            {
+              "term": "judgment",
+              "meaning": "The ability to form balanced and sensible conclusions."
+            }
+          ],
+          "explainer_by": "llm"
+        },
+        {
+          "id": "m6l3",
+          "title": "Learning from the great captains",
+          "chunk_ids": [
+            "nap_max_077",
+            "nap_max_078"
+          ],
+          "explainer": "While technical tactics can be learned from treatises, true strategy requires experience and studying great past campaigns. Reviewing commanders like Alexander, Hannibal, and Caesar helps cultivate the secret art of war.",
+          "key_terms": [
+            {
+              "term": "strategy",
+              "meaning": "The high-level science of military operations and campaigns."
+            },
+            {
+              "term": "tactics",
+              "meaning": "The smaller-scale methods of executing engagements and evolutions."
+            }
+          ],
+          "explainer_by": "llm"
+        }
+      ],
+      "quiz": [
+        {
+          "id": "m6q1",
+          "question": "What does Maxim 64 say is most important in war?",
+          "options": [
+            "An undivided command",
+            "A large alliance of many nations",
+            "Frequent meetings of military boards",
+            "An extensive network of spies"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 64 states that nothing is so important in war as an undivided command.",
+          "chunk_id": "nap_max_064",
+          "kind": "llm",
+          "support": "Nothing is so important in war as an undivided command; for this reason, when war is carried on against a single power, there should be only one army, acting upon one base, and conducted by one chief."
+        },
+        {
+          "id": "m6q2",
+          "question": "According to Maxim 65, what do long discussions and councils of war uniformly terminate in?",
+          "options": [
+            "Brilliant and daring strategic breakthroughs",
+            "The adoption of the worst course, which in war is always the most timid or prudent",
+            "Unanimous agreement among all participating officers",
+            "Immediate requests for more troops from the capital"
+          ],
+          "answer": 1,
+          "explanation": "Maxim 65 states that long discussions and councils of war will terminate in the adoption of the worst course, which in war is always the most timid, or, if you will, the most prudent.",
+          "chunk_id": "nap_max_065",
+          "kind": "llm",
+          "support": "They will terminate in the adoption of the worst course, which in war is always the most timid, or, if you will, the most prudent."
+        },
+        {
+          "id": "m6q3",
+          "question": "What is defined in Maxim 73 as the first qualification in a general-in-chief?",
+          "options": [
+            "A cool head—that is, a head which receives just impressions and estimates things and objects at their real value",
+            "An aggressive temperament that never retreats",
+            "A university degree in mathematics and engineering",
+            "The ability to inspire troops through poetry and songs"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 73 states that the first qualification in a general-in-chief is a cool head—that is, a head which receives just impressions, and estimates things and objects at their real value.",
+          "chunk_id": "nap_max_073",
+          "kind": "llm",
+          "support": "The first qualification in a general-in-chief is a cool head--that is, a head which receives just impressions, and estimates things and objects at their real value."
+        },
+        {
+          "id": "m6q4",
+          "question": "According to Maxim 77, where is the science of strategy to be acquired?",
+          "options": [
+            "Only to be acquired by experience, and by studying the campaigns of all the great captains",
+            "From engineering manuals and artillery handbooks",
+            "By listening to the opinions of local peasants",
+            "Through natural genius without any study or practice"
+          ],
+          "answer": 0,
+          "explanation": "Maxim 77 states that the science of strategy is only to be acquired by experience, and by studying the campaigns of all the great captains.",
+          "chunk_id": "nap_max_077",
+          "kind": "llm",
+          "support": "Tactics, evolutions, the duties and knowledge of an engineer or artillery officer, may be learned in treatises, but the science of strategy is only to be acquired by experience, and by studying the campaigns of all the great captains."
+        }
+      ]
+    }
+  ]
+}
