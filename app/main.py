@@ -62,9 +62,20 @@ async def validation_error(_, exc: RequestValidationError):
     return JSONResponse({"error": {"code": "VALIDATION_ERROR", "message": msg}}, status_code=422)
 
 
+@app.get("/")
+def root():
+    return {"status": "ok", "service": "Shastrartha API"}
+
+
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    s = get_settings()
+    return {
+        "status": "ok",
+        "llm": s.llm_available,
+        "nli": "disabled" if not s.nli_enabled else verify.nli_status(),
+        "dense": dense.available()
+    }
 
 
 from .api import glossary as glossary_api, report as report_api, study as study_api  # noqa: E402
