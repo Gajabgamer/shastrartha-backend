@@ -35,11 +35,14 @@ class Knowledge:
                 self.chunks[c.chunk_id] = c
 
         # Present-day background (data/today, Wikipedia leads). Resolvable as sources, never retrieved as a guru's text.
-        from .today import load_passages
-
-        self.today: list[Chunk] = load_passages()
-        for c in self.today:
-            self.chunks.setdefault(c.chunk_id, c)
+        try:
+            from .today import load_passages
+            self.today: list[Chunk] = load_passages()
+            for c in self.today:
+                self.chunks.setdefault(c.chunk_id, c)
+        except Exception as e:
+            print(f"Warning: Today's desk unavailable: {e}")
+            self.today = []
 
         # Topics generated from news headlines (data/today/generated.json), with the passages they cite.
         gen_path = data_dir / "today" / "generated.json"
