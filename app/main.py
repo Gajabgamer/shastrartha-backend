@@ -67,6 +67,26 @@ def root():
     return {"status": "ok", "service": "Shastrartha API"}
 
 
+@app.get("/debug")
+def debug_info():
+    """Debug endpoint to see what's failing"""
+    try:
+        from .knowledge import get_knowledge
+        k = get_knowledge()
+        return {
+            "status": "ok",
+            "personas_loaded": len(k.personas),
+            "chunks_loaded": len(k.chunks),
+            "topics_loaded": len(k.topics)
+        }
+    except Exception as e:
+        return {
+            "status": "error",
+            "error": str(e),
+            "type": type(e).__name__
+        }
+
+
 @app.get("/health")
 def health():
     s = get_settings()
